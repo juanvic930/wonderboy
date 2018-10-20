@@ -1,0 +1,48 @@
+
+<dir>
+<title>[B][COLOR yellow]Search series[/COLOR][/B]</title>
+<imdburl>searchseries</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Newest[/COLOR][/B]</title>
+<imdburl>tvshows/new</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Best Ratings[/COLOR][/B]</title>
+<imdburl><tvshows/rating/imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Most Viewed[/COLOR][/B]</title>
+<imdburl>tvshows/mostviews</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]Chart Best Rated[/COLOR][/B]</title>
+<imdburl>charttv/toptv</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB Action TV Shows[/COLOR][/B]</title>
+<imdburl>genres/action</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB genres[/COLOR][/B]</title>
+<imdburl>genres/genres</imdburl>
+<thumbnail></thumbnail>
+</dir>
+
+<dir>
+<title>[B][COLOR yellow]IMDB genre[/COLOR][/B]</title>
+<imdburl>genres/genre</imdburl>
+<thumbnail></thumbnail>
+</dir>
