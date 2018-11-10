@@ -25,3 +25,10 @@
 <thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
+
+<dir>
+<name>[COLOR yellow][B]airtable[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/airtable/airtable.xml</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
