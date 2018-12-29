@@ -1,3 +1,10 @@
+
+<dir>
+<name>[COLOR yellow][B]Mobdro TV[/B][/COLOR]</name>
+<link>plugin://script.module.wonder-mobdro</link>
+<fanart></fanart>
+</dir>
+
 <dir>
 <name>[COLOR yellow][B]Arconaitv[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/Arconaitv.xml</link>
