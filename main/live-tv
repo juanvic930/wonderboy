@@ -1,13 +1,21 @@
 <dir>
-<name>[COLOR yellow][B]Mobdro TV 1[/B][/COLOR]</name>
-<link>plugin://script.module.wonder-mobdro</link>
+<name>[COLOR yellow][B]Wonderboy IPTV[/B][/COLOR]</name>
+<link>ignorme</link>
+<jsonrpc>plugin://script.module.ATFlive/</jsonrpc>
 <fanart></fanart>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Mobdro TV[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Wonderboy IPTV 2[/B][/COLOR]</name>
 <link>ignorme</link>
-<jsonrpc>plugin://script.module.wonder-mobdro</jsonrpc>
+<jsonrpc>plugin://script.module.MaverickLive/</jsonrpc>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]Wonderboy IPTV Sports[/B][/COLOR]</name>
+<link>ignorme</link>
+<jsonrpc>plugin://script.module.ATFlive/list_channels/1</jsonrpc>
 <fanart></fanart>
 </dir>
 
