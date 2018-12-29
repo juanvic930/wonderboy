@@ -1,7 +1,8 @@
 
 <dir>
 <name>[COLOR yellow][B]Mobdro TV[/B][/COLOR]</name>
-<link>plugin://script.module.wonder-mobdro</link>
+<link>ignorme</link>
+<jsonrpc>plugin://script.module.wonder-mobdro</jsonrpc>
 <fanart></fanart>
 </dir>
 
