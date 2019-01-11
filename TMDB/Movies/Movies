@@ -1,0 +1,64 @@
+
+<dir>
+<title>[COLOR yellow][B]Trending Movies[/B][/COLOR]</title>
+<trakt>https://api.trakt.tv/movies/trending</trakt>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Trending Movies</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Popular[/B][/COLOR]</title>
+<tmdb>movies/popular</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Popular Movies</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Now Playing[/B][/COLOR]</title>
+<tmdb>movies/now_playing</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Now Playing</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Top Rated[/B][/COLOR]</title>
+<tmdb>movies/top_rated</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Top Rated</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Upcoming Movies[/B][/COLOR]</title>
+<tmdb>movie/upcoming</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Shows Trailers For Uppwing Movies</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Genres[/B][/COLOR]</title>
+<link></link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Genres</summary>
+</dir>
+
+<dir>
+<title>[COLOR yellow][B]Years[/B][/COLOR]</title>
+<link></link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<summary>Years</summary>
+</dir>
+
+
+<dir>
+<title>[COLOR yellow][B]Search[/B][/COLOR]</title>
+<tmdb>search</tmdb>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
