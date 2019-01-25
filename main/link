@@ -34,7 +34,14 @@
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]airtable[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Prueva[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/prueva/prueva.xml</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]Airtable[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/airtable/airtable.xml</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
