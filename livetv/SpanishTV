@@ -1,7 +1,7 @@
 <dir>
     <title>[COLOR yellow][B]Total Play Servidor 1[/B][/COLOR]</title>
     <thumbnail></thumbnail>
-    <m3u>https://pastebin.com/raw/tjLmT4aJ</m3u>
+    <link>plugin://plugin.video.live.streamspro/?url=https://pastebin.com/raw/tjLmT4aJ&mode=1</link>
     <fanart></fanart>
     <info> </info>
 </dir>
@@ -9,7 +9,7 @@
 <dir>
     <title>[COLOR yellow][B]Total Play Servidor 2[/B][/COLOR]</title>
     <thumbnail></thumbnail>
-    <m3u>http://tvpremiumhd.club/hd/lista.m3u</m3u>
+    <link>plugin://plugin.video.live.streamspro/?url=http://tvpremiumhd.club/hd/lista.m3u&mode=1</link>
     <fanart></fanart>
     <info> </info>
 </dir>
@@ -17,7 +17,7 @@
 <dir>
     <title>[COLOR yellow][B]Total Play Servidor 3[/B][/COLOR]</title>
     <thumbnail></thumbnail>
-    <m3u>https://pastebin.com/raw/0MVtVEPt</m3u>
+    <link>plugin://plugin.video.live.streamspro/?url=https://pastebin.com/raw/0MVtVEPt&mode=1</link>
     <fanart></fanart>
     <info> </info>
 </dir>
