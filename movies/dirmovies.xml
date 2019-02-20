@@ -6,7 +6,7 @@
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]Film/New-Server[/COLOR][/B]</title>
 <link>http://178.216.250.167/Film/New-Server/</link>
 <thumbnail></thumbnail>
@@ -34,7 +34,7 @@
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]dl.upload8[/COLOR][/B]</title>
 <link>http://dl.upload8.net/Film/New-Server/</link>
 <thumbnail></thumbnail>
@@ -48,7 +48,7 @@
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]galaxymovie[/COLOR][/B]</title>
 <link>http://dl.galaxymovie.biz/Movie/1397/</link>
 <thumbnail></thumbnail>
@@ -72,7 +72,7 @@
 <plugin>
 <title>[B][COLOR  yellow]funsaber[/COLOR][/B]</title>
 <link></link>
-<thumbnail>http://dl.funsaber.net/movie/95%20/12/</thumbnail>
+<thumbnail>http://dl.funsaber.net/movie/</thumbnail>
 <fanart></fanart>
 </plugin>
 
@@ -90,4 +90,9 @@
 <fanart></fanart>
 </plugin>
 
-
+<plugin>
+<title>[B][COLOR  yellow]Data Movies[/COLOR][/B]</title>
+<link>http://103.91.144.230/ftpdata/Movies/Hollywood/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
