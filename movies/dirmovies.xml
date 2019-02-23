@@ -1,112 +1,310 @@
 
 <plugin>
-<title>[B][COLOR  yellow]dl8.uploadt[/COLOR][/B]</title>
-<link>http://dl8.uploadt.com/Movie/2018.09/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]HDD1-Server[/COLOR][/B]</title>
-<link>http://58.84.34.39/ftp/HDD1/English%20Movies/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]heyserver 3-10[/COLOR][/B]</title>
-<link>http://dl8.heyserver.in/film/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]movies/mari[/COLOR][/B]</title>
-<link>http://dl.tehmoviez.download/sr1/mari/97/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]movies/mari 2[/COLOR][/B]</title>
-<link>http://79.127.127.112/sr1/mari/97/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]http://dl8.downloadoo[/COLOR][/B]</title>
-<link>http://dl8.downloadoo.ir/Movie/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]heyserver[/COLOR][/B]</title>
-<link>http://dl3.heyserver.in/film/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]http://dl3.downloadoo[/COLOR][/B]</title>
-<link>http://dl3.downloadoo.ir/Movie/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]vaiomusic.org[/COLOR][/B]</title>
-<link>http://dl3.vaiomusic.org/Movie/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]parspack[/COLOR][/B]</title>
-<link>http://stg.pz10028.parspack.net/F/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]funsaber[/COLOR][/B]</title>
-<link></link>
-<thumbnail>http://dl.funsaber.net/movie/</thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]avadl.uploadt [/COLOR][/B]</title>
-<link>http://avadl.uploadt.com/DL4/Film/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</plugin>
-
-<plugin>
-<title>[B][COLOR  yellow]avadl.uploadt 2[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]avadl.uploadt[/COLOR][/B]</title>
 <link>http://avadl.uploadt.com/DL7/Film/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
 <plugin>
-<title>[B][COLOR  yellow]Data Movies[/COLOR][/B]</title>
-<link>http://103.91.144.230/ftpdata/Movies/Hollywood/</link>
+<title>[B][COLOR  yellow]dl.funsaber[/COLOR][/B]</title>
+<link>http://dl.funsaber.net/movie/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
 <plugin>
-<title>[B][COLOR  yellow]My-film.in[/COLOR][/B]</title>
-<link>http://dl.my-film.in/s1/Movie/</link>
+<title>[B][COLOR  yellow]dl.sitemovie[/COLOR][/B]</title>
+<link>http://dl.sitemovie.ir/movie/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
 <plugin>
-<title>[B][COLOR  yellow]My-film.in/reza[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]stg.pz10028.parspack[/COLOR][/B]</title>
+<link>http://stg.pz10028.parspack.net/F/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl4.yoozdl[/COLOR][/B]</title>
+<link>http://dl4.yoozdl.com/film%20out/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl2.yoozdl[/COLOR][/B]</title>
+<link>http://dl2.yoozdl.com/film.out/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl.yoozdl[/COLOR][/B]</title>
+<link>http://dl.yoozdl.com/film.out/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]HDD1[/COLOR][/B]</title>
+<link>http://103.114.38.38/HDD1/English%20Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]HDD2[/COLOR][/B]</title>
+<link>http://103.114.38.38/HDD2/English%20Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl3.heyserver[/COLOR][/B]</title>
+<link>http://dl3.heyserver.in/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]sr1/mari[/COLOR][/B]</title>
+<link>http://79.127.127.112/sr1/mari/97/</link>
+<thumbnail>http://dl.funsaber.net/movie/</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl.tehmoviez[/COLOR][/B]</title>
+<link>http://dl.tehmoviez.download/sr1/mari/97/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl.filmbaroon[/COLOR][/B]</title>
+<link>http://dl.filmbaroon.net/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl8.heyserver[/COLOR][/B]</title>
+<link>http://dl8.heyserver.in/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl7.lavinmovie[/COLOR][/B]</title>
+<link>http://dl7.lavinmovie.net/Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl8.lavinmovie[/COLOR][/B]</title>
+<link>http://dl8.lavinmovie.net/Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl9.lavinmovie[/COLOR][/B]</title>
+<link>http://dl9.lavinmovie.net/Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl.My-film[/COLOR][/B]</title>
 <link>http://dl.my-film.in/reza/film/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
+
+
+<plugin>
+<title>[B][COLOR  yellow]dl8.uploadt[/COLOR][/B]</title>
+<link>http://dl8.uploadt.com/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]s1.uploadha[/COLOR][/B]</title>
+<link>http://s1.uploadha.me/new6/doble/upload/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]mc1.dl3enter[/COLOR][/B]</title>
+<link>http://mc1.dl3enter.in/files/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]s1.tinydl[/COLOR][/B]</title>
+<link>http://s1.tinydl.info/Movies/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]s1.tinydl2[/COLOR][/B]</title>
+<link>http://s1.tinydl.info/Movies2/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]disk1[/COLOR][/B]</title>
+<link>http://192.99.200.212/disk1/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl5.filmha[/COLOR][/B]</title>
+<link>http://dl5.filmha.co/2018/film/khareji/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]ns502618.ip[/COLOR][/B]</title>
+<link>http://ns502618.ip-192-99-8.net/library/movieland/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl3.downloadoo[/COLOR][/B]</title>
+<link>http://dl3.downloadoo.ir/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl8.downloadoo[/COLOR][/B]</title>
+<link>http://dl8.downloadoo.ir/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl2.haylimoviez[/COLOR][/B]</title>
+<link>http://dl2.haylimoviez.info/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl3.vaiomusic[/COLOR][/B]</title>
+<link></link>
+<thumbnail>http://dl3.vaiomusic.org/Movie/</thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl2.upload08[/COLOR][/B]</title>
+<link>http://dl2.upload08.com/files/Film/2017/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl4.downloadoo[/COLOR][/B]</title>
+<link>http://dl4.downloadoo.ir/dl2/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl2.film2serial[/COLOR][/B]</title>
+<link>http://dl2.film2serial.ir/film2serial/film/asli/97/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl1.doostihaa[/COLOR][/B]</title>
+<link>http://dl1.doostihaa.com/files/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]sv4avadl.uploadt[/COLOR][/B]</title>
+<link>http://sv4avadl.uploadt.com/Movie/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl2.filmaneh[/COLOR][/B]</title>
+<link>http://dl2.filmaneh.com/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl4.filmaneh[/COLOR][/B]</title>
+<link>http://dl4.filmaneh.com/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]sr3.dlmirrors[/COLOR][/B]</title>
+<link>http://sr3.dlmirrors.com/film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]sr5.dlmirrors[/COLOR][/B]</title>
+<link>http://sr5.dlmirrors.com/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]sr6.dlmirrors[/COLOR][/B]</title>
+<link>http://sr6.dlmirrors.com/film/2018-3/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]avadl.DL2[/COLOR][/B]</title>
+<link>http://avadl.uploadt.com/DL2/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]avadl.DL4[/COLOR][/B]</title>
+<link>http://avadl.uploadt.com/DL4/Film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]avadl.DL7[/COLOR][/B]</title>
+<link>http://avadl.uploadt.com/DL7/Film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]dl.Film[/COLOR][/B]</title>
+<link>http://79.127.126.110/Film/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
