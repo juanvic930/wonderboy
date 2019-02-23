@@ -27,21 +27,21 @@
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]dl4.yoozdl[/COLOR][/B]</title>
 <link>http://dl4.yoozdl.com/film%20out/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]dl2.yoozdl[/COLOR][/B]</title>
 <link>http://dl2.yoozdl.com/film.out/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
-<plugin>
+plugin>
 <title>[B][COLOR  yellow]dl.yoozdl[/COLOR][/B]</title>
 <link>http://dl.yoozdl.com/film.out/</link>
 <thumbnail></thumbnail>
@@ -50,14 +50,14 @@
 
 <plugin>
 <title>[B][COLOR  yellow]HDD1[/COLOR][/B]</title>
-<link>http://103.114.38.38/HDD1/English%20Movies/</link>
+<link>http://45.120.114.222/HDD1/English%20Movies/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
 
 <plugin>
 <title>[B][COLOR  yellow]HDD2[/COLOR][/B]</title>
-<link>http://103.114.38.38/HDD2/English%20Movies/</link>
+<link>http://45.120.114.222/HDD2/English%20Movies/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
