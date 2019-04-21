@@ -17,9 +17,10 @@
 <fanart></fanart>
 </item>
 
-<dir>
-<name>[COLOR yellow][B]Narcos Mexico1[/B][/COLOR]</name>
-<link>http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/</link>
+
+<plugin>
+<title>[B][COLOR  yellow]meliupload[/COLOR][/B]</title>
+<link>http://dl.meliupload.com/mersad/serial/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
-</dir>
+</plugin>
