@@ -1,63 +1,20 @@
 
 <dir>
-<name>[COLOR yellow][B]melimedia.net[/B][/COLOR]</name>
-<link>http://dl3.melimedia.net/mersad/serial/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]funsaber.net[/B][/COLOR]</name>
-<link>http://dl2.funsaber.net/serial/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]tehmoviez.series[/B][/COLOR]</name>
-<link>http://dl.tehmoviez.download/94/series/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]yoozdl.com[/B][/COLOR]</name>
-<link>http://dl4.yoozdl.com/series/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]mihanpix.com[/B][/COLOR]</name>
-<link>http://dl20.mihanpix.com/94/series/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]8.heyserver[/B][/COLOR]</name>
-<link>http://dl8.heyserver.in/serial/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]94/series/[/B][/COLOR]</name>
-<link>http://79.127.127.112/94/series/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]23/dl[/B][/COLOR]</name>
-<link>http://5.196.71.23/dl/</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]downloadoo.ir[/B][/COLOR]</name>
-<link>http://dl6.downloadoo.ir/TV.Show/</link>
+<name>[COLOR yellow][B]Narcos Mexico[/B][/COLOR]</name>
+<link>
+<sublink>
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E01.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E02.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E03.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E04.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E05.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E06.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E07.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E08.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E09.720p.WEB-DL.x265_MeliMedia.mkv
+http://dl.meliupload.com/mersad/serial/Narc.os%3A%20Mexico/s01/720p%20x265%20WEB-DL/Narcos.Mexico.S01E10.720p.WEB-DL.x265_MeliMedia.mkv
+</sublink>
+</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
