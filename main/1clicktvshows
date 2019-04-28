@@ -19,8 +19,22 @@ item>
 
 
 <plugin>
-<title>[B][COLOR  yellow]meliupload[/COLOR][/B]</title>
-<link>http://dl.meliupload.com/mersad/serial/</link>
+<title>[B][COLOR  yellow]heyserver[/COLOR][/B]</title>
+<link>http://dl8.heyserver.in/serial/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]funsaber[/COLOR][/B]</title>
+<link>http://dl2.funsaber.net/serial/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]uploadt[/COLOR][/B]</title>
+<link>http://sv4avadl.uploadt.com/Serial/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
