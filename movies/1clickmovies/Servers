@@ -23,7 +23,7 @@
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server  (ES)[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Server 5  (ES)[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<m3u>http://srregio.xyz/IPTV/regioflix.m3u</m3u>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/srregio.m3u&mode=1</link>
 </dir>
