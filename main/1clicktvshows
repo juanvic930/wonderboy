@@ -26,6 +26,13 @@ item>
 </plugin>
 
 <plugin>
+<title>[B][COLOR  yellow]uploadzone.ir[/COLOR][/B]</title>
+<link>http://dl2.uploadzone.ir/series/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
 <title>[B][COLOR  yellow]funsaber[/COLOR][/B]</title>
 <link>http://dl2.funsaber.net/serial/</link>
 <thumbnail></thumbnail>
@@ -38,3 +45,6 @@ item>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
+
+
+
