@@ -21,3 +21,9 @@
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/pelis.m3u&mode=1</link>
 </dir>
+
+<dir>
+<name>[COLOR yellow][B]Server  (ES)[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<m3u>http://srregio.xyz/IPTV/regioflix.m3u</m3u>
+</dir>
