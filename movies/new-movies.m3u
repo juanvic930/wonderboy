@@ -3,5 +3,9 @@
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg" group-title="2019",Captain Marvel (2019)
 http://dl2.uploadzone.ir/movies/c/Captain.Marvel.2019.720p.HDTC.MkvCage.FilmZone.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg" group-title="2019",Avengers: Endgame (2019)
-http://dl2.uploadzone.ir/movies/a/Avengers.Endgame.2019.720p.HDCam.1XBET.FilmZone.mkv
-
+#multilink
+source 1 720p ,http://dl2.uploadzone.ir/movies/a/Avengers.Endgame.2019.720p.HDCam.1XBET.FilmZone.mkv
+source 2 720p ,http://dl5.updlf.com/files/Film/2019/Avengers%3a%20Endgame%202019/Avengers.Endgame.2019.NEW.SOURCE.720p.HDTC.Farda.DL.mkv
+source 3 1080p ,http://dl5.updlf.com/files/Film/2019/Avengers%3a%20Endgame%202019/Avengers.Endgame.2019.1080p.HC.HDTC.GalaxyRG.Farda.DL.mkv
+source 4 1080p ,http://dl5.updlf.com/files/Film/2019/Avengers%3a%20Endgame%202019/Avengers.Endgame.2019.1080p.HC.HDTC.SNAKE.Farda.DL.mkv
+#multilink
