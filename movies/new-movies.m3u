@@ -13,8 +13,10 @@ EXTINF:-1 tvg-logo="" group-title="2019",
 EXTINF:-1 tvg-logo="" group-title="2019",
 EXTINF:-1 tvg-logo="" group-title="2019",
 
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3TZCBAdKQiz0cGKGEjZiyZUA01O.jpg" group-title="2019",Fighting with My Family (2019)
+http://dl5.updlf.com/files/Film/2019/Fighting%20with%20My%20Family%202019/Fighting.with.My.Family.2019.720p.BRRip.HEVC.x265.RMT.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/roslEbKdY0WSgYaB5KXvPKY0bXS.jpg" group-title="2019",Brightburn (2019)
+http://dl5.updlf.com/files/Film/2019/Brightburn%202019/Brightburn.2019.720p.HDCAM.Farda.DL.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pi7J3iH3Z1NO9q2E13ChY7imyKb.jpg" group-title="2019",The Perfect Date (2019)
 http://dl5.updlf.com/files/Film/2019/The%20Perfect%20Date%202019/The.Perfect.Date.2019.720p.NF.WEB.DL.MkvCage.Farda.DL.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rM7EZkR61k1KnCEptF8Z4L9vWQC.jpg" group-title="2019",Storm Boy (2019)
