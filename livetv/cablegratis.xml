@@ -1,0 +1,29 @@
+<item>
+<title>[B][COLOR yellow]TotalPlay[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[B][COLOR yellow][makelist.param2][/COLOR][/B]</title>
+  <link>$doregex[getUrl]</link>
+  <thumbnail>[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  return re.findall('href="(.*?)".+?title="(.*?)".*\n.*src="([^"]+)',re.findall('class="canales">(?s)(.*?)class="container',page_data)[0])
+]]></expres>
+<page>http://cablegratis.tv/</page>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  url=re.findall('[\'"](http.+?/clappr/[^\'"]+)',page_data)[0]
+  return re.findall('Clappr.Player[\w\W]*?[\'"]([^\'"]+)',requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).text)[0]+'|user-agent=ipad&referer='+url
+]]></expres>
+<page>[makelist.param1]</page>
+</regex>
+<thumbnail>http://cablegratis.tv/logos/cable-gratis-tv.png</thumbnail>
+</item>
