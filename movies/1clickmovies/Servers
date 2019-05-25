@@ -1,20 +1,12 @@
 <dir>
-<name>[COLOR yellow][B]Server 9[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Server 1[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/film2movies&mode=1</link>
 </dir>
 
-<dir>
-<name>[COLOR yellow][B]Server 99[/B][/COLOR]</name>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/film2movies</link>
-</dir>
 
-<dir>
-<name>[COLOR yellow][B]Server 1[/B][/COLOR]</name>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/mari-movies.M3U&mode=1</link>
-</dir>
+
+
 
 <dir>
 <name>[COLOR yellow][B]Server 2[/B][/COLOR]</name>
@@ -28,14 +20,6 @@
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/uploadzone.m3u&mode=1</link>
 </dir>
 
-<dir>
-<name>[COLOR yellow][B]Server 4 (ES)[/B][/COLOR]</name>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/pelis.m3u&mode=1</link>
-</dir>
 
-<dir>
-<name>[COLOR yellow][B]Server 5  (ES)[/B][/COLOR]</name>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/srregio.m3u&mode=1</link>
-</dir>
+
+
