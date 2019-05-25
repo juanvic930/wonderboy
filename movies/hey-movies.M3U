@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:0,[COLOR gold]Univision TDN[/COLOR]
+plugin://plugin.video.live.streamspro/?url=$doregex[getUrl]&mode=17&regexs={u'getUrl': {'expres': u'#$pyFunction\r\nimport re,requests\r\ndef GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013\r\n  url=re.findall(\'[\\\'"](http.+?/clappr/[^\\\'"]+)\',page_data)[0]\r\n  return re.findall(\'Clappr.Player[\\w\\W]*?[\\\'"]([^\\\'"]+)\',requests.get(url,headers={\'user-agent\':\'Mozilla/5.0\',\'referer\':\'http://cablegratis.tv/canal-en-vivo/univision-tdn\'}).text)[0]+\'|user-agent=ipad&referer=\'+url\r\n', 'name': u'getUrl', 'page': u'http://cablegratis.tv/canal-en-vivo/univision-tdn'}}&iconimage=http://cablegratis.tv/logos/univision-tdn.png
 #EXTINF:0,[COLOR yellow]007.James.Bond.1962.Dr.No[/COLOR] [COLOR dodgerblue](720p)[/COLOR]
 http://dl.sitemovie.ir/movie/007.James.Bond.1962.Dr.No.720p_SiteMovie_ir.mkv
 #EXTINF:0,[COLOR yellow]007.James.Bond.1963.From.Russia.with.Love[/COLOR] [COLOR dodgerblue](720p)[/COLOR]
