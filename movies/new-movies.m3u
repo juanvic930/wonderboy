@@ -1,20 +1,41 @@
 #EXTM3U
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
-EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="Recently Added",
+EXTINF:-1 tvg-logo="" group-title="Recently Added",
+EXTINF:-1 tvg-logo="" group-title="Recently Added",
 
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg" group-title="Recently Added",John Wick: Chapter 3 – Parabellum (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Awyg5IdELQV3sBoErhJ9QVcX8TA.jpg" group-title="Recently Added",Booksmart (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Booksmart%202019/Booksmart.2019.720p.NF.WEB.DL.x265.HEVC.PaHe.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rXPxSAYf3FdQktnOtQnvhUPMhFp.jpg" group-title="Recently Added",Avengement (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Avengement%202019/Avengement.2019.720p.WEB.HD.x265.HEVC.PaHe.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3iYQTLGoy7QnjcUYRJy4YrAgGvp.jpg" group-title="Recently Added",Aladdin (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Aladdin%202019/Aladdin.2019.720p.HDTC.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg" group-title="Recently Added",Us (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Us%202019/Us.2019.720p.WEB.DL.x265.HEVC.PaHe.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8zWFMU70cFbKZ45QWQnsfxV1RPz.jpg" group-title="Recently Added",The Kid (2019)
+http://dl5.fardasub.xyz/files/Film/2019/The%20Kid%202019/The.Kid.2019.720p.BRRip.HEVC.x265.RMT.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/27ggCrmmrwhWuCaFyqIbhYmqY5Y.jpg" group-title="Recently Added",Rim of the World (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Rim%20of%20the%20World%202019/Rim.of.the.World.2019.720p.10bit.WEBRip.6CH.x265.HEVC.PSA.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kreTuJBkUjVWePRfhHZuYfhNE1T.jpg" group-title="Recently Added",Five Feet Apart (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Five%20Feet%20Apart%202019/Five.Feet.Apart.2019.720p.WEB.DL.x265.HEVC.PaHe.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xjcYBuSHl1IWDDxRtJPr30yEucU.jpg" group-title="Recently Added",Shed of the Dead (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Shed%20of%20the%20Dead%202019/Shed.of.the.Dead.2019.720p.BRRip.RARBG.Farda.DL.mp4
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zRMMzuq6emwAJXcQ0uw3kkAycl9.jpg" group-title="Recently Added",Assimilate (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Assimilate%202019/Assimilate.2019.720p.WEB.DL.MkvCage.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/yV9G1nO6YxEWzXblqMUFoS19R9v.jpg" group-title="Recently Added",Trading Paint (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Trading%20Paint%202019/Trading.Paint.2019.720p.BRRip.HEVC.x265.RMT.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wwFaM56RH2gZYdPZgnVyVABYedR.jpg" group-title="Recently Added",Drunk Parents (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Drunk%20Parents%202019/Drunk.Parents.2019.720p.BRRip.HEVC.x265.RMT.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/gSzyUmg719TgAxarFZYWjLLMqvS.jpg" group-title="Recently Added",The Poison Rose (2019)
+http://dl5.fardasub.xyz/files/Film/2019/The%20Poison%20Rose%202019/The.Poison.Rose.2019.720p.WEB.DL.2CH.x265.HEVC.PSA.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/iXMxdC7T0t3dxislnUNybcvJmAH.jpg" group-title="Recently Added",The Beach Bum (2019)
+http://dl5.fardasub.xyz/files/Film/2019/The%20Beach%20Bum%202019/The.Beach.Bum.2019.720p.WEBRip.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg" group-title="2019",John Wick: Chapter 3 – Parabellum (2019)
 http://dl12.f2m.co/film/Jon.Wik.3.2019.h.d.cm.Film2Movie_WS.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wgQ7APnFpf1TuviKHXeEe3KnsTV.jpg" group-title="Recently Added",Pokémon Detective Pikachu (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wgQ7APnFpf1TuviKHXeEe3KnsTV.jpg" group-title="2019",Pokémon Detective Pikachu (2019)
 http://dl12.f2m.io/film/Pok.mon.Det.ctive.Pik.chu.2019.h.d.cm.Film2Movie_WS.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/33Cxmz0MDcHZ0mJub429dhQRYP.jpg" group-title="Recently Added",Batman vs. Teenage Mutant Ninja Turtles (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/33Cxmz0MDcHZ0mJub429dhQRYP.jpg" group-title="2019",Batman vs. Teenage Mutant Ninja Turtles (2019)
 http://dl12.f2m.co/film/Batman.VS.Mutant.Ninja.Turtles.2019.720p.WEB-DL.Film2Movie_WS.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/w8STuKz6IBGLDPdOZrHMDL4yaP1.jpg" group-title="Recently Added",Life Like
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/w8STuKz6IBGLDPdOZrHMDL4yaP1.jpg" group-title="2019",Life Like
 http://dl5.fardasub.xyz/files/Film/2019/Life%20Like%202019/Life.Like.2019.720p.AMZN.WEB.DL.MkvCage.Farda.DL.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3TZCBAdKQiz0cGKGEjZiyZUA01O.jpg" group-title="2019",Fighting with My Family (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Fighting%20with%20My%20Family%202019/Fighting.with.My.Family.2019.720p.BRRip.HEVC.x265.RMT.Farda.DL.mkv
