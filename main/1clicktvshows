@@ -17,6 +17,11 @@ item>
 <fanart></fanart>
 </item>
 
+<dir>
+<name>[COLOR yellow][B]Server 1[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/gameofthrones&mode=1</link>
+</dir>
 
 <plugin>
 <title>[B][COLOR  yellow]heyserver[/COLOR][/B]</title>
