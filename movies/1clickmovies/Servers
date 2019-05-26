@@ -19,7 +19,7 @@
 <dir>
 <name>[COLOR yellow][B]Server 4[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl2.heyserver.xml</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl2.heyserver.xml&mode=1</link>
 </dir>
 
 <dir>
