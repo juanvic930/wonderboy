@@ -51,3 +51,11 @@
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/S1.tinydl-2.m3u&mode=1</link>
 </dir>
+
+<dir>
+<name>[COLOR yellow][B]Dl2.yoozdl[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/Dl2.yoozdl&mode=1</link>
+</dir>
+
+
