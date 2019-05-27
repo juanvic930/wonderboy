@@ -45,3 +45,9 @@
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl4.lavinmovie.m3u&mode=1</link>
 </dir>
+
+<dir>
+<name>[COLOR yellow][B]S1.tinydl-2[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/S1.tinydl-2.m3u&mode=1</link>
+</dir>
