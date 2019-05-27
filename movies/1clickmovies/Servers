@@ -1,35 +1,47 @@
 <dir>
-<name>[COLOR yellow][B]Server 1[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Fil2movie[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/film2movies&mode=1</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server 2[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Sitemovie.ir[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/hey-movies.M3U&mode=1</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server 3[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Uploadzone[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/uploadzone.m3u&mode=1</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server 4[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Dl2.heyserver[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl2.heyserver.xml&mode=1</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server 5[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Dl5.fardasub[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/listasm3u/dl5.fardasub.m3u&mode=1</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Server 5[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Dl4.heyserver[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/listasm3u/dl4.heyserver.m3u&mode=1</link>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]S1.tinydl[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/s1.tinydl.m3u&mode=1</link>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]Dl4.lavinmovie[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl4.lavinmovie.m3u&mode=1</link>
 </dir>
