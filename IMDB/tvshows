@@ -1,3 +1,10 @@
+<dir>
+  <title>[B][COLOR yellow]My TvShows[/COLOR][/B]</title>
+  <trakt>https://api.trakt.tv/users/juanvic930/lists/tvshows/items</trakt>
+  <thumbnail>http://i63.tinypic.com/1z2fxqo.jpg</thumbnail>
+  <fanart>http://i67.tinypic.com/2wcjllw.jpg</fanart>
+  <summary>The full list of reality shows. NOT sorted. All these shows are in other sections depending on subject matter</summary>
+</dir>
 
 <dir>
 <title>[B][COLOR yellow]Search series[/COLOR][/B]</title>
