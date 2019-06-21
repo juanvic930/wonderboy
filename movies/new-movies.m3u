@@ -1,30 +1,50 @@
 #EXTM3U
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-EXTINF:-1 tvg-logo="" group-title="Recently Added",
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eItrj5GcjvCI3oD3bIcz1A2IL9t.jpg" group-title="Recently Added",I Am Mother (2019)
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+EXTINF:-1 tvg-logo="" group-title="2019",
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/279PwJAcelI4VuBtdzrZASqDPQr.jpg" group-title="Recently Added",Dumbo (2019)
+http://dl12.f2m.co/film/Du.m.bo.2019.480p.b.lu.ry.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/roslEbKdY0WSgYaB5KXvPKY0bXS.jpg" group-title="2019",Brightburn (2019)
+http://dl12.f2m.co/film/BrightBurn.2019.480p.hd.rp.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/4pA9318BY7CSnXVi3xKBtPYMe1T.jpg" group-title="Recently Added",The Best of Enemies (2019)
+http://dl12.f2m.co/film/Th.e.Be.st.Of.Ene.mis.2019.480p.wb-dl.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fzTvnA3buXsjdmjrYRDozKBFF78.jpg" group-title="Recently Added",Crypto (2019)
+http://dl12.f2m.co/film/Crypto.2019.480p.BluRay.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/pK7IYQdtdWtMDBJZfMqDxgMjXEt.jpg" group-title="Recently Added",City of Lies (2019)
+http://dl12.f2m.co/film/Ci.ty.O.f.Li.es.2019.480p.b.lu.ry.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/or06FN3Dka5tukK1e9sl16pB3iy.jpg" group-title="Recently Added",Avengers: Endgame (2019)
+http://dl10.f2m.co/film/A.vn.gers.End.g.me.2019.h.d.tc.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8zWFMU70cFbKZ45QWQnsfxV1RPz.jpg" group-title="Recently Added",The Kid (2019)
+http://dl12.f2m.co/film/The.Kid.2019.480p.BluRay.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/xRWht48C2V8XNfzvPehyClOvDni.jpg" group-title="Recently Added",Alita: Battle Angel (2019)
+http://dl12.f2m.co/film/Ali.ta.Ba.ttle.An.gel.2019.480p.hd.rp.Film2Movie_WS.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/kfZqwGuvEBAysAbCsa0QLKoSYR.jpg" group-title="Recently Added",Shaft (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Shaft%202019/Shaft.2019.720p.HDTC.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bSMSO9xupd4R4vwTPqigHn2quLN.jpg" group-title="Recently Added",Murder Mystery (2019)
+http://dl5.fardasub.xyz/files/Film/2019/Murder%20Mystery%202019/Murder.Mystery.2019.480p.WEB.DL.RMT.Farda.DL.mkv
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/eItrj5GcjvCI3oD3bIcz1A2IL9t.jpg" group-title="2019",I Am Mother (2019)
 http://dl5.fardasub.xyz/files/Film/2019/I%20Am%20Mother%202019/I.Am.Mother.2019.720p.WEB.DL.HEVC.x265.RMT.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fCQ13cqd02dop7Chkov0fPl4r3t.jpg" group-title="Recently Added",Deadwood: The Movie (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fCQ13cqd02dop7Chkov0fPl4r3t.jpg" group-title="2019",Deadwood: The Movie (2019)
 http://dl12.f2m.co/film/Deadwood.2019.720p.WEB-DL.Film2Movie_WS.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wgQ7APnFpf1TuviKHXeEe3KnsTV.jpg" group-title="Recently Added",Pokémon Detective Pikachu (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/wgQ7APnFpf1TuviKHXeEe3KnsTV.jpg" group-title="2019",Pokémon Detective Pikachu (2019)
 http://dl12.f2m.co/film/Pok.mn.Det.ctve.Pik.chu.2019.720p.hd.rp.Film2Movie_WS.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rrX1ojdd068aHlrGq5Khd92a3ba.jpg" group-title="Recently Added",Domino (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rrX1ojdd068aHlrGq5Khd92a3ba.jpg" group-title="2019",Domino (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Domino%202019/Domino.2019.720p.WEB.DL.2CH.x265.HEVC.PSA.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cVo7lylXAUDGuvDZBUYaP8Zjbku.jpg" group-title="Recently Added",Captive State (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/cVo7lylXAUDGuvDZBUYaP8Zjbku.jpg" group-title="2019",Captive State (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Captive%20State%202019/Captive.State.2019.720p.BRRip.2CH.x265.HEVC.PSA.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3BO6pPa7qDcpPYct061Luh9fvst.jpg" group-title="Recently Added",Always Be My Maybe (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/3BO6pPa7qDcpPYct061Luh9fvst.jpg" group-title="2019",Always Be My Maybe (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Always%20Be%20My%20Maybe%202019/Always.Be.My.Maybe.2019.720p.NF.WEB.DL.MkvCage.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q3mKnSkzp1doIsCye6ap4KIUAbu.jpg" group-title="Recently Added",The Secret Life of Pets 2 (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/q3mKnSkzp1doIsCye6ap4KIUAbu.jpg" group-title="2019",The Secret Life of Pets 2 (2019)
 http://dl5.fardasub.xyz/files/Film/2019/The%20Secret%20Life%20of%20Pets%202%202019/The.Secret.Life.of.Pets.2.2019.720p.HDCAM.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg" group-title="Recently Added",Captain Marvel (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg" group-title="2019",Captain Marvel (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Captain%20Marvel%202019/Captain.Marvel.2019.720p.BRRip.x265.PaHe.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8KomINZhIuJeB4oB7k7tkq8tmE.jpg" group-title="Recently Added",Wonder Park (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/8KomINZhIuJeB4oB7k7tkq8tmE.jpg" group-title="2019",Wonder Park (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Wonder%20Park%202019/Wonder.Park.2019.720p.HDRip.Farda.DL.mkv
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg" group-title="Recently Added",The Curse of La Llorona (2019)
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/jhZlXSnFUpNiLAek9EkPrtLEWQI.jpg" group-title="2019",The Curse of La Llorona (2019)
 http://dl5.fardasub.xyz/files/Film/2019/The%20Curse%20of%20La%20Llorona%202019/The.Curse.of.La.Llorona.2019.720p.HC.HDRip.2CH.x265.HEVC.PSA.Farda.DL.mkv
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/Awyg5IdELQV3sBoErhJ9QVcX8TA.jpg" group-title="2019",Booksmart (2019)
 http://dl5.fardasub.xyz/files/Film/2019/Booksmart%202019/Booksmart.2019.720p.NF.WEB.DL.x265.HEVC.PaHe.Farda.DL.mkv
