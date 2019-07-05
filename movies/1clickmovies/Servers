@@ -1,3 +1,29 @@
+ <dir>
+    <title>list</title>
+    <template>list</template>
+ </dir>
+
+ <dir>
+    <title>all</title>
+    <template>all</template>
+ </dir>
+
+ <dir>
+    <title>movie</title>
+    <template>category/</template>
+ </dir>
+
+ <dir>
+    <title>movies</title>
+    <template>displayitem/</template>
+ </dir>
+
+
+
+
+
+
+
 <dir>
 <name>[COLOR yellow][B]Fil2movie[/B][/COLOR]</name>
 <thumbnail></thumbnail>
