@@ -1,3 +1,7 @@
 #EXTM3U
 
-#EXTINF:0,[B][COLOR yellow]Narcos Mexico[/COLOR][/B]
+#EXTINF:0,Narcos Mexico
+https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/series-mexico/narcos-mexico
+
+#EXTINF:0,El Chapo
+https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/series-mexico/El-Chapo
