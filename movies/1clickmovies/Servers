@@ -1,4 +1,9 @@
  <dir>
+    <title>54.39.19.159/Movies2</title>
+    <index>|site|http://54.39.19.159/Movies2/</index>
+    </dir>
+ 
+ <dir>
     <title>list</title>
     <template>list</template>
  </dir>
