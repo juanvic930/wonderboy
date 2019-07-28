@@ -27,3 +27,36 @@ def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
 </regex>
 <thumbnail>http://cablegratis.tv/logos/cable-gratis-tv.png</thumbnail>
 </item>
+
+<item>
+<title>Cable Gratis</title>
+<link>$doregex[all]</link>
+<regex>
+  <name>all</name>
+  <listrepeat><![CDATA[
+  <title>[all.param3]</title>
+  <link>$doregex[main]</link>
+  <thumbnail>[all.param2]</thumbnail>
+  ]]></listrepeat>
+  <expres><![CDATA[(?s)<a href="(.+?)".+?img src="(.+?)" alt="(.+?)">]]></expres>
+  <page>http://cablegratis.tv/</page>
+</regex>
+
+<regex>
+  <name>main</name>
+  <listrepeat><![CDATA[
+  <title>[main.param2]</title>
+  <link>$doregex[getUrl]|Referer=http://premiumtvchannels.com/&User-Agent=iPad</link>
+  <thumbnail>[all.param2]</thumbnail>
+  ]]></listrepeat>
+  <expres>loadIframe.+,\s*'([^']+)[^&gt;]+&gt;([^&lt;]+)</expres>
+  <page>[all.param1]</page>
+</regex>
+<regex>
+  <name>getUrl</name>
+  <expres>(?:file|source):\s*"([^"]+)</expres>
+  <page>[main.param1]</page>
+  <referer>http://cablegratis.tv/</referer>
+</regex>
+<thumbnail></thumbnail>
+</item>
