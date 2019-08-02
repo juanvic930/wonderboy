@@ -1,20 +1,26 @@
 <dir>
-    <title>[COLOR yellow][B]Total Play Servidor 1[/B][/COLOR]</title>
-    <thumbnail></thumbnail>
-    <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis.xml&mode=1</link>
-    <fanart></fanart>
-    <info> </info>
+<title>[COLOR yellow][B]Total Play Servidor 1[/B][/COLOR]</title>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis.xml&mode=1</link>
+<fanart></fanart>
+<info> </info>
 </dir>
     
 <dir>
-    <title>[COLOR yellow][B]Total Play Servidor 2[/B][/COLOR]</title>
-    <thumbnail></thumbnail>
-    <link>plugin://plugin.video.live.streamspro/?url=http://tvpremiumhd.club/hd/lista.m3u&mode=1</link>
-    <fanart></fanart>
-    <info> </info>
+<title>[COLOR yellow][B]Total Play Servidor 2[/B][/COLOR]</title>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=http://tvpremiumhd.club/hd/lista.m3u&mode=1</link>
+<fanart></fanart>
+<info> </info>
 </dir>
 
-
+<dir>
+<title>[COLOR yellow][B]Cable Gratis[/B][/COLOR]</title>
+<thumbnail></thumbnail>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis2.xml&mode=1</link>
+<fanart></fanart>
+<info> </info>
+</dir>
 
 
 
