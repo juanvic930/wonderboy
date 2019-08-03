@@ -555,7 +555,7 @@ def GetLSProData(page_data,Cookie_Jar,m):
 </item>
 
 <item>
-<title>[COLOR yellow][B][/B]espn 1 latino[/COLOR]</title>
+<title>[COLOR yellow][B]espn 1 latino[/B][/COLOR]</title>
 <link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
 <regex>
 <name>m3u8</name>
@@ -1513,23 +1513,6 @@ def GetLSProData(page_data,Cookie_Jar,m):
 <referer>http://cablegratis.tv</referer>
 </regex>
 
-</item>
-<item>
-<title>[COLOR yellow][B][/B][/COLOR]</title>
-<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
-<regex>
-<name>m3u8</name>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
-]]></expres>
-<page></page>
-<referer>http://cablegratis.tv</referer>
-</regex>
-</item>
-
-
 <item>
 <title>[COLOR yellow][B]Studio Universal[/B][/COLOR]</title>
 <link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
@@ -1603,6 +1586,672 @@ def GetLSProData(page_data,Cookie_Jar,m):
   return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
 ]]></expres>
 <page>http://premiumtvchannels.com/clappr/maxprime.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]TBS[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/tbs.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Discovery Theather[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/discoverytheather.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Discovery Home and Health[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/discoveryhh.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Discovery TLC[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/discoverytlc.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]El Financiero Bloomberg[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/bloomberg.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Canal 11[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/canal11.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Venevision[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/venevision.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Cuatro[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/cuatroes.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]TVC[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/tvc.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Nat geo kids[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/natgeokids.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Foro TV[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/forotv.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Gala TV[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/galatv.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]La sexta[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/lasexta.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]La 1[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/la1.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Antena 3[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/antena3.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Telenovelas[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/tlnovelas.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Distrito comedia[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/distritocomedia.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Canal judicial[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/canaljudicial.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Bandamax[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/bandamax.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Azteca cinema[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/aztecacinema.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Imagen television[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/imagentelevision.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]El trece[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/eltrece.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Lifetime[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/lifetime.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Rai Italia[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/raitalia.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Galavision[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/galavision.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Ritmoson[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/ritmoson.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]MLB Network[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/mlb.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]TCM[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/tcm.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Telehit[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/telehit.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]CNN Chile[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/cnnchile.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]CNN Internacional[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/cnninternacional.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]El gourmet[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/elgourmet.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Multimedios[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/multimedios.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]MTV Live[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/mtvlive.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Adn 40[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/adn40.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Retro[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/retro.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Discovery world[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/discoveryworld.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Latina TV[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/latina.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Tru TV[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/trutv.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Syfy[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/syfy.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Max up[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/maxup.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+</item>
+
+
+<item>
+<title>[COLOR yellow][B]Azteca corazon[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/aztecacorazon.php</page>
+<referer>http://cablegratis.tv</referer>
+</regex>
+
+</item>
+<item>
+<title>[COLOR yellow][B]Milenio television[/B][/COLOR]</title>
+<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<regex>
+<name>m3u8</name>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):
+  return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
+]]></expres>
+<page>http://premiumtvchannels.com/clappr/milenio.php</page>
 <referer>http://cablegratis.tv</referer>
 </regex>
 </item>
