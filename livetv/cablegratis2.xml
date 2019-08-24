@@ -1,7 +1,50 @@
+<item>
+<title>[COLOR yellow][B]Discovery[/B][/COLOR]</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction0
+import re,requests
+def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
+  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
+#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
+  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/discoveryhyh.php'}).content
+  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
+  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
+  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
+  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
+]]></expres>
+<page>http://www.tv-onlinehd.com/vip/discoveryhyh.php</page>
+<referer>http://www.tv-onlinehd.com/discovery-home-and-health-en-vivo.html</referer>
+</regex>
+</item>
+
+<item>
+<title>[COLOR yellow][B]Azteca 7[/B][/COLOR]</title>
+<link>$doregex[getUrl]</link>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction0
+import re,requests
+def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
+  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
+#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
+  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/azteca7.php'}).content
+  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
+  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
+  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
+  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
+]]></expres>
+<page>http://www.tv-onlinehd.com/vip/azteca7.php</page>
+<referer>http://www.tv-onlinehd.com/discovery-home-and-health-en-vivo.html</referer>
+</regex>
+</item>
 
 <item>
 <title>[COLOR yellow][B]tudn[/B][/COLOR]</title>
-<link>$doregex[m3u8]|Referer=http://premiumtvchannels.com/User-Agent=iPad</link>
+<link>$doregex[m3u8]|Referer=http://www.tv-onlinehd.com/User-Agent=iPad</link>
 <regex>
 <name>m3u8</name>
 <expres><![CDATA[#$pyFunction
@@ -9,8 +52,8 @@ import re
 def GetLSProData(page_data,Cookie_Jar,m):
   return re.findall('(?:file|source):\s*"([^"]+)',page_data)[0]
 ]]></expres>
-<page>http://premiumtvchannels.com/clappr/tudn.php</page>
-<referer>http://cablegratis.tv</referer>
+<page>http://www.tv-onlinehd.com/vip/univisiontdn.php</page>
+<referer>http://www.tv-onlinehd.com/univision-tdn-en-vivo.html</referer>
 </regex>
 </item>
 
