@@ -30,7 +30,7 @@ import re,requests
 def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
   from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
 #  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  url=re.findall('href="(h.*?vip/azteca7[^"]+)',page_data)[0]
   source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/azteca7.php'}).content
   eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
   source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
@@ -52,7 +52,7 @@ import re,requests
 def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
   from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
 #  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  url=re.findall('href="(h.*?vip/canal5[^"]+)',page_data)[0]
   source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/canal5.php'}).content
   eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
   source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
@@ -74,7 +74,7 @@ import re,requests
 def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
   from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
 #  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  url=re.findall('href="(h.*?vip/univisiontdn[^"]+)',page_data)[0]
   source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/univisiontdn.php'}).content
   eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
   source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
@@ -96,7 +96,7 @@ import re,requests
 def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
   from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
 #  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
+  url=re.findall('href="(h.*?vip/tdn[^"]+)',page_data)[0]
   source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/tdn.php'}).content
   eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
   source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
