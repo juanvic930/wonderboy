@@ -26,7 +26,7 @@
 <dir>
 <name>[COLOR yellow][B]Uploadzone[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/uploadzone.m3u&mode=1</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/uploadzone.m3u&mode=1</link>
 </dir>
 
 <dir>
