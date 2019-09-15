@@ -62,22 +62,22 @@
 <dir>
 <name>[COLOR yellow][B]Dl3.vaiomusic[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/Dl3.vaiomusic.m3u&mode=1</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/dl3vaiomusic.m3u&mode=1</link>
 </dir>
 
 <dir>
 <name>[COLOR yellow][B]dl.lavinmovie[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/dl.lavinmovie.m3u&mode=1</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/dllavinmovie.m3u&mode=1</link>
 </dir>
 
 <dir>
 <name>[COLOR yellow][B]ultratv100[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/ultratv100.m3u&mode=1</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/ultratv.m3u&mode=1</link>
 </dir>
 
-<dir>
+dir>
 <name>[COLOR yellow][B][/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/192.240.120.146.m3u&mode=1</link>
