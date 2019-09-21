@@ -5,7 +5,7 @@
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=1</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=3</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
@@ -17,7 +17,7 @@
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=01</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=03</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
@@ -29,19 +29,19 @@
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=2</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=4</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>TDN</title>
+<title>T</title>
 <link>$doregex[url]|User-Agent=iPad</link>
 <thumbnail></thumbnail>
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=02</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=04</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
