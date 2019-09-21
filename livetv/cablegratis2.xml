@@ -1,7 +1,91 @@
 <item>
-<title>TDN</title>
+<title>[B][COLOR yellow]Azteca 7[/COLOR][/B]</title>
 <link>$doregex[url]|User-Agent=iPad</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.tv-onlinehd.com/logos/azteca7.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=35</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Canal 5[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/canal5.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=36</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TDN[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tdn.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=22</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]America TV[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/americatv.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=32</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Gol Peru[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/golperu.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=18</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TNT Sports[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tntsports.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=21</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TYC Sports[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tycsports.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=19</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Sports 2[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxsports2.png</thumbnail>
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
@@ -11,149 +95,637 @@
 </item>
 
 <item>
-<title>TDN</title>
+<title>[B][COLOR yellow]Fox Sports 3[/COLOR][/B]</title>
 <link>$doregex[url]|User-Agent=iPad</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.tv-onlinehd.com/foxsports3.png</thumbnail>
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=03</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=5</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>TDN</title>
+<title>[B][COLOR yellow]ESPN Deportes[/COLOR][/B]</title>
 <link>$doregex[url]|User-Agent=iPad</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.tv-onlinehd.com/logos/espndeportes.png</thumbnail>
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=4</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=159</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>T</title>
+<title>[B][COLOR yellow]ESPN Plus[/COLOR][/B]</title>
 <link>$doregex[url]|User-Agent=iPad</link>
-<thumbnail></thumbnail>
+<thumbnail>http://www.tv-onlinehd.com/logos/espnplus.png</thumbnail>
 <regex>
 <name>url</name>
 <expres>file:\s*"([^"]+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=04</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=87</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
-</item>
-
 <item>
-<title>[COLOR yellow][B]Discovery[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]ESPN[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/espn.png</thumbnail>
 <regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction0
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
-  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
-#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/discoveryhy[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/discoveryhyh.php'}).content
-  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
-  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
-  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
-  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
-]]></expres>
-<page>http://www.tv-onlinehd.com/vip/discoveryhyh.php</page>
-<referer>http://www.tv-onlinehd.com/discovery-home-and-health-en-vivo.html</referer>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=6</page>
+<referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>[COLOR yellow][B]Azteca 7[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]ESPN 2[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/espn2.png</thumbnail>
 <regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction0
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
-  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
-#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/azteca7[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/azteca7.php'}).content
-  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
-  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
-  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
-  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
-]]></expres>
-<page>http://www.tv-onlinehd.com/vip/azteca7.php</page>
-<referer>http://www.tv-onlinehd.com/azteca-7-en-vivo.html</referer>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=9</page>
+<referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>[COLOR yellow][B]Canal 5[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]ESPN 3[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/espn3.png</thumbnail>
 <regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction0
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
-  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
-#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/canal5[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/canal5.php'}).content
-  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
-  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
-  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
-  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
-]]></expres>
-<page>http://www.tv-onlinehd.com/vip/canal5.php</page>
-<referer>http://www.tv-onlinehd.com/canal-5-en-vivo.html</referer>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=11</page>
+<referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>[COLOR yellow][B]Univision tdn[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]Direct TV Sports[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/directvsports.png</thumbnail>
 <regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction0
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
-  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
-#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/univisiontdn[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/univisiontdn.php'}).content
-  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
-  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
-  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
-  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
-]]></expres>
-<page>http://www.tv-onlinehd.com/vip/univisiontdn.php</page>
-<referer>http://www.tv-onlinehd.com/univision-tdn-en-vivo.html</referer>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=13</page>
+<referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
 
 <item>
-<title>[COLOR yellow][B]TDN[/B][/COLOR]</title>
-<link>$doregex[getUrl]</link>
+<title>[B][COLOR yellow]Direct TV Sports Plus[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/directvsportsplus.png</thumbnail>
 <regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction0
-import re,requests
-def GetLSProData(page_data, Cookie_Jar,m):#streamwatcher2013
-  from urlresolver.plugins.lib import jsunpack   # If you have urlresolver
-#  from resolveurl.plugins.lib import jsunpack   # If you have resoleUrl
-  url=re.findall('href="(h.*?vip/tdn[^"]+)',page_data)[0]
-  source=requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'http://www.tv-onlinehd.com/vip/tdn.php'}).content
-  eurl=re.findall('iframe\s*src="(h.*?embed/[^"]+)',source)[0]
-  source=requests.get(eurl,headers={'user-agent':'Mozilla/5.0','host':'wstream.to','referer':url,'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','connection':'keep-alive'}).content
-  packed=re.findall('(eval.*m3u8.*)',source)[0];gm3u8=jsunpack.unpack(packed).replace('\\','')
-  return re.findall('.+src:\s*"(http.+?m3u8[^"]+)',gm3u8)[0]+'|user-agent=ipad&referer='+eurl
-]]></expres>
-<page>http://www.tv-onlinehd.com/vip/tdn.php</page>
-<referer>http://www.tv-onlinehd.com/tdn-en-vivo.html</referer>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=15</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Sports MX[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxsportsmexico.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=23</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Sports 2 MX[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxsports2mexico.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=24</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Sports 3 MX[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxsports3mexico.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=25</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN MX[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/espnmexico.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=26</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HBO 2[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/hbo2.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=158</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Premium Action[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumaction.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=48</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Premium Series[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumseries.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=49</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Space[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/space.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=38</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Warner Bros TV [/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/warnerbrostv.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=47</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TNT[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tnt.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=39</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/fox.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=45</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Cinemax[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/cinemax.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=145</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Cinecanal[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/cinecanal.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=146</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Telefe[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/telefe.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=116</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]El Trece[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/eltrece.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=119</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Distrito Comedia[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/distritocomedia.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=51</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Syfy[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/syfy.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=79</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]History[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/history.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=147</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Las Estrellas[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/lasestrellas.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=150</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Tlnovelas[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tlnovelas.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=149</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Caracol[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/caracol.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=157</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Galavision[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/galavicion.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=78</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CNN[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/cnnespanol.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=121</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FX[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/fx.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=53</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FXM[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/fxm.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=54</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Fox Life[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxlife.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=55</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOx Premium Movies[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxpremiummovies.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=56</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOx Premium Cinema[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumcinema.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=122</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HBO Family[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/hbofamily.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=144</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HBO Signature[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/hbosignature.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=130</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TNT Series[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tntseries.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=58</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Golden Plus[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/goldenplus.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=59</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Golden Edge[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/goldenedge.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=60</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Golden Premier[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/goldenpremier.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=95</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Canal Sony[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/canalsony.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=61</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AXN[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/axn.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=62</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Max-up[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/maxup.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=106</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TCM[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/tcm.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=129</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Cine Latino[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/cinelatino.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=100</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Universal Channel[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/universalchannel.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=64</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Studio Universal[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/studiouniversal.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=65</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Multipremier[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/multipremier.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=66</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AMC[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/amc.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=67</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MTV[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/mtv.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=37</page>
+<referer>http://www.tv-onlinehd.com/</referer>
+</regex>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MTV Live[/COLOR][/B]</title>
+<link>$doregex[url]|User-Agent=iPad</link>
+<thumbnail>http://www.tv-onlinehd.com/logos/mtvlive.png</thumbnail>
+<regex>
+<name>url</name>
+<expres>file:\s*"([^"]+)</expres>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=117</page>
+<referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
