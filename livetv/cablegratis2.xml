@@ -4,7 +4,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/azteca7.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=35</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -16,7 +16,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/canal5.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=36</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -28,7 +28,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tdn.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=22</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -40,7 +40,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/americatv.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=32</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -52,7 +52,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/golperu.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=18</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -64,7 +64,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tntsports.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=21</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -76,7 +76,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tycsports.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=19</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -88,7 +88,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxsports2.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=3</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -100,7 +100,7 @@
 <thumbnail>http://www.tv-onlinehd.com/foxsports3.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=5</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -112,7 +112,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espndeportes.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=159</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -124,7 +124,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espnplus.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=87</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -136,7 +136,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espn.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=6</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -148,7 +148,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espn2.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=9</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -160,7 +160,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espn3.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=11</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -172,7 +172,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/directvsports.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=13</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -184,7 +184,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/directvsportsplus.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=15</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -196,7 +196,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxsportsmexico.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=23</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -208,7 +208,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxsports2mexico.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=24</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -220,7 +220,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxsports3mexico.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=25</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -232,7 +232,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/espnmexico.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=26</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -244,7 +244,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/hbo2.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=158</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -256,7 +256,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumaction.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=48</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -268,7 +268,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumseries.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=49</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -280,7 +280,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/space.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=38</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -292,7 +292,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/warnerbrostv.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=47</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -304,7 +304,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tnt.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=39</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -316,7 +316,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/fox.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=45</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -328,7 +328,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/cinemax.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=145</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -340,7 +340,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/cinecanal.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=146</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -352,7 +352,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/telefe.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=116</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -364,7 +364,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/eltrece.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=119</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -376,7 +376,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/distritocomedia.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=51</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -388,7 +388,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/syfy.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=79</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -400,7 +400,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/history.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=147</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -412,7 +412,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/lasestrellas.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=150</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -424,7 +424,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tlnovelas.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=149</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -436,7 +436,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/caracol.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=157</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -448,7 +448,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/galavicion.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=78</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -460,7 +460,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/cnnespanol.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=121</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -472,7 +472,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/fx.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=53</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -484,7 +484,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/fxm.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=54</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -496,7 +496,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxlife.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=55</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -508,7 +508,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxpremiummovies.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=56</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -520,7 +520,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/foxpremiumcinema.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=122</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -532,7 +532,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/hbofamily.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=144</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -544,7 +544,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/hbosignature.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=130</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -556,7 +556,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tntseries.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=58</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -568,7 +568,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/goldenplus.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=59</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -580,7 +580,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/goldenedge.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=60</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -592,7 +592,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/goldenpremier.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=95</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -604,7 +604,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/canalsony.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=61</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -616,7 +616,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/axn.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=62</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -628,7 +628,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/maxup.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=106</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -640,7 +640,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/tcm.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=129</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -652,7 +652,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/cinelatino.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=100</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -664,7 +664,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/universalchannel.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=64</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -676,7 +676,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/studiouniversal.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=65</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -688,7 +688,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/multipremier.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=66</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -700,7 +700,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/amc.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=67</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -712,7 +712,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/mtv.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=37</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
@@ -724,7 +724,7 @@
 <thumbnail>http://www.tv-onlinehd.com/logos/mtvlive.png</thumbnail>
 <regex>
 <name>url</name>
-<expres>file:\s*"([^"]+)</expres>
+<expres>(?:file|source):\s*'([^']+)</expres>
 <page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=117</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
