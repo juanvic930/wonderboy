@@ -1,0 +1,73 @@
+<item>
+<title>https://cuevana2.io/pelicula/</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param2][/COLOR] ([makelist.param4])</title>
+  <link>$doregex[makelist2]</link>
+  <info>[makelist.param5]</info>
+  <thumbnail>https:[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re,requests
+def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
+  mlist=re.findall('(?s)"ml-item".+?href="([^"]+).+?title="([^"]+).+?src="([^"]+).+?quality">([^<]+).+?desc">([^<]+)',re.findall('movies-list-full"(?s)(.*?pagination)',page_data)[0])
+  count=re.findall('class=.extend.+?title.+?(\d+)',page_data)[0];pn=2;list=[]
+  while pn <= int(count):
+     pages='https://cuevana2.io/pelicula/page/'+str(pn)+'/';source=requests.get(pages).content
+     list +=re.findall('(?s)"ml-item".+?href="([^"]+).+?title="([^"]+).+?src="([^"]+).+?quality">([^<]+).+?desc">([^<]+)',re.findall('movies-list-full"(?s)(.*?pagination)',source)[0]);pn +=1
+  return mlist+list
+]]></expres>
+<page>https://cuevana2.io/pelicula/</page>
+</regex>
+<regex>
+<name>makelist2</name>
+<listrepeat><![CDATA[
+  <title>[COLOR gold][makelist.param2][/COLOR] ([makelist2.param2])</title>
+  <link>$doregex[getUrl]</link>
+  <info>[makelist.param5]</info>
+  <thumbnail>https:[makelist.param3]</thumbnail>
+]]></listrepeat>
+<expres><![CDATA[#$pyFunction
+import re
+def GetLSProData(page_data,Cookie_Jar,m):# streamwatcher2013
+  return re.findall('(reproductor\d+)">(.+?(?:Or|Pu)[^<]+)',re.findall('(?:"player"|"content_player")>(?s)(.*?h3>)',page_data)[0])
+]]></expres>
+<page>[makelist.param1]</page>
+<referer>https://cuevana2.io/pelicula/</referer>
+</regex>
+<regex>
+<name>getUrl</name>
+<expres><![CDATA[#$pyFunction
+import re,requests,cfscrape,urllib,json
+def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
+  scraper=cfscrape.create_scraper();serv='[makelist2.param2]';pUrl='https://player.cuevana2.io/'
+  link='https://'+re.findall('[makelist2.param1].+?src.*?//([^"]+)',page_data)[0].replace('irgoto','goto')
+  source=scraper.get(link,headers={'user-agent':'Mozilla/5.0'}).content
+  php,tok,gsub=re.findall('(?s)form\s*action="([^"]+).*?value="([^"]+).+?value="([^"]+)',source)[0]
+  url=scraper.post(pUrl+php,headers={'user-agent':'Mozilla/5.0'},data={'url':tok,'sub':gsub},allow_redirects=False).headers['Location']
+  if 'Purple' in serv:
+    gurl=url.replace('v/','api/source/')
+    source=scraper.post(gurl,headers={'user-agent':'Mozilla/5.0','referer':url,'x-requested-with':'XMLHttpRequest'},data={'r':'','d':'fembed.live'}).content
+    list=re.findall('"data"(.*)',source)[0].replace('\\','')
+    if '1080' in list:
+      return re.findall('file":"([^"]+)"."label":"1080',list)[0]+'|user-agent=ipad&referer='+gurl
+    elif '720' in list:
+      return re.findall('.+"file":"(.*?)","label":"720',list)[0]+'|user-agent=ipad&referer='+gurl
+    else:
+      return re.findall('.+"file":"(.*?)","label":"480',list)[0]+'|user-agent=ipad&referer='+gurl
+  else:
+    source=scraper.get(url,headers={'user-agent':'Mozilla/5.0'}).content;list=re.findall('id=.videojs(?s)(.*?</video)',source)[0]
+    if '1080' in list:
+      return re.findall('source\s*src="([^"]+).+?label="1080',list)[0]
+    elif '720' in list:
+      return re.findall('source\s*src="([^"]+).+?label="720',list)[0]
+    else:
+      return re.findall('source\s*src="([^"]+).+?label="480',list)[0]
+]]></expres>
+<page>[makelist.param1]</page>
+<referer>https://cuevana2.io/pelicula/</referer>
+</regex>
+<thumbnail>https://cuevana2.io/wp-content/themes/moviescript/images/logo-light.png</thumbnail>
+</item>
