@@ -1,5 +1,5 @@
 <dir>
-<name>[COLOR yellow][B]Mellimovies[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Lightdlmovies[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/lightdlmovies.m3u&mode=1</link>
 </dir>
