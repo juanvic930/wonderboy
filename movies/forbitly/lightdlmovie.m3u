@@ -1,3 +1,29 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/x8FKOYiWYwKqdkOAJlsW7ZONGBN.jpg",Priceless 2016
+http://dl2.difid.ir/P/2016/Priceless.2016.Bluray.720p.x265.RMT.[ShahrDL.com].mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/rXMWOZiCt6eMX22jWuTOSdQ98bY.jpg",Split 2016
+http://dl2.difid.ir/S/2016/Split.2016.720p.x265.RMT.[ShahrDL.com].mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/fttmSgLEOdBNwQepW2lC6t0mbOm.jpg",Resident Evil 2002
+http://s1.upload10.ir/Film/Collection/Resident%20Evil%20Collection/Resident.Evil.2002.720p.FardaDownload_ir.mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/zJFZUe1TgvUevJwg2gmSPBbvutF.jpg",Resident Evil: Apocalypse 2004 
+http://s1.upload10.ir/Film/Collection/Resident%20Evil%20Collection/Resident.Evil.Apocalypse.2004.Extended.720p.FardaDownload_ir.mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/6yaLr7Ymg5cvbtSVi5hHwBKx35I.jpg",Resident Evil: Extinction 2007
+http://s1.upload10.ir/Film/Collection/Resident%20Evil%20Collection/Resident.Evil.Extinction.2007.720p.FardaDownload_ir.mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/szUA5nI2209cCQIv8iIP6tOw8Rf.jpg",Resident Evil: Afterlife 2010
+http://s1.upload10.ir/Film/Collection/Resident%20Evil%20Collection/Resident.Evil.Afterlife.2010.720p.FardaDownload_ir.mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/qRhi9UDgfstP9aIJTCoO9u13Q7t.jpg",Resident Evil: Retribution 2012
+http://s1.upload10.ir/Film/Collection/Resident%20Evil%20Collection/Resident.Evil.2012.720p.FardaDownload_ir.mkv
+
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/7XlaaMzQUz5EqTY0m07hn3PbGu7.jpg",Resident Evil: The Final Chapter 2016 
+http://dl.upload10.ir/Film/2016/Resident%20Evil%20The%20Final%20Chapter/Resident.Evil.The.Final.Chapter.2016.720p.x265.RMTeam.FardaDownload.mkv
+
 #EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w600_and_h900_bestv2/bQfOFEeXxi51ijQrbQY9qvMtYhZ.jpg",Limitless 2011
 http://dl.cdn-france.info/dl/f/Limitless.2011.720p.BluRay.Movie30T_COM.mkv
 
