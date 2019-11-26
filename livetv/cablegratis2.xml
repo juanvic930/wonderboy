@@ -413,7 +413,7 @@
 <regex>
 <name>url</name>
 <expres>loadSource\W'([^']+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=150_</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=59_</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
