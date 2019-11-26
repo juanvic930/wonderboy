@@ -29,7 +29,7 @@
 <regex>
 <name>url</name>
 <expres>loadSource\W'([^']+)</expres>
-<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=22</page>
+<page>http://www.tv-onlinehd.com/vip/tvonlinehd.php?id=17</page>
 <referer>http://www.tv-onlinehd.com/</referer>
 </regex>
 </item>
