@@ -1,304 +1,348 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="",adn40
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5840.m3u8
-#EXTINF:-1 tvg-logo="",televisa
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5932.m3u8
-#EXTINF:-1 tvg-logo="",estrellasmx
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5897.m3u8
-#EXTINF:-1 tvg-logo="",multimediosmx
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5905.m3u8
-#EXTINF:-1 tvg-logo="",galatv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3341.m3u8
-#EXTINF:-1 tvg-logo="",itv
-http://unlimited2-cl.dps.live/itv/itv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="",itv2
-http://disfruta.net:8000/live/Iptvand1085/1nQi2HMR4m/23291.m3u8
-#EXTINF:-1 tvg-logo="",qtv
-http://disfruta.net:8000/live/0308veopag/dXEItu4CLv/23226.m3u8
-#EXTINF:-1 tvg-logo="",tve
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3339.m3u8
-#EXTINF:-1 tvg-logo="",cadenah
-http://iptv.wtf:80/live/arqxoxjd/ba6626FuzH/17155.m3u8
-#EXTINF:-1 tvg-logo="",canalcongreso
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3362.m3u8
-#EXTINF:-1 tvg-logo="",canaljudicial
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/263.m3u8
-#EXTINF:-1 tvg-logo="",canalonce
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5854.m3u8
-#EXTINF:-1 tvg-logo="",mileniotv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5903.m3u8
-#EXTINF:-1 tvg-logo="",amas
-http://ecuaplaytv.com:8000/live/jsolano/51994070372/63225.m3u8
-#EXTINF:-1 tvg-logo="",wobi
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5944.m3u8
-#EXTINF:-1 tvg-logo="",azteca13
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5850.m3u8
-#EXTINF:-1 tvg-logo="",azcorazon
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5846.m3u8
-#EXTINF:-1 tvg-logo="",azmundo
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5847.m3u8
-#EXTINF:-1 tvg-logo="",elnueve
-http://iptv.wtf:80/live/arqxoxjd/ba6626FuzH/16822.m3u8
-#EXTINF:-1 tvg-logo="",forotv
-http://iptv.wtf:80/live/arqxoxjd/ba6626FuzH/11402.m3u8
-#EXTINF:-1 tvg-logo="",telemundo
-http://iptv.wtf:80/live/arqxoxjd/ba6626FuzH/11069.m3u8
-#EXTINF:-1 tvg-logo="",tlnovelas
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7468.m3u8
-#EXTINF:-1 tvg-logo="",tvc
-http://iptv.wtf:80/live/arqxoxjd/ba6626FuzH/11291.m3u8
-#EXTINF:-1 tvg-logo="",azclick
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5845.m3u8
-#EXTINF:-1 tvg-logo="",azcinema
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5844.m3u8
-#EXTINF:-1 tvg-logo="",canal10cancun
-http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
-#EXTINF:-1 tvg-logo="",panico
-http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
-#EXTINF:-1 tvg-logo="",imagentvmx
-http://tv.latintvweb.com:25461/live/AMARTINEZ2/LD0rUAtlTR/1884.m3u8
-#EXTINF:-1 tvg-logo="",unimas
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/257.m3u8
-#EXTINF:-1 tvg-logo="",univision
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/252.m3u8
-#EXTINF:-1 tvg-logo="",bloombergtv
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/19.m3u8
-#EXTINF:-1 tvg-logo="",galavision
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/576.m3u8
-#EXTINF:-1 tvg-logo="",showtime
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/604.m3u8
-#EXTINF:-1 tvg-logo="",cnnspanish
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/30.m3u8
-#EXTINF:-1 tvg-logo="",foxnews
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/599.m3u8
+#EXTINF:-1 tvg-logo="",animalplanet
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1005.m3u8
+#EXTINF:-1 tvg-logo="",discoverychannel
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1004.m3u8
+#EXTINF:-1 tvg-logo="",discoverycivilization
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1003.m3u8
+#EXTINF:-1 tvg-logo="",discoverytheater
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/999.m3u8
+#EXTINF:-1 tvg-logo="",discoveryturbo
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/998.m3u8
+#EXTINF:-1 tvg-logo="",discoveryworld
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/997.m3u8
+#EXTINF:-1 tvg-logo="",discoveryscience
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1000.m3u8
+#EXTINF:-1 tvg-logo="",e
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/996.m3u8
+#EXTINF:-1 tvg-logo="",gourmet
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1010.m3u8
+#EXTINF:-1 tvg-logo="",hyh
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1002.m3u8
+#EXTINF:-1 tvg-logo="",historyop3
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1008.m3u8
+#EXTINF:-1 tvg-logo="",history2
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1009.m3u8
+#EXTINF:-1 tvg-logo="",holatv
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/992.m3u8
+#EXTINF:-1 tvg-logo="",id
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1001.m3u8
+#EXTINF:-1 tvg-logo="",lifetime
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1001.m3u8
+#EXTINF:-1 tvg-logo="",natgeo
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1007.m3u8
+#EXTINF:-1 tvg-logo="",natgeowild
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1006.m3u8
+#EXTINF:-1 tvg-logo="",tlc
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/989.m3u8
+#EXTINF:-1 tvg-logo="",dw
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/184.m3u8"
+#EXTINF:-1 tvg-logo="",foodnetwork
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/994.m3u8
+#EXTINF:-1 tvg-logo="",garagetv
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/527.m3u8
+#EXTINF:-1 tvg-logo="",foxaction
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/910.m3u8
+#EXTINF:-1 tvg-logo="",foxcinema
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/936.m3u8
+#EXTINF:-1 tvg-logo="",foxclassics
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/935.m3u8
+#EXTINF:-1 tvg-logo="",foxfamily
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/906.m3u8
+#EXTINF:-1 tvg-logo="",foxcomedy
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/904.m3u8
+#EXTINF:-1 tvg-logo="",foxmovies
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/933.m3u8
+#EXTINF:-1 tvg-logo="",foxseries
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/932.m3u8
+#EXTINF:-1 tvg-logo="",hbo
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/899.m3u8
+#EXTINF:-1 tvg-logo="",hbo2
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/898.m3u8
+#EXTINF:-1 tvg-logo="",hbofamily
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2395.m3u8
+#EXTINF:-1 tvg-logo="",hboplus
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2392.m3u8
+#EXTINF:-1 tvg-logo="",hbosignature
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2604.m3u8
+#EXTINF:-1 tvg-logo="",maxprime
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/955.m3u8
+#EXTINF:-1 tvg-logo="",maxup
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/954.m3u8
+#EXTINF:-1 tvg-logo="",amc
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/946.m3u8
+#EXTINF:-1 tvg-logo="",fox
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/938.m3u8
+#EXTINF:-1 tvg-logo="",foxlife
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/956.m3u8
+#EXTINF:-1 tvg-logo="",cinecanal
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/943.m3u8
+#EXTINF:-1 tvg-logo="",cinemax
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/942.m3u8
+#EXTINF:-1 tvg-logo="",comedycentral
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/186.m3u8
+#EXTINF:-1 tvg-logo="",depelicula
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/878.m3u8
+#EXTINF:-1 tvg-logo="",depeliculaplus
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/940.m3u8
+#EXTINF:-1 tvg-logo="",eurochannel
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/914.m3u8
+#EXTINF:-1 tvg-logo="",golden
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/929.m3u8
+#EXTINF:-1 tvg-logo="",goldenplus
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/927.m3u8
+#EXTINF:-1 tvg-logo="",goldenpremier
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2386.m3u8
+#EXTINF:-1 tvg-logo="",isat
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/863.m3u8
+#EXTINF:-1 tvg-logo="",paramount
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/925.m3u8
+#EXTINF:-1 tvg-logo="",space
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/922.m3u8
+#EXTINF:-1 tvg-logo="",studiouniversal
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/921.m3u8
+#EXTINF:-1 tvg-logo="",tbs
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/951.m3u8
+#EXTINF:-1 tvg-logo="",tcm
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/950.m3u8
+#EXTINF:-1 tvg-logo="",tnt
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/885.m3u8
+#EXTINF:-1 tvg-logo="",axn
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/944.m3u8
+#EXTINF:-1 tvg-logo="",ae
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/948.m3u8
+#EXTINF:-1 tvg-logo="",distritocomedia
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/185.m3u8
+#EXTINF:-1 tvg-logo="",fx
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/931.m3u8
+#EXTINF:-1 tvg-logo="",sony
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/923.m3u8
+#EXTINF:-1 tvg-logo="",syfy
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/952.m3u8
+#EXTINF:-1 tvg-logo="",trutv
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/980.m3u8
+#EXTINF:-1 tvg-logo="",fxm
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/930.m3u8
+#EXTINF:-1 tvg-logo="",glitz
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/528.m3u8
+#EXTINF:-1 tvg-logo="",tntseries
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/854.m3u8
+#EXTINF:-1 tvg-logo="",universalchannel
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/883.m3u8
+#EXTINF:-1 tvg-logo="",warner
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/949.m3u8
+#EXTINF:-1 tvg-logo="",unicable
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/162.m3u8
+#EXTINF:-1 tvg-logo="",aye
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/880.m3u8
+#EXTINF:-1 tvg-logo="",pasiones
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/402.m3u8
+#EXTINF:-1 tvg-logo="",goldenedge
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/928.m3u8
+#EXTINF:-1 tvg-logo="",filmarts
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/939.m3u8
+#EXTINF:-1 tvg-logo="",europaeuropa
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/959.m3u8
+#EXTINF:-1 tvg-logo="",nick
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1094.m3u8
+#EXTINF:-1 tvg-logo="",nickjr
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1059.m3u8
+#EXTINF:-1 tvg-logo="",nick2
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1087.m3u8
+#EXTINF:-1 tvg-logo="",nicktoons
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1058.m3u8
+#EXTINF:-1 tvg-logo="",natgeokids
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1062.m3u8
+#EXTINF:-1 tvg-logo="",tooncast
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1056.m3u8
+#EXTINF:-1 tvg-logo="",boomerang
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1068.m3u8
+#EXTINF:-1 tvg-logo="",cartoonnetwork
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1096.m3u8
+#EXTINF:-1 tvg-logo="",discoverykids
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1066.m3u8
+#EXTINF:-1 tvg-logo="",disneychannel
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1065.m3u8
+#EXTINF:-1 tvg-logo="",disneyjr
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1064.m3u8
+#EXTINF:-1 tvg-logo="",disneyxdop3
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1099.m3u8
+#EXTINF:-1 tvg-logo="",babytv
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1100.m3u8
+#EXTINF:-1 tvg-logo="",pakapaka
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/533.m3u8
 #EXTINF:-1 tvg-logo="",univisiondeportes
-http://ictv19.xyz:8000/live/r1234/r123/23369.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/387.m3u8
 #EXTINF:-1 tvg-logo="",tigosports
-http://ictv19.xyz:8000/live/r1234/r123/23335.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1820.m3u8
 #EXTINF:-1 tvg-logo="",tigosports2
-http://ictv19.xyz:8000/live/r1234/r123/23337.m3u8
-#EXTINF:-1 tvg-logo="",tigosports3
-http://ictv19.xyz:8000/live/r1234/r123/23338.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1821.m3u8
 #EXTINF:-1 tvg-logo="",tigosportscr
-http://ictv19.xyz:8000/live/r1234/r123/20997.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1817.m3u8
 #EXTINF:-1 tvg-logo="",tigosportspy
-http://ictv19.xyz:8000/live/r1234/r123/17359.m3u8
-#EXTINF:-1 tvg-logo="",tigosportspy1
-http://tv.latintvweb.com:25461/live/AMARTINEZ2/LD0rUAtlTR/3753.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1819.m3u8
 #EXTINF:-1 tvg-logo="",tigosportspyplus
-http://ictv19.xyz:8000/live/r1234/r123/17358.m3u8
-#EXTINF:-1 tvg-logo="",cntsports
-http://tv.jomysonplus.com:8000/live/laradiego92/wRDUYBkTD1/9365.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1821.m3u8
 #EXTINF:-1 tvg-logo="",espn
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6832.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1855.m3u8
 #EXTINF:-1 tvg-logo="",espn2
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3477.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1856.m3u8
 #EXTINF:-1 tvg-logo="",espn3
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6831.m3u8
-#EXTINF:-1 tvg-logo="",espn3
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3480.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1857.m3u8
 #EXTINF:-1 tvg-logo="",espnplus
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3483.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1798.m3u8
 #EXTINF:-1 tvg-logo="",espnbrasil
-http://mylatinotv.com:25461/live/orlando/orlando/1115040.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2334.m3u8
 #EXTINF:-1 tvg-logo="",espndeportes
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6830.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2380.m3u8
 #EXTINF:-1 tvg-logo="",espnmx
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/566.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1794.m3u8
 #EXTINF:-1 tvg-logo="",espnmx2
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/567.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1796.m3u8
 #EXTINF:-1 tvg-logo="",espnmx3
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/54.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1795.m3u8
 #EXTINF:-1 tvg-logo="",espnplusmx
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/55.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1794.m3u8
 #EXTINF:-1 tvg-logo="",foxpremium
-http://navarrete.club:25461/live/iptvlatino/poderlatino/32.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1780.m3u8
 #EXTINF:-1 tvg-logo="",tycsports
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/626.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1811.m3u8
 #EXTINF:-1 tvg-logo="",tntsports
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/309.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1815.m3u8
 #EXTINF:-1 tvg-logo="",foxsports
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6840.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1777.m3u8
 #EXTINF:-1 tvg-logo="",foxsports2
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3489.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1776.m3u8
 #EXTINF:-1 tvg-logo="",foxsports3
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/3492.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1775.m3u8
 #EXTINF:-1 tvg-logo="",foxsportsmx
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/571.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1771.m3u8
 #EXTINF:-1 tvg-logo="",foxsportsmx2
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/572.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1770.m3u8
 #EXTINF:-1 tvg-logo="",foxsportsmx3
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/573.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1769.m3u8
 #EXTINF:-1 tvg-logo="",goltv
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/306.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/16451.m3u8
 #EXTINF:-1 tvg-logo="",goltvecuador
-http://navarrete.club:25461/live/iptvlatino/poderlatino/20.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1832.m3u8
 #EXTINF:-1 tvg-logo="",tvcdeportes
-http://ictv19.xyz:8000/live/r1234/r123/22149.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1813.m3u8
 #EXTINF:-1 tvg-logo="",tvcdepor
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/145.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1814.m3u8
 #EXTINF:-1 tvg-logo="",winsports
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/154.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1802.m3u8
 #EXTINF:-1 tvg-logo="",winspor
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6864.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1803.m3u8
 #EXTINF:-1 tvg-logo="",beinn
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/307.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2005.m3u8
 #EXTINF:-1 tvg-logo="",beinlaliga
-http://tv.ultraiptv.org:80/live/Zn3UgNxZq77/6qYGad7c50/8034.m3u8
-#EXTINF:-1 tvg-logo="",afizzionados
-http://ictv19.xyz:8000/live/r1234/r123/17260.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2006.m3u8
 #EXTINF:-1 tvg-logo="",univisiontdn
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/639.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2069.m3u8
 #EXTINF:-1 tvg-logo="",tdn
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/639.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1808.m3u8
 #EXTINF:-1 tvg-logo="",vamos
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5699.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/83.m3u8
 #EXTINF:-1 tvg-logo="",azteca7
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/554.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/200.m3u8
 #EXTINF:-1 tvg-logo="",lasestrellas
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/58.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/190.m3u8
 #EXTINF:-1 tvg-logo="",mdeportes
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7116.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1993.m3u8
 #EXTINF:-1 tvg-logo="",mdeportes2
-http://tv.latintvweb.com:25461/live/AMARTINEZ2/LD0rUAtlTR/4720.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1998.m3u8
 #EXTINF:-1 tvg-logo="",mligacampeones
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5691.m3u8
-#EXTINF:-1 tvg-logo="",mfutbol
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7114.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2000.m3u8
 #EXTINF:-1 tvg-logo="",mf1
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/310.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1991.m3u8
 #EXTINF:-1 tvg-logo="",mmotogp
-http://tv.latintvweb.com:25461/live/AMARTINEZ2/LD0rUAtlTR/4814.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1996.m3u8
 #EXTINF:-1 tvg-logo="",ligatv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7218.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1999.m3u8
 #EXTINF:-1 tvg-logo="",gol
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5789.m3u8
+http://tv.latintvweb.com:25461/live/giezimanuel7/16msZd8iBp/4722.m3u8
 #EXTINF:-1 tvg-logo="",raiitalia
-http://iptv6.premium-stv.com:25461/live/sourceitalypro2/4936722850/348.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2067.m3u8
 #EXTINF:-1 tvg-logo="",vtv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/1640.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1805.m3u8
 #EXTINF:-1 tvg-logo="",vtvplus
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6863.m3u8
+http://server.stablechannels.tv:80/live/2zcvz1MvV/6uTwl80e1D/6863.m3u8
 #EXTINF:-1 tvg-logo="",canal5
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/561.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/192.m3u8
 #EXTINF:-1 tvg-logo="",cdfpremium
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6818.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1842.m3u8
 #EXTINF:-1 tvg-logo="",cdfhd
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/18.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1843.m3u8
 #EXTINF:-1 tvg-logo="",cdf
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6822.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1844.m3u8
 #EXTINF:-1 tvg-logo="",clarosports
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6821.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2351.m3u8
 #EXTINF:-1 tvg-logo="",clarosportsco
-http://navarrete.club:25461/live/iptvlatino/poderlatino/66.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2352.m3u8
 #EXTINF:-1 tvg-logo="",directvsports
-http://navarrete.club:25461/live/iptvlatino/poderlatino/66.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1784.m3u8
 #EXTINF:-1 tvg-logo="",directvsports2
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/4330.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1789.m3u8
 #EXTINF:-1 tvg-logo="",directvsportsplus
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/4334.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/5190.m3u8
 #EXTINF:-1 tvg-logo="",golperu
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/1538.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1835.m3u8
 #EXTINF:-1 tvg-logo="",aymsports
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/10.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/206.m3u8
 #EXTINF:-1 tvg-logo="",foxsportsusa1
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/272.m3u8
-#EXTINF:-1 tvg-logo="",foxsportsusa2
-http://ictv19.xyz:8000/live/r1234/r123/22973.m3u8
-#EXTINF:-1 tvg-logo="",fs1
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/619.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2220.m3u8
 #EXTINF:-1 tvg-logo="",fs2
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/620.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2060.m3u8
 #EXTINF:-1 tvg-logo="",raisport
-http://iptv6.premium-stv.com:25461/live/sourceitalypro2/4936722850/348.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2349.m3u8
 #EXTINF:-1 tvg-logo="",mgolf
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5712.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1997.m3u8
 #EXTINF:-1 tvg-logo="",golf
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/80.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2066.m3u8
 #EXTINF:-1 tvg-logo="",foxdeportes
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/304.m3u8
-#EXTINF:-1 tvg-logo="",fight
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5491.m3u8
-#EXTINF:-1 tvg-logo="",boxnation
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/589.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2223.m3u8
 #EXTINF:-1 tvg-logo="",caracoltv
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/25.m3u8
-#EXTINF:-1 tvg-logo="",imagentv
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/89.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1110.m3u8
 #EXTINF:-1 tvg-logo="",beinsports
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/617.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2058.m3u8
 #EXTINF:-1 tvg-logo="",mdeportespe
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6855.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1827.m3u8
 #EXTINF:-1 tvg-logo="",teletica7
-http://ictv19.xyz:8000/live/r1234/r123/19177.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/570.m3u8
 #EXTINF:-1 tvg-logo="",laliga123
-http://ictv19.xyz:8000/live/r1234/r123/23165.m3u8
-#EXTINF:-1 tvg-logo="",mpartidazo
-http://209.126.102.141:80/live/sara123/sara123/4045.m3u8
-#EXTINF:-1 tvg-logo="",multideporte
-http://tv.latintvweb.com:25461/live/AMARTINEZ2/LD0rUAtlTR/4715.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1830.m3u8
 #EXTINF:-1 tvg-logo="",teledeporte
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5803.m3u8
-#EXTINF:-1 tvg-logo="",esport3
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5695.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1824.m3u8
 #EXTINF:-1 tvg-logo="",eurosport1
-http://live.iptv.wtf:80/live/Zn3UgNxZq77/6qYGad7c50/7987.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2001.m3u8
 #EXTINF:-1 tvg-logo="",eurosport2
-http://live.iptv.wtf:80/live/Zn3UgNxZq77/6qYGad7c50/7835.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2364.m3u8
 #EXTINF:-1 tvg-logo="",mtoros
-http://ictv19.xyz:8000/live/r1234/r123/812.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1995.m3u8
 #EXTINF:-1 tvg-logo="",rcntv
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/118.m3u8
-#EXTINF:-1 tvg-logo="",rcnnovelastv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7089.m3u8
-#EXTINF:-1 tvg-logo="",wwenetworkes
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/299.m3u8
-#EXTINF:-1 tvg-logo="",wwenetworkeng
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5538.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1120.m3u8
 #EXTINF:-1 tvg-logo="",espnusa
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/597.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2378.m3u8
 #EXTINF:-1 tvg-logo="",espn2usa
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/53.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2379.m3u8
 #EXTINF:-1 tvg-logo="",espnu
-http://23.237.122.154:25461/live/BUDTV/DFGHJ/57.m3u8
-#EXTINF:-1 tvg-logo="",espnnew
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5489.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2377.m3u8
 #EXTINF:-1 tvg-logo="",sporttv
-http://tv-prime.tv:8080/live/MaripiThompson/QPYBnXgwE8/2371.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2371.m3u8
 #EXTINF:-1 tvg-logo="",sporttv2
-http://tv-prime.tv:8080/live/MaripiThompson/QPYBnXgwE8/2372.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2372.m3u8
 #EXTINF:-1 tvg-logo="",sporttv3
-http://tv-prime.tv:8080/live/MaripiThompson/QPYBnXgwE8/2372.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2373.m3u8
 #EXTINF:-1 tvg-logo="",sporttv4
-http://tv-prime.tv:8080/live/MaripiThompson/QPYBnXgwE8/2374.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2374.m3u8
 #EXTINF:-1 tvg-logo="",sporttv5
-http://tv-prime.tv:8080/live/MaripiThompson/QPYBnXgwE8/2375.m3u8
-#EXTINF:-1 tvg-logo="",sporttvplus
-http://wohuogai.com:37000/11118/tracks-v1a1/mono.m3u8?
-#EXTINF:-1 tvg-logo="",mlb
-http://mlblive-akc.mlb.com/ls01/mlbam/mlb_network/NETWORK_LINEAR_1/master_tablet.m3u8
-#EXTINF:-1 tvg-logo="",sportv
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5665.m3u8
-#EXTINF:-1 tvg-logo="",sportv2
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5666.m3u8
-#EXTINF:-1 tvg-logo="",sportv3
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5667.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/2375.m3u8
 #EXTINF:-1 tvg-logo="",latina
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/1536.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1138.m3u8
 #EXTINF:-1 tvg-logo="",ufclive
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5535.m3u8
-#EXTINF:-1 tvg-logo="",ufcfight
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5535.m3u8
-#EXTINF:-1 tvg-logo="",ufcpass
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/5535.m3u8
-#EXTINF:-1 tvg-logo="",nbcuniverso
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/7373.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/5429.m3u8
 #EXTINF:-1 tvg-logo="",tudn
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6857.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/387.m3u8
 #EXTINF:-1 tvg-logo="",mplus
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/6052.m3u8
-#EXTINF:-1 tvg-logo="",mlaliga
-http://tv.ultraiptv.org:80/live/yntliomj/HW5if6u1i8/1650.m3u8
-#EXTINF:-1 tvg-logo="",skysportsmx
-http://extremo.dyndns.ws:25461/live/123123/123123/17575.m3u8
+http://tv-prime.tv:8080/live/VictorFloresLevano/j1j2j3j4/1143.m3u8
