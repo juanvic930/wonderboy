@@ -1,7 +1,7 @@
 <dir>
 <name>[COLOR yellow][B]Lista-mp3[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/lista-mp3.xml</link>
+<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/lista-mp3.xml&mode=1</link>
 </dir>
 
 
