@@ -5,26 +5,26 @@
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Anilist[/B][/COLOR]</name>
+<name>[B][COLOR yellow]Anilist[/COLOR][/B]</name>
 <m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/Peliculas/parabitly/m3uworking/anilist1.m3u</m3u>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B][/B][/COLOR]</name>
-<m3u></m3u>
+<name>[B][COLOR yellow]dl2.film2serial[/COLOR][/B]</name>
+<m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/Peliculas/parabitly/m3uworking/dl2.film2serial.m3u</m3u>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B][/B][/COLOR]</name>
-<m3u></m3u>
+<name>[B][COLOR yellow]Film.khareji[/COLOR][/B]</name>
+<m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/Peliculas/parabitly/m3uworking/film.khareji.m3u</m3u>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B][/B][/COLOR]</name>
-<m3u></m3u>
+<name>[B][COLOR yellow]dl14.ftk[/COLOR][/B]</name>
+<m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/Peliculas/parabitly/m3uworking/dl14.ftk.m3u</m3u>
 </dir>
 
-<dir>
-<name>[COLOR yellow][B][/B][/COLOR]</name>
+dir>
+<name>[B][COLOR yellow][/COLOR][/B]</name>
 <m3u></m3u>
 </dir>
