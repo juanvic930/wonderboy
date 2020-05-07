@@ -1,5 +1,14 @@
 #EXTM3U
 
+
+#EXTM3U
+
+#EXTINF:-1 tvg-logo="https://mymojoo.in/wp-content/uploads/Sonic-the-Hedgehog-2020.jpg",Sonic the Hedgehog 2020
+http://dl3.mojdl.com/upload/Movies/2020/Sonic%20the%20Hedgehog/sonic.the.hedgehog.2020.480p.bluray.x264.%5BMojoo%5D.mkv
+#EXTINF:-1 tvg-logo="https://mymojoo.in/wp-content/uploads/BOP-Poster.jpg",Birds of Prey 2020
+http://dl3.mojdl.com/upload/Movies/2020/Birds%20of%20Prey/Birds.of.Prey.2020.480p.BluRay.%5BMojoo%5D.mkv
+#EXTINF:-1 tvg-logo="https://mymojoo.in/wp-content/uploads/The-Lodge-2019-Poster.jpg",The Lodge 2019
+http://dl3.mojdl.com/upload/Movies/2019/The%20Lodge/The.Lodge.2019.480p.RMT.%5BMojoo%5D.mkv
 #EXTINF:-1 tvg-logo="https://mymojoo.us/wp-content/uploads/The-Lodge-2019-Poster.jpg",The Lodge 2019
 http://dl3.mojdl.com/upload/Movies/2019/The%20Lodge/The.Lodge.2019.480p.RMT.%5BMojoo%5D.mkv
 #EXTINF:-1 tvg-logo="https://mymojoo.us/wp-content/uploads/Extraction-2020-Poster.jpg",Extraction 2020
