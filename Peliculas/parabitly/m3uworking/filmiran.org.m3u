@@ -1,6 +1,15 @@
 #EXTM3U
 
-
+#EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/05/Working-Man-2020.jpg",Working Man 2020
+http://dl2.filmiran.org/FILM/02/2019/Working%20Man/Working.Man.2020.720p.WEB-DL.GalaxyRG.mkv
+#EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/05/Jerry-Seinfeld-23-Hours-to-Kill-2020-e1588690039165.jpg",Jerry Seinfeld: 23 Hours to Kill 2020
+http://dl2.filmiran.org/FILM/02/2020/Jerry%20Seinfeld%2023%20Hours%20to%20Kill/Jerry.Seinfeld.23.Hours.To.Kill.2020.720p.WEB-DL.GalaxyRG.mkv
+#EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/05/The-Half-of-It-2020-1-e1588654749675.jpg",The Half of It 2020
+http://dl2.filmiran.org/FILM/02/2020/The%20Half%20of%20It/TheHalfOfIt-2020-720p-WEBRip_iMovie-DL.mkv
+#EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/05/All-Day-and-a-Night-2020-1-e1588654689904.jpg",All Day and a Night 2020
+http://dl2.filmiran.org/FILM/02/2020/All%20Day%20and%20a%20Night/AllDayAndANight-2020-720p-WEBRip_iMovie-DL.mkv
+#EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/05/Dangerous-Lies-2020-1-e1588654616358.jpg",Dangerous Lies 2020 +
+http://dl2.filmiran.org/FILM/02/2020/Dangerous%20Lies/DangerousLies-2020-720p-WEBRip_iMovie-DL.mkv
 #EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/04/Extraction-2020.jpg",Extraction 2020
 http://dl2.filmiran.org/FILM/01/2020/Extraction/Extraction.2020.720p.NF.WEB-DL.SECRECY.Filmiran.org.mkv
 #EXTINF:-1 tvg-logo="https://filmiran.org/files/uploads//2020/04/Extraction-2020.jpg",Extraction 2020
