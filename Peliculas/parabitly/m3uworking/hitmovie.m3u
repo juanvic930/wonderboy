@@ -1,5 +1,11 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://www.hitmovie.ir/wp-content/uploads/2020/04/Earth-and-Blood-2020.jpg",Earth and Blood 2020
+http://dl.hitmovie.ir/Film/Khareji/2020/Earth.and.Blood.2020.720p.Web-dl.nItRo.[HitMovie.ir].mkv
+#EXTINF:-1 tvg-logo="https://www.hitmovie.ir/wp-content/uploads/2020/04/Sergio-2020.jpg",Sergio 2020
+http://dl.hitmovie.ir/Film/Khareji/2020/Sergio.2020.720p.Web-dl.YIFY.[HitMovie.ir].mp4
+#EXTINF:-1 tvg-logo="https://www.hitmovie.ir/wp-content/uploads/2020/04/The-Rhythm-Section-2020.jpg",The Rhythm Section 2020
+http://dl.hitmovie.ir/Film/Khareji/2020/The.Rhythm.Section.2020.720p.Bluray.YIFY.[HitMovie.ir].mp4
 #EXTINF:-1 tvg-logo="https://www.hitmovie.ir/wp-content/uploads/2020/04/Rising-High-2020.jpg",Rising High 2020
 http://dl.hitmovie.ir/Film/Khareji/2020/Rising.High.2020.720p.Web-dl.YIFY.[HitMovie.ir].mp4
 #EXTINF:-1 tvg-logo="https://www.hitmovie.ir/wp-content/uploads/2020/04/Wendy-2020.jpg",Wendy 2020
