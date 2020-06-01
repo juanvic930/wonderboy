@@ -6,9 +6,9 @@
 
 
 <dir>
-<name>[COLOR yellow][B]Lightdlmovies[/B][/COLOR]</name>
+<name>[COLOR yellow][B]anilist2[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/list.m3u/lightdlmovies.m3u&mode=1</link>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/kodi/anilist2.xml</link>
 </dir>
 
 <dir>
