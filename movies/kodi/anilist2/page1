@@ -783,9 +783,8 @@
 <summary>After years of organizing fashion in the city, Lauren decides to move home. In exchange for her organizing services, mover Rob makes it his mission to help her see the beauty of Seattle.</summary>
 </item>
 
-<item>
-<title>[B][COLOR yellow]NEXT PAGE[/COLOR][/B]</title>
-<link>https://github.com/juanvic930/wonderboy/blob/wonderboy/movies/kodi/anilist2/page2</link>
+<dir>
+<name>[COLOR yellow][B]NEXT PAGE[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<fanart></fanart>
-<summary></item>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/kodi/anilist2/page2</link>
+</dir>
