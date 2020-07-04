@@ -1,11 +1,17 @@
 <dir>
-<name>[COLOR yellow][B]series9[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Animeserver[/B][/COLOR]</name>
+<thumbnail></thumbnail>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/forbitly/animeserver.xml</link>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]Pelisplushd[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/forbitly/pelisplushd.xml</link>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]series9[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Series9[/B][/COLOR]</name>
 <thumbnail></thumbnail>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/movies/forbitly/series9.xml</link>
 </dir>
