@@ -18,9 +18,9 @@ item>
 </item>
 
 <dir>
-<name>[COLOR yellow][B]Server 1[/B][/COLOR]</name>
+<name>[COLOR yellow][B]Animdl-Series[/B][/COLOR]</name>
 <thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/gameofthrones&mode=1</link>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/animdl-Series.xlm</link>
 </dir>
 
 <plugin>
