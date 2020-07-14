@@ -1,10 +1,7 @@
-<dir>
-<title>[COLOR yellow][B]Cableonline[/B][/COLOR]</title>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cableonline.m3u&mode=1</link>
-<fanart></fanart>
-<info> </info>
-</dir>
+<item>
+<title>[COLOR yellow][B]LAS ESTRELLAS[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/live/1mx$bitchx7/1mx$bitchx7/36.m3u8|Referer=http://www.aodirectos.xyz/mexicohd/estrellas.php&Origin=http://www.aodirectos.xyz</link>
+</item>
 
 <dir>
 <title>[COLOR yellow][B]Total Play Servidor 1[/B][/COLOR]</title>
