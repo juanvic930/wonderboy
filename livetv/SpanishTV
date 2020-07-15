@@ -7,22 +7,42 @@
 <title>[COLOR yellow][B]AZTECA 7[/B][/COLOR]</title>
 <link>http://89.105.194.59:25461/1mx$bitx9/1mx$bitx9/33</link>
 </item>
-    
-<dir>
-<title>[COLOR yellow][B]Total Play Servidor 2[/B][/COLOR]</title>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=http://tvpremiumhd.club/hd/lista.m3u&mode=1</link>
-<fanart></fanart>
-<info> </info>
-</dir>
+     
+<item>
+<title>[COLOR yellow][B]AZTECA UNO[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/1mx$bitx9/1mx$bitx9/34</link>
+</item>
 
-<dir>
-<title>[COLOR yellow][B]Cable Gratis[/B][/COLOR]</title>
-<thumbnail></thumbnail>
-<link>plugin://plugin.video.live.streamspro/?url=https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis2.xml&mode=1</link>
-<fanart></fanart>
-<info> </info>
-</dir>
+<item>
+<title>[COLOR yellow][B]CANAL 5 MX[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/1mx$bitx9/1mx$bitx9/35</link>
+</item>
+ 
+<item>
+<title>[COLOR yellow][B]IMAGEN TV[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/1mx$bitx9/1mx$bitx9/37</link>
+</item>
+ 
+<item>
+<title>[COLOR yellow][B]CNN ESPAÑOL[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/uss9BITCHh/uss9BITCHh/48</link>
+</item>
+ 
+<item>
+<title>[COLOR yellow][B]TELEMUNDO 51[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/uss9BITCHh/uss9BITCHh/49</link>
+</item>
+ 
+<item>
+<title>[COLOR yellow][B]UNIVISION MIAMI[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/uss9BITCHh/uss9BITCHh/50</link>
+</item>
+ 
+<item>
+<title>[COLOR yellow][B]UNIMAS[/B][/COLOR]</title>
+<link>http://89.105.194.59:25461/uss9BITCHh/uss9BITCHh/51</link>
+</item>
+ 
 
 
 
