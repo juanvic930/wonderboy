@@ -1,10 +1,10 @@
 <item>
-<title>[COLOR yellow][B]test[/B][/COLOR]</title>
-<link>https://edge3-sl.cvattv.com.ar//live/c3eds/HBOHD/verimatrix_rotating_FTA/HBOHD-video=1344000</link>
+<title>[COLOR yellow][B]test1[/B][/COLOR]</title>
+<link>https://edge3-sl.cvattv.com.ar//live/c3eds/HBOHD/verimatrix_rotating_FTA/HBOHD-video=1344000.m3u8</link>
 </item>
 <item>
 <title>[COLOR yellow][B]test2[/B][/COLOR]</title>
-<link>https://edge3-sl.cvattv.com.ar//live/c3eds/HBOHD</link>
+<link>https://edge3-sl.cvattv.com.ar//live/c3eds/HBOHD.m3u8</link>
 </item>
 
 <item>
