@@ -1,4 +1,10 @@
 <dir>
+<name>[COLOR yellow][B]CABLE GRATIS[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
 <name>[COLOR yellow][B]Wonderboy IPTV Spanish[/B][/COLOR]</name>
 <m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV.m3u</m3u>
 <fanart></fanart>
