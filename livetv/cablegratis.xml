@@ -1,76 +1,749 @@
-<item>
-    <title>Paises </title>
-    <link>$doregex[countrys]</link>
-    <regex>
-        <name>countrys</name>
-        <listrepeat><![CDATA[
-<title>[countrys.param1]</title>
-<link>$doregex[get_country]</link>
-        ]]></listrepeat>
-        <expres><![CDATA[#$pyFunction
-import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUJnQUFBRUFBQUFCejJBQUFBR1FBQUdRQkFHd0FBRm9BQUdRQUFHUUJBR3dCQUZvQkFHUUFBR1FCQUd3Q0FGb0NBR1FBQUdRQkFHd0RBRm9EQUdRQUFHUUJBR3dFQUZvRUFHUUFBR1FDQUd3RkFHMEdBRm9HQUFGa0FBQmtBd0JzQlFCdEJ3QmFCd0FCWkFBQVpBRUFiQWdBV2dnQVpBQUFaQUVBYkFrQVdna0FaQUFBWkFFQWJBb0FXZ29BWlFrQWFnc0Fnd0FBYWd3QVdnMEFaQVFBWkFVQVpBWUFaQWNBWkFnQVpBa0Fad1lBV2c0QVp3QUFXZzhBWlFvQWFoQUFnd0FBV2hFQVpRNEFaUThBWkFvQWhBSUFXaElBWlJNQVpBc0FoQUVBV2hRQVpBRUFVeWdNQUFBQWFmLy8vLzlPS0FFQUFBQjBDZ0FBQUhGMWIzUmxYM0JzZFhNb0FRQUFBSFFKQUFBQWRYSnNaVzVqYjJSbGRCWUFBQUJyV2pGak1teDJZbXhTTWt4c1NteGpXRlpzWXpOUmN4WUFBQUJ0ZUhCa2JWVjFZek5TZVZwWFJuUmpNMEo1WW5jOWRBOEFBQUJ0VG5saFdFNHdXVmQ0YUdWdVZuTnpEZ0FBQUd0YU1XTXliSFppYXpsNVduYzlkQmNBQUFCdGVIQmtiVlYxWXpOU2VWcFhSblJTYmxaNllWYzVkWE1TQUFBQWExb3hZekpzZG1KcE5WQmpiV1EyWWxFOVl3SUFBQUFEQUFBQUJRQUFBRU1BQUFCelVnQUFBSGdzQUh3QUFFUmRKQUI5QWdCOEFRQjBBQUJxQVFCa0FRQjhBZ0FYWkFJQUY0TUJBR2NCQURkOUFRQnhCd0JYZEFJQVpBTUFnd0VBZkFFQWF3WUFjazRBZEFBQWFnRUFaQVlBZ3dFQVUzUURBRk1vQndBQUFFNTBFUUFBQUdOSGVERmFNbXgxVEc1YWNGcEhWblpNZEFFQUFBQTlkQUlBQUFCcFpITUhBQUFBVmtoS01WcFJQWE1JQUFBQVZraEtNVnBSUFQxekNRQUFBRlpJU2pGYVVUMDlQU2dFQUFBQWRBWUFBQUJpWVhObE5qUjBDUUFBQUdJMk5HUmxZMjlrWlhRSkFBQUFZV1JrYjI1SmJtWnZkQVVBQUFCR1lXeHpaU2dEQUFBQWRBUUFBQUJoYm5OamRBTUFBQUJoYm5OMEVRQUFBRTlQVDA4d1R6QlBNREJQVHpBd1QwOHdLQUFBQUFBb0FBQUFBSE1HQUFBQWMyTnlhWEIwZEFFQUFBQndEd0FBQUhNS0FBQUFBQUVOQVNJQkVnRU5BV01FQUFBQUNnQUFBQWdBQUFCREFBQUFjLzRBQUFCbkFBQjlCQUJrQVFCOUJRQjBBQUJxQVFCOEJRQmtBZ0JwQVFCa0F3QmtCQUEyWkFVQWFRRUFkQUlBWkFZQWd3RUFaQWNBTm9NQkFtb0RBSDBBQUh3QUFHb0VBR1FJQUdRSkFJTUNBSDBBQUhRRkFHb0dBR1FLQUh3QUFIUUZBR29IQUlNREFIMEdBSGh6QUh3R0FFUmRhd0I5QndCMEJRQnFCZ0JrQ3dCOEJ3QjBCUUJxQndDREF3QjlDQUI0U2dCOENBQkVYVUlBZlFrQWZBa0FaQWtBYXdNQWNwUUFmQWtBYWdnQVpBd0Fnd0VBZlFnQWVCNEFmQWdBUkYwVEFIMEpBSHdFQUh3SkFHY0JBRGQ5QkFCeHZBQlhjWlFBY1pRQVYzRnZBRmQwQ1FCMENnQjhCQUNEQVFDREFRQjlCQUI4QkFCcUN3Q0RBQUFCZkFRQVV5Z05BQUFBVG5NaUFBQUFhSFIwY0hNNkx5OW1kWE5wYjI1dmNtY3VibVYwTDNSMkwybHVaR1Y0TG5Cb2NIUUVBQUFBWkdGMFlYUUpBQUFBWTI5MWJuUnlhV1Z6ZEFZQUFBQmhZM1JwYjI1MEJ3QUFBR2hsWVdSbGNuTlNCd0FBQUhNS0FBQUFWWE5sY2kxQloyVnVkSE1CQUFBQUNuUUFBQUFBY3h3QUFBQThZMjkxYm5SeWFXVnpQaWd1S2o4cFBDOWpiM1Z1ZEhKcFpYTStjeG9BQUFCcFpEMG5ZMjkxYm5SeWVTY2dkbUZzZFdVOUp5Z3VLajhwSjNRQkFBQUFMQ2dNQUFBQWRBZ0FBQUJ5WlhGMVpYTjBjM1FFQUFBQWNHOXpkRklLQUFBQWRBY0FBQUJqYjI1MFpXNTBkQWNBQUFCeVpYQnNZV05sZEFJQUFBQnlaWFFIQUFBQVptbHVaR0ZzYkhRQkFBQUFTWFFGQUFBQWMzQnNhWFIwQkFBQUFHeHBjM1IwQXdBQUFITmxkSFFFQUFBQWMyOXlkQ2dLQUFBQWRCRUFBQUJQVDA4d1R6QXdUekF3VHpCUE1FOVBUM1FSQUFBQVR6QlBNRTlQTURCUFR6QlBUekF3VHpCMEVRQUFBRTh3VHpCUE1EQlBNREJQTUU4d1QwOVBkQVFBQUFCMGVYQmxkQkVBQUFCUFR6QXdUekJQVHpBd01FOVBUMDlQTUhRUkFBQUFUekF3VHpCUFR6QXdUekF3VHpBd01EQjBFUUFBQUU5UE1FOVBNRTh3TUU5UE1EQXdUekJQZEJFQUFBQlBNREF3TUU4d1R6QlBUekF3TUU5UE1IUVJBQUFBVHpCUE1FOHdUekJQTUU4d1R6QlBNREIwRVFBQUFFOVBNREJQVDA4d01FOVBUekJQVHpBd0tBQUFBQUFvQUFBQUFITUdBQUFBYzJOeWFYQjBkQXdBQUFCSFpYUk1VMUJ5YjBSaGRHRVZBQUFBY3g0QUFBQUFBUVlCQmdFeUFSSUJHQUVOQVJnQkRRRU1BUThCRFFFY0FSSUJDZ0VvRlFBQUFGSUlBQUFBZEFJQUFBQnZjMUlhQUFBQVVoWUFBQUIwQkFBQUFIUnBiV1YwQmdBQUFIVnliR3hwWWxJQUFBQUFVZ0VBQUFCMEJBQUFBSGhpYldOMENRQUFBSGhpYldOaFpHUnZiblFIQUFBQWVHSnRZMmQxYVhRRkFBQUFRV1JrYjI1MERBQUFBR2RsZEVGa1pHOXVTVzVtYjFJS0FBQUFVZ3dBQUFCU0RRQUFBSFFHQUFBQVJHbGhiRzluZEFZQUFBQmthV0ZzYjJkU0R3QUFBRklrQUFBQVVpc0FBQUFvQUFBQUFDZ0FBQUFBS0FBQUFBQnpCZ0FBQUhOamNtbHdkSFFJQUFBQVBHMXZaSFZzWlQ0QkFBQUFjeDRBQUFBTUFRd0JEQUVNQVF3QkVBRVFBUXdCREFFTUFROEJHQUVHQVF3QkR3WT0iKSkp"))
-]]></expres>
-        <page></page>
-    </regex>
-   
-        <regex>
-        <name>get_country</name>
-        <listrepeat><![CDATA[
-<title>[get_country.param1]</title>
-<thumbnail>[get_country.param2]</thumbnail>
-<fanart>[get_country.param3]</fanart>
-<info>[get_country.param4]</info>
-<genere>[get_country.param5]</genere>
-<link>$doregex[get_channel]</link>
-        ]]></listrepeat>
-        <expres><![CDATA[#$pyFunction
-       
-country = '[countrys.param1]'
-       
-import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUJnQUFBRUFBQUFCejJ3QUFBR1FBQUdRQkFHd0FBRm9BQUdRQUFHUUJBR3dCQUZvQkFHUUFBR1FCQUd3Q0FGb0NBR1FBQUdRQkFHd0RBRm9EQUdRQUFHUUJBR3dFQUZvRUFHUUFBR1FDQUd3RkFHMEdBRm9HQUFGa0FBQmtBd0JzQlFCdEJ3QmFCd0FCWkFBQVpBRUFiQWdBV2dnQVpBQUFaQUVBYkFrQVdna0FaQUFBWkFFQWJBb0FXZ29BWlFrQWFnc0Fnd0FBYWd3QVdnMEFaQVFBWkFVQVpBWUFaQWNBWkFnQVpBa0Fad1lBV2c0QVp3QUFXZzhBWlFvQWFoQUFnd0FBV2hFQVpRNEFaUThBWkFvQWhBSUFXaElBWlJNQVpSUUFaQXNBaEFJQVdoVUFaQUVBVXlnTUFBQUFhZi8vLy85T0tBRUFBQUIwQ2dBQUFIRjFiM1JsWDNCc2RYTW9BUUFBQUhRSkFBQUFkWEpzWlc1amIyUmxkQllBQUFCcldqRmpNbXgyWW14U01reHNTbXhqV0Zac1l6TlJjeFlBQUFCdGVIQmtiVlYxWXpOU2VWcFhSblJqTTBKNVluYzlkQThBQUFCdFRubGhXRTR3V1ZkNGFHVnVWbk56RGdBQUFHdGFNV015YkhaaWF6bDVXbmM5ZEJjQUFBQnRlSEJrYlZWMVl6TlNlVnBYUm5SU2JsWjZZVmM1ZFhNU0FBQUFhMW94WXpKc2RtSnBOVkJqYldRMllsRTlZd0lBQUFBREFBQUFCUUFBQUVNQUFBQnpVZ0FBQUhnc0FId0FBRVJkSkFCOUFnQjhBUUIwQUFCcUFRQmtBUUI4QWdBWFpBSUFGNE1CQUdjQkFEZDlBUUJ4QndCWGRBSUFaQU1BZ3dFQWZBRUFhd1lBY2s0QWRBQUFhZ0VBWkFZQWd3RUFVM1FEQUZNb0J3QUFBRTUwRVFBQUFHTkhlREZhTW14MVRHNWFjRnBIVm5aTWRBRUFBQUE5ZEFJQUFBQnBaSE1IQUFBQVZraEtNVnBSUFhNSUFBQUFWa2hLTVZwUlBUMXpDUUFBQUZaSVNqRmFVVDA5UFNnRUFBQUFkQVlBQUFCaVlYTmxOalIwQ1FBQUFHSTJOR1JsWTI5a1pYUUpBQUFBWVdSa2IyNUpibVp2ZEFVQUFBQkdZV3h6WlNnREFBQUFkQVFBQUFCaGJuTmpkQU1BQUFCaGJuTjBFUUFBQUU5UFQwOVBNREJQTUU5UE1FOVBUMDh3S0FBQUFBQW9BQUFBQUhNR0FBQUFjMk55YVhCMGRBRUFBQUJ3RHdBQUFITUtBQUFBQUFFTkFTSUJFZ0VOQVdNRkFBQUFEd0FBQUFrQUFBQkRBQUFBYzVzQkFBQm5BQUI5QlFCa0FRQjlCZ0IwQUFCcUFRQjhCZ0JrQWdCcEFnQmtBd0JrQkFBMmZBUUFaQVVBTm1RR0FHa0JBSFFDQUdRSEFJTUJBR1FJQURhREFRSnFBd0I5QUFCOEFBQnFCQUJrQ1FCa0NnQ0RBZ0I5QUFCMEJRQnFCZ0JrQ3dCOEFBQjBCUUJxQndDREF3QjlCd0I0SlFGOEJ3QkVYUjBCZlFnQWRBVUFhZ1lBWkF3QWZBZ0FkQVVBYWdjQWd3TUFaQTBBR1gwSkFIUUZBR29HQUdRT0FId0lBSFFGQUdvSEFJTURBR1FOQUJsOUNnQjBCUUJxQmdCa0R3QjhDQUIwQlFCcUJ3Q0RBd0JrRFFBWmZRc0FkQVVBYWdZQVpCQUFmQWdBZEFVQWFnY0Fnd01BWkEwQUdYME1BSFFGQUdvR0FHUVJBSHdJQUhRRkFHb0hBSU1EQUdRTkFCbDlEUUIwQlFCcUJnQmtFZ0I4Q0FCMEJRQnFCd0NEQXdCa0RRQVpmUTRBZEFVQWFnWUFaQk1BZkFnQWRBVUFhZ2NBZ3dNQVpBMEFHWDBFQUh3RkFId0tBSHdMQUh3TUFId09BR29FQUdRVUFHUVZBSU1DQUdRV0FCZDhEUUJxQkFCa0ZBQmtGUUNEQWdBWFpCWUFGM3dFQUdvRUFHUVVBR1FWQUlNQ0FCZDhEUUI4Q1FCbUJnQm5BUUEzZlFVQWNYWUFWM3dGQUZNb0Z3QUFBRTV6SWdBQUFHaDBkSEJ6T2k4dlpuVnphVzl1YjNKbkxtNWxkQzkwZGk5cGJtUmxlQzV3YUhCMEJBQUFBR1JoZEdGMENRQUFBR052ZFc1MGNtbGxjM1FHQUFBQVlXTjBhVzl1ZEFjQUFBQmpiM1Z1ZEhKNWRBY0FBQUJvWldGa1pYSnpVZ2NBQUFCekNnQUFBRlZ6WlhJdFFXZGxiblJ6QVFBQUFBcDBBQUFBQUhNYUFBQUFQR05vWVc1dVpXeHpQaWd1S2o4cFBDOWphR0Z1Ym1Wc2N6NXpGUUFBQUdsa1BTZHBaQ2NnZG1Gc2RXVTlKeWd1S2o4cEoya0FBQUFBY3hjQUFBQnBaRDBuYm1GdFpTY2dkbUZzZFdVOUp5Z3VLajhwSjNNWEFBQUFhV1E5SjJsamIyNG5JSFpoYkhWbFBTY29MaW8vS1NkekdRQUFBR2xrUFNkbVlXNWhjblFuSUhaaGJIVmxQU2NvTGlvL0tTZHpHZ0FBQUdsa1BTZGpiMjUwWlc1MEp5QjJZV3gxWlQwbktDNHFQeWtuY3hjQUFBQnBaRDBuYkdGdVp5Y2dkbUZzZFdVOUp5Z3VLajhwSjNNYUFBQUFhV1E5SjJOdmRXNTBjbmtuSUhaaGJIVmxQU2NvTGlvL0tTZDBBUUFBQUN4ekFnQUFBQ3dnY3dRQUFBQmJRMUpkS0FnQUFBQjBDQUFBQUhKbGNYVmxjM1J6ZEFRQUFBQndiM04wVWdvQUFBQjBCd0FBQUdOdmJuUmxiblIwQndBQUFISmxjR3hoWTJWMEFnQUFBSEpsZEFjQUFBQm1hVzVrWVd4c2RBRUFBQUJKS0E4QUFBQjBFUUFBQUU4d01FOHdNRTh3TUU4d01FOVBUekJQZEJFQUFBQlBUMDh3TUU4d1R6QlBNREJQTUU5UE1IUVJBQUFBVDA5UE1FOVBNREJQTURBd1QwOVBUMDkwQkFBQUFIUjVjR1ZTRXdBQUFIUVJBQUFBVDA4d1QwOHdNRTh3VHpBd01FOHdNREIwRVFBQUFFOVBNRTh3TUU4d01EQlBUekJQVHpBd2RCRUFBQUJQVHpCUFR6QXdNRTh3TUU5UFR6QlBUM1FSQUFBQVR6QlBNRTlQTUU5UFR6QXdNREF3VHpCMEVRQUFBRTlQVDA4d01FOHdUMDlQVHpBd1R6QXdkQkVBQUFCUFQwOVBUekJQTUU4d1R6QXdNRTlQTUhRUkFBQUFUMDh3TUU4d01FOHdUekJQTUU4d01EQjBFUUFBQUU4d01EQXdNREF3VHpCUE1EQlBNREF3ZEJFQUFBQlBNREF3TUU5UFQwOVBNREJQVDA5UE1IUVJBQUFBVDA5UE1EQXdNREJQTURCUFR6QlBUekFvQUFBQUFDZ0FBQUFBY3dZQUFBQnpZM0pwY0hSMERBQUFBRWRsZEV4VFVISnZSR0YwWVJVQUFBQnpIZ0FBQUFBQkJnRUdBVGtCRWdFWUFRMEJIQUVjQVJ3QkhBRWNBUndCSEFGWEFTZ1dBQUFBVWdnQUFBQjBBZ0FBQUc5elVoc0FBQUJTRndBQUFIUUVBQUFBZEdsdFpYUUdBQUFBZFhKc2JHbGlVZ0FBQUFCU0FRQUFBSFFFQUFBQWVHSnRZM1FKQUFBQWVHSnRZMkZrWkc5dWRBY0FBQUI0WW0xalozVnBkQVVBQUFCQlpHUnZiblFNQUFBQVoyVjBRV1JrYjI1SmJtWnZVZ29BQUFCU0RBQUFBRklOQUFBQWRBWUFBQUJFYVdGc2IyZDBCZ0FBQUdScFlXeHZaMUlQQUFBQVVpRUFBQUJTRXdBQUFGSXNBQUFBS0FBQUFBQW9BQUFBQUNnQUFBQUFjd1lBQUFCelkzSnBjSFIwQ0FBQUFEeHRiMlIxYkdVK0FRQUFBSE1lQUFBQURBRU1BUXdCREFFTUFSQUJFQUVNQVF3QkRBRVBBUmdCQmdFTUFROEciKSkp"))
-]]></expres>
-        <page></page>
-    </regex>
-   
-    <regex>
-        <name>get_channel</name>
-        <expres><![CDATA[#$pyFunction
-       
-id = '[get_country.param6]'
-       
-import base64;exec(base64.b64decode("aW1wb3J0IG1hcnNoYWw7ZXhlYyhtYXJzaGFsLmxvYWRzKGJhc2U2NC5iNjRkZWNvZGUoIll3QUFBQUFBQUFBQUJnQUFBRUFBQUFCejhBQUFBR1FBQUdRQkFHd0FBRm9BQUdRQUFHUUJBR3dCQUZvQkFHUUFBR1FCQUd3Q0FGb0NBR1FBQUdRQkFHd0RBRm9EQUdRQUFHUUJBR3dFQUZvRUFHUUFBR1FCQUd3RkFGb0ZBR1FBQUdRQ0FHd0dBRzBIQUZvSEFBRmtBQUJrQXdCc0JnQnRDQUJhQ0FBQlpBQUFaQUVBYkFZQVdnWUFaQUFBWkFFQWJBa0FXZ2tBWkFBQVpBRUFiQW9BV2dvQVpBQUFaQUVBYkFzQVdnc0FaUW9BYWd3QWd3QUFhZzBBV2c0QVpBUUFaQVVBWkFZQVpBY0FaQWdBWkFrQVp3WUFXZzhBWndBQVdoQUFaUXNBYWhFQWd3QUFXaElBWlE4QVpSQUFaQW9BaEFJQVdoTUFaUlFBWkFzQWhBRUFXaFVBWkFFQVV5Z01BQUFBYWYvLy8vOU9LQUVBQUFCMENnQUFBSEYxYjNSbFgzQnNkWE1vQVFBQUFIUUpBQUFBZFhKc1pXNWpiMlJsZEJZQUFBQnJXakZqTW14MllteFNNa3hzU214aldGWnNZek5SY3hZQUFBQnRlSEJrYlZWMVl6TlNlVnBYUm5Sak0wSjVZbmM5ZEE4QUFBQnRUbmxoV0U0d1dWZDRhR1Z1Vm5OekRnQUFBR3RhTVdNeWJIWmlhemw1V25jOWRCY0FBQUJ0ZUhCa2JWVjFZek5TZVZwWFJuUlNibFo2WVZjNWRYTVNBQUFBYTFveFl6SnNkbUpwTlZCamJXUTJZbEU5WXdJQUFBQURBQUFBQlFBQUFFTUFBQUJ6VWdBQUFIZ3NBSHdBQUVSZEpBQjlBZ0I4QVFCMEFBQnFBUUJrQVFCOEFnQVhaQUlBRjRNQkFHY0JBRGQ5QVFCeEJ3QlhkQUlBWkFNQWd3RUFmQUVBYXdZQWNrNEFkQUFBYWdFQVpBWUFnd0VBVTNRREFGTW9Cd0FBQUU1MEVRQUFBR05IZURGYU1teDFURzVhY0ZwSFZuWk1kQUVBQUFBOWRBSUFBQUJwWkhNSEFBQUFWa2hLTVZwUlBYTUlBQUFBVmtoS01WcFJQVDF6Q1FBQUFGWklTakZhVVQwOVBTZ0VBQUFBZEFZQUFBQmlZWE5sTmpSMENRQUFBR0kyTkdSbFkyOWtaWFFKQUFBQVlXUmtiMjVKYm1admRBVUFBQUJHWVd4elpTZ0RBQUFBZEFRQUFBQmhibk5qZEFNQUFBQmhibk4wRVFBQUFFOVBUMDlQVDA5UE1FOHdUekJQVHpCUEtBQUFBQUFvQUFBQUFITUdBQUFBYzJOeWFYQjBkQUVBQUFCd0VRQUFBSE1LQUFBQUFBRU5BU0lCRWdFTkFXTUVBQUFBRGdBQUFBZ0FBQUJEQUFBQWM2MERBQUJrQVFCOUJBQjBBQUJxQVFCOEJBQmtBZ0JwQWdCMEFnQmtBd0EyWkFRQVpBVUFObVFHQUdrQkFIUURBR1FEQUlNQkFHUUhBRGFEQVFKcUJBQjlBQUI4QUFCcUJRQmtDQUJrQ1FDREFnQjlBQUIwQmdCcUJ3QmtDZ0I4QUFCMEJnQnFDQUNEQXdCa0N3QVpmUVVBZEFrQWFnb0FkQVlBYWdjQVpBd0FmQVVBZEFZQWFnZ0Fnd01BWkFzQUdZTUJBSDBHQUhRSkFHb0tBSFFHQUdvSEFHUU5BSHdGQUhRR0FHb0lBSU1EQUdRTEFCbURBUUI5QndCMENRQnFDZ0IwQmdCcUJ3QmtEZ0I4QlFCMEJnQnFDQUNEQXdCa0N3QVpnd0VBZlFnQWFRRUFaQThBWkFjQU5uMEpBSHdIQUdRSkFHc0RBSElDQVh3SEFId0pBR1FRQUR4dUFBQjhDQUJrQ1FCckF3QnlHd0Y4QndCOENRQmtFUUE4YmdBQVpCSUFmQVlBYXdZQWNua0RaQk1BZkFrQVpBY0FQSFFKQUdvS0FIUUdBR29IQUdRVUFId0ZBSFFHQUdvSUFJTURBR1FMQUJtREFRQjlDZ0IwQUFCcUN3QjhDZ0JrQmdCOENRQ0RBUUVCZEFBQWFnc0FmQVlBWkFZQWZBa0FaQlVBWkFzQWd3RUNmUXNBZkFzQWFnd0FhZ3NBWkJZQVpBQUFnd0lBZlF3QWZBd0FjN1FCZkFzQWFnNEFkQUFBYWc4QWFoQUFhd01BY25rRFpCY0FmQXdBYXdZQWM4OEJmQXNBYWc0QVpCZ0Fhd0lBY25ZRGRBQUFhZ0VBWkFFQVpBSUFhUUlBWkJrQVpBVUFObVFTQUdRYUFEWmtCZ0JwQVFCMEF3QmtBd0NEQVFCa0J3QTJnd0VDQVhRUkFHb1FBR1FiQUdRY0FJTUNBQUYwQUFCcUN3QmtIUUJrQmdCcEJRQmtIZ0JrSHdBMlpDQUFaQ0VBTm1RaUFHUWpBRFprSkFCa0pRQTJaQk1BWkFjQU5vTUJBWDBOQUh3TkFHb09BSFFBQUdvUEFHb1FBR3NDQUhKekEzd05BR29FQUgwTkFIbjVBSFFTQUdvVEFId05BSU1CQUgwTkFId05BR1FtQUJsa0p3QnJBZ0J5WVFOOERRQnFDd0JrS0FCcEFRQmtDUUJrS1FBMlp3RUFnd0lBWkFzQUdYME5BSHdOQUdvTEFHUXBBR1FKQUlNQ0FIME5BR1FTQUh3TkFHc0dBSEpoQTNRR0FHb0hBR1FxQUh3TkFIUUdBR29JQUlNREFIME5BSFFVQUh3TkFJTUJBR1FMQUdzRUFISlhBM1FBQUdvTEFId0VBR1FyQUdrQ0FHUXNBR1FGQURaMENRQnFGUUIwQ1FCcUZRQjhEUUJrQ3dBWmd3RUFnd0VBWkMwQU5tUUdBR2tCQUhRREFHUURBSU1CQUdRSEFEYURBUUlCZEFBQWFnc0FmQTBBWkFzQUdXUUdBSHdKQUlNQkFRRnhYZ05rQ1FCVGNXRURiZ0FBVjNGd0F3RUJBV1FKQUZOWWNYTURjWFlEY1hrRGJnQUFaQzRBZkFZQWF3WUFjcElEWkM4QWZBa0FaQWNBUEc0QUFHUXdBSFFXQUdvWEFId0pBSU1CQUJkOUNRQjhCZ0I4Q1FBWFV5Z3hBQUFBVG5NaUFBQUFhSFIwY0hNNkx5OW1kWE5wYjI1dmNtY3VibVYwTDNSMkwybHVaR1Y0TG5Cb2NIUUVBQUFBWkdGMFlWSUhBQUFBZEFjQUFBQmphR0Z1Ym1Wc2RBWUFBQUJoWTNScGIyNTBCd0FBQUdobFlXUmxjbk56Q2dBQUFGVnpaWEl0UVdkbGJuUnpBUUFBQUFwMEFBQUFBSE1ZQUFBQVBHTm9ZVzV1Wld3K0tDNHFQeWs4TDJOb1lXNXVaV3crYVFBQUFBQnpGZ0FBQUdsa1BTZHNjM1FuSUhaaGJIVmxQU2NvTGlvL0tTZHpGZ0FBQUdsa1BTZHlibVFuSUhaaGJIVmxQU2NvTGlvL0tTZHpGZ0FBQUdsa1BTZHZjbVFuSUhaaGJIVmxQU2NvTGlvL0tTZHpjUUFBQUUxdmVtbHNiR0V2TlM0d0lDaFhhVzVrYjNkeklFNVVJRFl1TWpzZ1YybHVOalE3SUhnMk5Da2dRWEJ3YkdWWFpXSkxhWFF2TlRNM0xqTTJJQ2hMU0ZSTlRDd2diR2xyWlNCSFpXTnJieWtnUTJoeWIyMWxMemN6TGpBdU16WTRNeTQzTlNCVFlXWmhjbWt2TlRNM0xqTTJkQWNBQUFCU1pXWmxjbVZ5ZEFZQUFBQlBjbWxuYVc1ekN3QUFBRzFwWTJsdVpTNWpiSFZpY3cwQUFBQnZhMmgwZEhBdk15NHhNaTR3Y3hZQUFBQnBaRDBuWTNSb0p5QjJZV3gxWlQwbktDNHFQeWtuZEE4QUFBQmhiR3h2ZDE5eVpXUnBjbVZqZEhOMENBQUFBR3h2WTJGMGFXOXVjd29BQUFCdGFXTnBibVV1YlhBMGFTNEJBQUIwQmdBQUFISmxjRzl5ZEhRR0FBQUFjMlZ5ZG1WeWN4TUFBQUJHZFhOcGIyNVBjbWN1VkZaU1pYRjFaWE4wYzEwQUFBQk9ieUJ6WlNCd2RXUnZJSEpsYzI5c2RtVnlJR1ZzSUd4cGJtc3NJRlJ5WVhSaGJtUnZJR1JsSUhKbGMyOXNkbVZ5Ykc4dUxpNWJRMUpkVTJrZ1pXd2djSEp2WW14bGJXRWdjR1Z5YzJsemRHVXNJSEpsY0c5eWRHRnliRzl6ZGdBQUFHaDBkSEJ6T2k4dlkybHVaV05zZFdJdWVIbDZMM0JoYm1Wc015OHZZWEJwTDJkbGRGOXdiM04wY3k4L1lYQnBYMnRsZVQxalpHRXhNWGsyTW05VmNuaFhSbVJMV25ORFRXZ3hhVXhxYTBwUlpUUnVTRmhuVUU1WmRrUmlZVEIzYkhGVWNGTTVZeVp3WVdkbFBURW1ZMjkxYm5ROU1UVnpDUUFBQUcxaGVDMWhaMlU5TUhNTkFBQUFRMkZqYUdVdFEyOXVkSEp2YkhNS0FBQUFWR2hsSUZOMGNtVmhiWE1LQUFBQVJHRjBZUzFCWjJWdWRITUtBQUFBUzJWbGNDMUJiR2wyWlhRS0FBQUFRMjl1Ym1WamRHbHZiblFFQUFBQVozcHBjSE1QQUFBQVFXTmpaWEIwTFVWdVkyOWthVzVuZEFZQUFBQnpkR0YwZFhOMEFnQUFBRzlyZEFVQUFBQndiM04wYzNRVEFBQUFZMmhoYm01bGJGOWtaWE5qY21sd2RHbHZibk1OQUFBQUtHaDBkSEF1S2o4dWNHaHdLWFFHQUFBQWNHRnlZVzF6ZEFvQUFBQjFjR1JoZEdWZmJXTmpkQU1BQUFCdFkyTnpCd0FBQUc5MGRDMWpaRzUwQkFBQUFFbHdZV1IwQVFBQUFId29HQUFBQUhRSUFBQUFjbVZ4ZFdWemRITjBCQUFBQUhCdmMzUlNCd0FBQUZJS0FBQUFkQWNBQUFCamIyNTBaVzUwZEFjQUFBQnlaWEJzWVdObGRBSUFBQUJ5WlhRSEFBQUFabWx1WkdGc2JIUUJBQUFBU1ZJSUFBQUFVZ2tBQUFCMEF3QUFBR2RsZEZJVEFBQUFkQVFBQUFCT2IyNWxkQXNBQUFCemRHRjBkWE5mWTI5a1pYUUZBQUFBWTI5a1pYTlNIZ0FBQUhRR0FBQUFaR2xoYkc5bmRBUUFBQUJxYzI5dWRBVUFBQUJzYjJGa2MzUURBQUFBYkdWdWRBa0FBQUJpTmpSbGJtTnZaR1YwQmdBQUFIVnliR3hwWWxJQkFBQUFLQTRBQUFCMEVRQUFBRTh3TUU4d1QwOVBUMDh3TUU4d01EQlBkQkVBQUFCUFR6QXdUekF3VDA4d01EQXdNREJQVDNRUkFBQUFUekJQVDA5UFQwOVBNRTh3TURCUE1EQjBCQUFBQUhSNWNHVjBFUUFBQUU5UE1EQlBNREF3TURCUFR6QlBNRTh3ZEJFQUFBQlBNRTlQVHpBd1R6QXdUMDlQTUU5UFQzUVJBQUFBVDA4d1R6QlBNRTh3TUU4d1R6QlBNRTkwRVFBQUFFOHdUMDlQVDA4d01EQXdNRTh3VHpBd2RCRUFBQUJQTURCUFQwOHdNREJQVDA4d1QwOHdNSFFSQUFBQVQwOVBUekF3TURBd1QwOHdNRTh3TURCMEVRQUFBRTh3VDA5UE1EQXdUekJQVDA4d01FOVBkQkVBQUFCUE1EQlBUekJQVDA5UE1FOVBUMDh3VDNRUkFBQUFUMDh3VDA5UE1FOVBNREF3TUU4d01FOTBFUUFBQUU4d1QwOVBNREJQVDA4d01EQlBUMDlQS0FBQUFBQW9BQUFBQUhNR0FBQUFjMk55YVhCMGRBd0FBQUJIWlhSTVUxQnliMFJoZEdFWEFBQUFjMVFBQUFBQUFRWUJPUUVTQVJ3QkpRRWxBU1VCRFFFTUFRMEJEQUVOQVF3QkNnRWxBUk1CR3dFVkFSc0JHd0UwQVJBQk9BRVZBUWtCQXdFUEFSQUJJQUVTQVF3QkdBRVNBVW9CR2dJT0FRTUJFUUVNQVEwQkV3RW9GZ0FBQUZJSUFBQUFVaklBQUFCMEFnQUFBRzl6VWlvQUFBQlNKZ0FBQUhRRUFBQUFkR2x0WlZJMkFBQUFVZ0FBQUFCU0FRQUFBSFFFQUFBQWVHSnRZM1FKQUFBQWVHSnRZMkZrWkc5dWRBY0FBQUI0WW0xalozVnBkQVVBQUFCQlpHUnZiblFNQUFBQVoyVjBRV1JrYjI1SmJtWnZVZ29BQUFCU0RBQUFBRklOQUFBQWRBWUFBQUJFYVdGc2IyZFNNUUFBQUZJUEFBQUFVam9BQUFCU1JRQUFBQ2dBQUFBQUtBQUFBQUFvQUFBQUFITUdBQUFBYzJOeWFYQjBkQWdBQUFBOGJXOWtkV3hsUGdFQUFBQnpJZ0FBQUF3QkRBRU1BUXdCREFFTUFSQUJFQUVNQVF3QkRBRU1BUThCR0FFR0FRd0JEd1k9IikpKQ=="))
-]]></expres>
-        <page></page>
-    </regex>
-</item>
- 
-
 <plugin>
-<title>LAS ESTRELLAS</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/yolmoo963yo&amp;referer=https://www.televisiongratishd.com</link>
-<thumbnail></thumbnail>
-</plugin>
-
-<plugin>
-<title>AZTECA 7</title>
+<title>[B][COLOR yellow]AZTECA 7 [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nl142axqap&amp;referer=https://www.televisiongratishd.com</link>
-<thumbnail></thumbnail>
+<thumbnail>https://www.televisiongratishd.com/img/azteca7.png</thumbnail>
 </plugin>
 
 <plugin>
-<title>CANAL 5</title>
+<title>[B][COLOR yellow]CANAL 5 [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rqoty6lhafz4c&amp;referer=https://www.televisiongratishd.com</link>
-<thumbnail></thumbnail>
+<thumbnail>https://www.televisiongratishd.com/img/canal5.png</thumbnail>
 </plugin>
 
 <plugin>
-<title>TMAGEN TV</title>
+<title>[B][COLOR yellow]TUDN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nl142axqap&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tudn.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LATINA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2mqjq13ry89lsv4&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/latina.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AMERICA TV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/hfs25pgcjpj&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/americatv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GOLPERU [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/w8i100w4&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/golperu.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GOL TV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y1qrhvyuvph&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/goltv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]WIN SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/et8vww&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/winsports.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TNT SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/45aea9c7vwmrc&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tntsports.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS PREMIUM [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/03n9ponh&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsportspremium.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TYC SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1xeq5q3d1v1nsbq&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tycsports.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/z5lt46j&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsports.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/67321d7y&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsports2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS 3 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/77dtt91dj5vz5h&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsports3.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN DEPORTES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/oeokyx3g946nz&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espndeportes.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN PLUS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bh9i2&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espnplus.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/lz7impzvm68&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espn.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6x2hyp2o&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espn2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN 3 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/r4ytqwa3&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espn3.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DIRECTV SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/e22ikhoklfgl5zn&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/directvsports.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DIRECTV SPORTS 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xl27bc&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/directvsports2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]BEIN LA LIGA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xvszxjlw5aa&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/beinlaliga.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/wmt1ookhfyiz&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsportsmexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS 2 MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nn2jznc5wwr2d&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsports2mexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX SPORTS 3 MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/69aw3xnirxub1&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxsports3mexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qf1qpeygz&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espnmexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN 2 MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/gyxl4rt&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espn2mexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ESPN 3 MEXICO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/410h13gh&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/espn3mexico.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]IZZI AFIZZIONADOS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6uorevoc&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/afizzionados.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/liqi158i6t&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hbo.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/w4r75r3i9&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hbo2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX PREMIUM ACTION [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/n42k42q&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxpremiumaction.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX PREMIUM SERIES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ksexnsy7&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxpremiumseries.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]SPACE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ahd138j5ou0819g&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/space.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]WARNERBROSTV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rc9fntv&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/warnerbrostv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TNT [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/14zot7ix1j24gn6&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tnt.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/esoncv2554uj4x&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/fox.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CINEMAX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ymalkyu&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/cinemax.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CINECANAL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ido2exlbw2h&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/cinecanal.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]SYFY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/e0q635t14060m&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/syfy.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TELEFE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bkb0hq4if5jmsq8&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/telefe.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISTRITO COMEDIA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/evv7byh95ht&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/distritocomedia.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TELEMUNDO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/learfrfaw3gwez&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/telemundo.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HISTORY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/sl7lltju7plx&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/history.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HISTORY 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/0m9ce&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/history2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]PASIONES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ib2w7oq&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/pasiones.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AZTECA UNO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ynrput0pol6h&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/aztecauno.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AZ MUNDO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1h4bbcxzy5hyz06&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/azmundo.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AZ CINEMA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xgzjemmc029&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/azcinema.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GALAVISION [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1jsxty&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/galavision.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TLNOVELAS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1rh525v6au6962&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tlnovelas.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LAS ESTRELLAS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/yolmoo963yo&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/lasestrellas.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CARACOL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4tmrmd&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/caracol.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TVC DEPORTES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6ot7mye7d&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tvcdeportes.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ATV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/cnll0nnczx&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/atv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]UNIVISION [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ulxk9y&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/univision.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]UNICABLE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bv1a32ah1l&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/unicable.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]UNIMAS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6f92fp0pfo&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/unimas.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]IMAGEN TV [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1kv6gwzm&amp;referer=https://www.televisiongratishd.com</link>
-<thumbnail></thumbnail>
+<thumbnail>https://www.televisiongratishd.com/img/imagentv.png</thumbnail>
 </plugin>
 
 <plugin>
-<title>TEST</title>
-<link>https://wstream.to/embed/yolmoo963yo&amp;referer=https://www.televisiongratishd.com</link>
-<thumbnail></thumbnail>
+<title>[B][COLOR yellow]CNN ESPANOL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/smc6hmn7tnzh&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/cnnespanol.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]RT NOTICIAS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/zm90dryf&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/rtnoticias.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX PREMIUM MOVIES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/hwz8mxkvyip&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxpremiummovies.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX PREMIUM FAMILY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/jq138cat7mu&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxpremiumfamily.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/jd4zb3&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/fx.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FXM [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/5zqccrm&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/fxm.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]FOX LIFE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/771eq67qmpn6yv&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/foxlife.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GOLDEN PLUS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/r6a9wuqxo1pxtkx&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/goldenplus.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GOLDEN EDGE [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/j5ix8cu8l2a1yu3&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/goldenedge.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]GOLDEN PREMIER [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/c69ciwcw&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/goldenpremier.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO PLUS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6czt54eknf&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hboplus.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO FAMILY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rjf73iqinl8lz87&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hbofamily.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO XTREME [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/a7x5b3k9h&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hboxtreme.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HBO POP [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/n1iu2v&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/hbopop.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TNT SERIES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bt6z9s12bw6j2&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tntseries.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CANAL SONY [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/u0smb12qts&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/canalsony.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AXN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/s0ypgxwwbp4g752&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/axn.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]UNIVERSAL CHANNEL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/p3ii4md9&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/universalchannel.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]STUDIO UNIVERSAL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1gf4ro48rhyahu&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/studiouniversal.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]MULTI PREMIER [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/dx9w2s6qyydlqe&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/multipremier.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]AMC [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/zz15ckophk5vu&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/amc.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]PARAMOUNT CHANNEL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/kpitegkx3u&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/paramountchannel.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CINE LATINO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/r0iysi&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/cinelatino.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DPELICULA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1207u&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/dpelicula.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ISAT [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bbc1btuqseg7ht&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/isat.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]MTV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/75jex&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/mtv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]MTV HITS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/bjm22azz&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/mtvhits.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]HTV [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/j0qmkdtd7d&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/htv.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]BANDAMAX [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/5znxf&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/bandamax.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]COMEDY CENTRAL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/a94gopyt50&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/comedycentral.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NATIONAL GEOGRAPHIC [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nrlo1xajr4zbot&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nationalgeographic.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NAT GEO WILD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/k3v2xfadh90&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/natgeowild.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ANIMAL PLANET [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xv2vgszc&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/animalplanet.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY CHANNEL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/5vh0n&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoverychannel.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY TURBO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/dsnb3fsix7&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoveryturbo.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY H&H [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/tl3ntsm8&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoveryhyh.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]ID INVESTIGATION [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/cr30346syxge64&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/idinvestigation.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY A&E [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ki4gdapom&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoveryaye.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY TLC [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/488diyt&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoverytlc.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY THEATER [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/dgyv92n1jthz&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoverytheater.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY WORLD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/8lrx0rj7tfy&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoveryworld.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]EVERYTHING [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/12db29&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/everything.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LIFETIME [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/cu41p27ig8gd9&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/lifetime.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TBS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ly4gu0f2psig&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tbs.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]EL GOURMET [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1a6cnv&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/elgourmet.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISNEY CHANNEL [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/poa3fhkb&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/disneychannel.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISNEY XD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/s40z6ckg&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/disneyxd.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISNEY JUNIOR [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/lyeydm5d8at8i&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/disneyjunior.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NICK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/br29owbumtyttjr&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nick.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NICK 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/riarfw&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nick2.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NICK JR [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/pj2q41ey3&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nickjr.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NICKTOONS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/efd4iv8j5xnd2zh&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nicktoons.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]CARTOON NETWORK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/jxu7cix&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/cartoonnetwork.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]BOOMERANG [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/54ryn&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/boomerang.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TOONCAST [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/44eks&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/tooncast.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]DISCOVERY KIDS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/hh704lol7xvy5s6&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/discoverykids.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NAT GEO KIDS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/pw34a6kvro2m&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/natgeokids.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]BOING [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qc5bepkeelu70&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/boing.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]VH1 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/l09glyojke52&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/vh1.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]VH1 CLASSIC [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/aqu9ltjd&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/vh1classic.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TELEHIT [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/tet7mre&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/telehit.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TOP LATINO [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/khw9i6x&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/toplatino.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]WWE NETWORK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/tpu9qqx9q8vo&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/wwenetwork.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NBA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/7id2ayxz5ts&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nba.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]NFL NETWORK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/l9u3d1&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/nflnetwork.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]VENUS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xhf9aei7gp2&amp;referer=https://www.televisiongratishd.com</link>
+<thumbnail>https://www.televisiongratishd.com/img/venus.png</thumbnail>
 </plugin>
