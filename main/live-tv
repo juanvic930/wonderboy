@@ -1,6 +1,6 @@
 <dir>
 <name>[COLOR yellow][B]Wonderboy IPTV Spanish[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV</link>
+<m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV.m3u</m3u>
 <fanart></fanart>
 </dir>
 
