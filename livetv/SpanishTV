@@ -1,10 +1,10 @@
 <item>
 <title>[COLOR yellow][B]test1[/B][/COLOR]</title>
-<link>https://ul.cdn946.net:8443/hls/1kv6gwzm.m3u8|Referer=https://wstream.to/embed/1kv6gwzm&Origin=https://wstream.to</link>
+<link>https://peer7.ustv24h.live/Univision/myStream/chunks.m3u8|Referer=https://ustvgo.tv/player.php?stream=Univision&Origin=https://ustvgo.tv</link>
 </item>
 <item>
 <title>[COLOR yellow][B]test2[/B][/COLOR]</title>
-<link>https://ul.cdn946.net:8443/hls/1kv6gwzm.m3u8</link>
+<link>https://peer7.ustv24h.live/Univision/myStream/chunks.m3u8|Referer=https://ustvgo.tv/player.php&Origin=https://ustvgo.tv</link>
 </item>
 <item>
 <title>[COLOR yellow][B]test3[/B][/COLOR]</title>
