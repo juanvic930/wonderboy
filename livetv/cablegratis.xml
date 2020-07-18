@@ -1,62 +1,20 @@
+
 <item>
-<title>[B][COLOR yellow]TotalPlay[/COLOR][/B]</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[B][COLOR yellow][makelist.param2][/COLOR][/B]</title>
-  <link>$doregex[getUrl]</link>
-  <thumbnail>[makelist.param3]</thumbnail>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  return re.findall('href="(.*?)".+?title="(.*?)".*\n.*src="([^"]+)',re.findall('class="canales">(?s)(.*?)class="container',page_data)[0])
-]]></expres>
-<page>http://cablegratis.tv/</page>
-</regex>
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):#streamwatcher2013
-  url=re.findall('[\'"](http.+?/clappr/[^\'"]+)',page_data)[0]
-  return re.findall('Clappr.Player[\w\W]*?[\'"]([^\'"]+)',requests.get(url,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).text)[0]+'|user-agent=ipad&referer='+url
-]]></expres>
-<page>[makelist.param1]</page>
-</regex>
-<thumbnail>http://cablegratis.tv/logos/cable-gratis-tv.png</thumbnail>
+<title>[B][COLOR yellow]LAS ESTRELLAS[/COLOR][/B]</title>
+<link>plugin://plugin.video.FusionOrg/?mode=fusion_request_tv&amp;https://wstream.to/embed/yolmoo963yo&amp;referer=https://www.televisiongratishd.com</link>
 </item>
 
 <item>
-<title>Cable Gratis</title>
-<link>$doregex[all]</link>
-<regex>
-  <name>all</name>
-  <listrepeat><![CDATA[
-  <title>[all.param3]</title>
-  <link>$doregex[main]</link>
-  <thumbnail>[all.param2]</thumbnail>
-  ]]></listrepeat>
-  <expres><![CDATA[(?s)<a href="(.+?)".+?img src="(.+?)" alt="(.+?)">]]></expres>
-  <page>http://cablegratis.tv/</page>
-</regex>
+<title>[B][COLOR yellow]AZTECA 7[/COLOR][/B]</title>
+<link>plugin://plugin.video.FusionOrg/?mode=fusion_request_tv&amp;link=https://wstream.to/embed/nl142axqap&amp;referer=https://www.televisiongratishd.com</link>
+</item>
 
-<regex>
-  <name>main</name>
-  <listrepeat><![CDATA[
-  <title>[main.param2]</title>
-  <link>$doregex[getUrl]|Referer=http://premiumtvchannels.com/&User-Agent=iPad</link>
-  <thumbnail>[all.param2]</thumbnail>
-  ]]></listrepeat>
-  <expres>loadIframe.+,\s*'([^']+)[^&gt;]+&gt;([^&lt;]+)</expres>
-  <page>[all.param1]</page>
-</regex>
-<regex>
-  <name>getUrl</name>
-  <expres>(?:file|source):\s*"([^"]+)</expres>
-  <page>[main.param1]</page>
-  <referer>http://cablegratis.tv/</referer>
-</regex>
-<thumbnail></thumbnail>
+<item>
+<title>[B][COLOR yellow]CANAL 5[/COLOR][/B]</title>
+<link>plugin://plugin.video.FusionOrg/?mode=fusion_request_tv&amp;link=https://wstream.to/embed/rqoty6lhafz4c&amp;referer=https://www.televisiongratishd.com</link>
+</item>
+
+<item>
+<title>[B][COLOR yellow]IMAGEN TV[/COLOR][/B]</title>
+<link>plugin://plugin.video.FusionOrg/?mode=fusion_request_tv&amp;link=https://wstream.to/embed/1kv6gwzm&amp;referer=https://www.televisiongratishd.com</link>
 </item>
