@@ -1,16 +1,15 @@
 <plugin>
-<title>[B][COLOR yellow]CANAL 1 [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://51.79.18.50:25461/live/45321/45321/5969.m3u8&amp;referer=http://canal.televisiongratisenvivo.com</link>
+<title>[B][COLOR yellow]CANAL 2 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://51.79.18.50:25461/live/45321/45321/5969.m3u8&amp;referer=http://canal.televisiongratisenvivo.com/canales/canalesplay2/mexico/azteca7.php&Origin=http://canal.televisiongratisenvivo.com</link>
 <thumbnail>https://www.televisiongratishd.com/img/canal5.png</thumbnail>
 </plugin>
 
 
 <plugin>
-<title>[B][COLOR yellow]CANAL 2 [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://canal.televisiongratisenvivo.com/canales/canalesplay2/mexico/azteca7.php&amp;referer=http://canal.televisiongratisenvivo.com</link>
+<title>[B][COLOR yellow]CANAL 1 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=http://51.79.18.50:25461/live/45321/45321/5969.m3u8&amp;referer=http://canal.televisiongratisenvivo.com/canales/canalesplay2/mexico/azteca7.php</link>
 <thumbnail>https://www.televisiongratishd.com/img/canal5.png</thumbnail>
 </plugin>
-
 <plugin>
 <title>[B][COLOR yellow]AZTECA 7 [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nl142axqap&amp;referer=https://www.televisiongratishd.com</link>
