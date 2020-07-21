@@ -10,6 +10,12 @@
 <fanart></fanart>
 </dir>
 
+<dir>
+<name>[COLOR yellow][B]CABLE GRATIS 3[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV.m3u</link>
+<fanart></fanart>
+</dir>
+
 <plugin>
 <name>[COLOR yellow][B]CABLE GRATIS 3[/B][/COLOR]</name>
 <m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV.m3u</m3u>
