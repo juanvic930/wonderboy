@@ -1,3 +1,40 @@
+<item>
+<title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://streamcdn.to</link >
+<thumbnail>https://adictosalatele.com/logos/la1.png</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow]ANTENA 3 [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/le870ahdxekxml&amp;referer=https://wstream.to</link >
+<thumbnail>https://adictosalatele.com/logos/la3.png</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow]LA SEXTA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/57wo4o3p18csy&amp;referer=https://streamcdn.to</link >
+<thumbnail>https://adictosalatele.com/logos/la6.png</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow]MEGA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/8g3y1&amp;referer=https://streamcdn.to</link >
+<thumbnail>https://adictosalatele.com/logos/mega.png</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow]FDF [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/p9imvvt&amp;referer=https://wstream.to</link >
+<thumbnail>https://adictosalatele.com/logos/fdf.png</thumbnail>
+</item>
+ 
+<item>
+<title>[B][COLOR yellow]BEMAD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/mic0sx5gt&amp;referer=https://wstream.to</link >
+<thumbnail>https://adictosalatele.com/logos/bemad.png</thumbnail>
+</item>
+ 
+
 <plugin>
 <title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://streamcdn.to</link >
