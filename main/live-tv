@@ -5,36 +5,14 @@
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]Wonderboy IPTV Spanish[/B][/COLOR]</name>
+<name>[COLOR yellow][B]CABLE GRATIS 2[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis2.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]CABLE GRATIS 3[/B][/COLOR]</name>
 <m3u>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/SpanishTV.m3u</m3u>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]Arconaitv[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/Arconaitv.xml</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]Arconaitv2[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/arconaitv2.xml</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]Arraki Air[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/arrakiair.xml</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]Dslivetv[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/dslivetv.xml</link>
-<thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
 
@@ -48,13 +26,6 @@
 <dir>
 <name>[COLOR yellow][B]M3u.tv[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/m3u.xml</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</dir>
-
-<dir>
-<name>[COLOR yellow][B]Sports[/B][/COLOR]</name>
-<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/sports.xml</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </dir>
