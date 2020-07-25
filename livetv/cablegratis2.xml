@@ -1,15 +1,14 @@
-<item>
+<dir>
 <title>[B][COLOR yellow]DEPORTES[/COLOR][/B]</title>
-<link>ignorame</link >
-<externallink>https://pastebin.com/raw/9GkZrH2B</externallink>
+<link>https://pastebin.com/raw/9GkZrH2B</link >
 <thumbnail></thumbnail>
-</item>
+</dir>
  
-<plugin>
+<item>
 <title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://adictosalatele.com/</link >
 <thumbnail>https://adictosalatele.com/logos/la1.png</thumbnail>
-</plugin>
+</item>
 
 <plugin>
 <title>[B][COLOR yellow]ANTENA 3 [/COLOR][/B]</title>
