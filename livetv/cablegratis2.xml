@@ -1,12 +1,6 @@
 <plugin>
-<title>[B][COLOR yellow]TVE 2 [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146</link >
-<thumbnail>https://adictosalatele.com/logos/la1.png</thumbnail>
-</plugin>
-
-<plugin>
 <title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://adictosalatele.com</link >
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/h24146&amp;referer=https://adictosalatele.com/TV/espana/tve1/</link >
 <thumbnail>https://adictosalatele.com/logos/la1.png</thumbnail>
 </plugin>
 
