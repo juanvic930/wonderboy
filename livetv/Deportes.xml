@@ -1,0 +1,23 @@
+<plugin>
+<title>[B][COLOR yellow]LALIGA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/qhvk62&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosaldeporte.com/logos/laliga.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LALIGATV BAR [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://zonadeportiva.info/tg.php?id=live8w&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosaldeporte.com/logos/laligabar.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]LIGA CAMPEONES [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://streamcdn.to/e/ok2ih45bnv&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosaldeporte.com/logos/campeones.png</thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow]TNT SPORTS [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2h2us46tpvu79&amp;referer=https://adictosalatele.com</link>
+<thumbnail>https://adictosaldeporte.com/logos/tntsports.png</thumbnail>
+</plugin>
