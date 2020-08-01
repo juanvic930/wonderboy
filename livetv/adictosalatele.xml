@@ -3,3 +3,35 @@
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/Deportes.xml</link>
 <fanart></fanart>
 </dir>
+
+<dir>
+<name>[COLOR yellow][B]TV LATINA[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/TV-latina.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]TV DE ESPANA[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/TV-de-espana.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]CANALES INFANTILES[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/canales-infantiles.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]CANALES DE DUCUMENTALES[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/canales-de-documentales.xml</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]CANALES PARA ADULTOS +18[/B][/COLOR]</name>
+<link></link>
+<fanart>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/canales-de-adultos.xml</fanart>
+</dir>
+
+
