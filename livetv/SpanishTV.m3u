@@ -1,40 +1,11 @@
-<item>
-<title>[B][COLOR white]DEPORTES:[/COLOR][COLOR yellow]  ADICTOS AL DEPORTE[/COLOR][/B]</title>
+<dir>
+<name>[B][COLOR white]DEPORTES:[/COLOR][COLOR yellow]  ADICTOS AL DEPORTE1[/COLOR][/B]</name>
 <link>ignorame</link >
 <externallink>https://pastebin.com/raw/sKu5hWVH</externallink>
 <thumbnail></thumbnail>
-</item>
- 
-
-<item>
-<title>https://ustvgo.tv/</title>
-<link>$doregex[makelist]</link>
-<regex>
-<name>makelist</name>
-<listrepeat><![CDATA[
-  <title>[makelist.param2]</title>
-  <link>$doregex[getUrl]</link>
-]]></listrepeat>
-<expres><![CDATA[#$pyFunction
-import re
-def GetLSProData(page_data,Cookie_Jar,m):
-  return re.findall('href="([^"]+).>([^<]+)',re.findall('(?:"primary"|</h2|"entry-title")>(?s)(.*?)(?:"entry-footer"|</article)',page_data)[0])
-]]></expres>
-<page>https://ustvgo.tv/</page>
-</regex>
-
-<regex>
-<name>getUrl</name>
-<expres><![CDATA[#$pyFunction
-import re,requests
-def GetLSProData(page_data,Cookie_Jar,m):
-  link='https://ustvgo.tv/'+re.findall('(player.php[^\'"]+)',page_data)[0]
-  list=requests.get(link,headers={'user-agent':'Mozilla/5.0','referer':'[makelist.param1]'}).content
-  source=re.findall('id=.player(?s)(.*?)</body',list)[0]
-  url=re.findall("atob\('(.*?)'",source)[0].decode('base64')
-  return url+'|user-agent=iPad&referer='+'[makelist.param1]'
-]]></expres>
-<page>[makelist.param1]</page>
-<referer>https://ustvgo.tv/</referer>
-</regex>
-</item>
+</dir>
+<dir>
+<name>[B][COLOR white]DEPORTES:[/COLOR][COLOR yellow]  ADICTOS AL DEPORTE[/COLOR][/B]</name>
+<link>https://pastebin.com/raw/sKu5hWVH</link>
+<fanart></fanart>
+</dir> 
