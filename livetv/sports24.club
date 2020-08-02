@@ -1,0 +1,29 @@
+<item>
+<title>[B][COLOR yellow]ABC NEWS USA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=abcnews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CBS NEWS USA[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cbsnews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MSNBC USA[/COLOR][/B]</title>
+<link>https://ctl.stream.msnbc.com/live/MSNBC398a080a-ua/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=msnbc</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]THE WEATHER CHANNEL USA[/COLOR][/B]</title>
+<link>https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=weather</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX NEWS USA[/COLOR][/B]</title>
+<link>https://ustvnowmsl.akamaized.net/hls/live/2010523/foxnewsmsl1/foxnewsmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=foxnews</link>
+<thumbnail></thumbnail>
+</item>
