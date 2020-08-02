@@ -1,53 +1,359 @@
 <plugin>
 <title>[B][COLOR yellow] BT Sport 1 HD [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4rwgm0v9jcya&amp;referer=https://daddylive.live/channels/stream-31.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4rwgm0v9jcya</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] BT Sport 2 HD [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6pr95peo12uua&amp;referer=https://daddylive.live</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6pr95peo12uua</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] BT Sport 3 HD [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qkb3zwl&amp;referer=https://daddylive.live/24-hours-channels.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qkb3zwl</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] BT Sport ESPN [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/irdb59sdaufdqpx&amp;referer=https://daddylive.live/channels</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/irdb59sdaufdqpx</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] Sky Sports Football [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/wtswasobwlmgv&amp;referer=https://daddylive.live/channels/stream-35.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/wtswasobwlmgv</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] Sky Sports Arena [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2cdqvmjw6yg&amp;referer=https://daddylive.live/channels/stream-36.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2cdqvmjw6yg</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] Sky Sports Action [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/8gs4tif1&amp;referer=https://daddylive.live/channels/stream-37.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/8gs4tif1</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] Sky Sports Main Event [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/kf236&amp;referer=https://daddylive.live/channels/stream-38.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/kf236</link>
 <thumbnail></thumbnail>
 </plugin>
 
 <plugin>
 <title>[B][COLOR yellow] Fox Sports 1 USA [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ftypoplj0tr0hw&amp;referer=https://daddylive.live/channels/stream-39.php</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ftypoplj0tr0hw</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Tennis Channel [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/8mlijyttxsatwwe</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Eurosport 1 UK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/fo6djhrc</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Eurosport 2 UK [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/c8vzpya90</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] NBCSN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/7ksvk1ppa</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN USA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2vewskxuho8rq</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN 2 USA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/hyhtubdiidbixd</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sport Football IT [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/u6qndo</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Polsat Sport Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/l4c5imd157q05</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Canal+ Sport Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/mysxo54w</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sport TV1 Portugal [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/sdjyjtgb1q6m4</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Polsat Sport Extra Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/48mweuli210</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Eleven Sports 1 Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6v6slvhb</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Eleven Sports 2 Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/02c2og7jbck0t</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Canal + Sport 2 Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/iih3mo1e32g</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sport TV2 Portugal [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/btlgcphqg1</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] nsport+ Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/9h1ij50jy9zh</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Globo RJ Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/kbsr9lcx8euw</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Globo SP Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/wh5nfyqj3t88qtj</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sportv 1 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/1yrotnlqf51is</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sportv 2 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ktxoved7lfb401i</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sportv 3 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/orav2</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/v1y6jxn</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/7w2hn</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN 2 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/cywwxkojid1vxn</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ESPN Extra Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/is0x3j6</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Fox Sports Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/vdhtiux2j00n</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Fox Sports 2 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nzpequrbvg</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Fox Premium Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rpt5ly1kicya9</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Premiere 1 Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/i8gest</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Combate Brasil [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/sdvzqi0ed6yp</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ABC HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/xizh2l</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] CBS HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nkheg6dyg42</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] NBC HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/e9yuixl6lmaryr</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] FOX USA HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/frzjnx3t9nhujdn</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] CW HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rprm2</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] TNT USA HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/9uu1uxfe</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Eurosport 1 Poland [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qp8jhp1tn80</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] HBO HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/exyjs</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] TBS HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/sffe51uve22</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports F1 HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/iexb8</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] VH1 HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/lp5wjojd</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] AMC HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/woc5oav6j5ng</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] BET HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6gb12gjfvo</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] FreeForm HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/pcl9r58593tna4</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Discovery USA HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/7vaeiob6qdy29h</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] History Channel HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/j41kgd6op7f</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] A&E HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/srzwqqfe6488uv</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] SYFY HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/vsdw9</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] ID HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/cne5ruhscji</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sport Golf HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/rcvb48pz9b8cz0</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports Cricket [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/nkvj9q7w6</link>
 <thumbnail></thumbnail>
 </plugin>
