@@ -1,12 +1,53 @@
-<item>
+<plugin>
 <title>[B][COLOR yellow] BT Sport 1 HD [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4rwgm0v9jcya&amp;referer=https://wstream.to</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4rwgm0v9jcya&amp;referer=https://daddylive.live/channels/stream-31.php</link>
 <thumbnail></thumbnail>
-</item>
+</plugin>
 
-<item>
+<plugin>
 <title>[B][COLOR yellow] BT Sport 2 HD [/COLOR][/B]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/y4rwgm0v9jcya&amp;referer=https://wstream.to/</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/6pr95peo12uua&amp;referer=https://daddylive.live</link>
 <thumbnail></thumbnail>
-</item>
+</plugin>
 
+<plugin>
+<title>[B][COLOR yellow] BT Sport 3 HD [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/qkb3zwl&amp;referer=https://daddylive.live/24-hours-channels.php</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] BT Sport ESPN [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/irdb59sdaufdqpx&amp;referer=https://daddylive.live/channels</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports Football [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/wtswasobwlmgv&amp;referer=https://daddylive.live/channels/stream-35.php</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports Arena [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/2cdqvmjw6yg&amp;referer=https://daddylive.live/channels/stream-36.php</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports Action [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/8gs4tif1&amp;referer=https://daddylive.live/channels/stream-37.php</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Sky Sports Main Event [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/kf236&amp;referer=https://daddylive.live/channels/stream-38.php</link>
+<thumbnail></thumbnail>
+</plugin>
+
+<plugin>
+<title>[B][COLOR yellow] Fox Sports 1 USA [/COLOR][/B]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url=https://wstream.to/embed/ftypoplj0tr0hw&amp;referer=https://daddylive.live/channels/stream-39.php</link>
+<thumbnail></thumbnail>
+</plugin>
