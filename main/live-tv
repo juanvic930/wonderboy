@@ -5,14 +5,20 @@
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]adictosalatele[/B][/COLOR]</name>
+<name>[COLOR yellow][B]ADICTOS A LA TELE[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/adictosalatele.xml</link>
 <fanart></fanart>
 </dir>
 
 <dir>
-<name>[COLOR yellow][B]sports24.club[/B][/COLOR]</name>
+<name>[COLOR yellow][B]SPORTS24[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/sports24.club</link>
+<fanart></fanart>
+</dir>
+
+<dir>
+<name>[COLOR yellow][B]DADDYLIVE[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/daddylive.xml</link>
 <fanart></fanart>
 </dir>
 
