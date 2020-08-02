@@ -27,3 +27,916 @@
 <link>https://ustvnowmsl.akamaized.net/hls/live/2010523/foxnewsmsl1/foxnewsmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=foxnews</link>
 <thumbnail></thumbnail>
 </item>
+
+<item>
+<title>[B][COLOR yellow]FOX BUSINESS USA[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/foxb.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=foxb</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CNN[/COLOR][/B]</title>
+<link>/hls/cnn2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cnn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NBC NEWS NOW[/COLOR][/B]</title>
+<link>https://nbcnewshls-i.akamaihd.net/hls/live/1005170/nnn_live1/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=nbcnews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SKY NEWS USA[/COLOR][/B]</title>
+<link>https://skynews2-plutolive-vo.akamaized.net/cdhlsskynewsamericas/1013/latest.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=skynews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CHEDDAR USA[/COLOR][/B]</title>
+<link>https://live.chdrstatic.com/cheddar/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cheddar</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DW ENGLISH[/COLOR][/B]</title>
+<link>https://dwstream4-lh.akamaihd.net/i/dwstream4_live@131329/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=dw</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FRANCE24 ENGLISH[/COLOR][/B]</title>
+<link>https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=france24</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]WEATHER NATION USA[/COLOR][/B]</title>
+<link>https://cdnapi.kaltura.com/p/931702/sp/93170200/playManifest/entryId/1_oorxcge2/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=weathernation</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NEWSMAX TV USA[/COLOR][/B]</title>
+<link>https://cdnapi.kaltura.com/p/2216081/sp/221608100/playManifest/entryId/1_f19eeulz/format/applehttp/protocol/http/uiConfId/28428751/a.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=newsmax</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RUSSIA TODAY USA[/COLOR][/B]</title>
+<link>https://rt-usa.secure.footprint.net/1105.m3u8?streamType=live|user-agent=ipad&referer=https://sports24.club/tv/v?id=rtusa</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AL JAZEERA ENGLISH[/COLOR][/B]</title>
+<link>https://live-hls-web-aje.getaj.net/AJE/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=aljazeera</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HLN[/COLOR][/B]</title>
+<link>/hls/hln2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=hln</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NEWS NET ENGLISH[/COLOR][/B]</title>
+<link>https://broadcaster1.prolivestream.net:8083/onair/newsnetweb/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=newsnet</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RTE NEWS[/COLOR][/B]</title>
+<link>https://live.rte.ie/live/a/channel3/news.isml/news.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=rten</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CTV NEWS CANADA[/COLOR][/B]</title>
+<link>https://pe-ak-lp01a-9c9media.akamaized.net/live/News1BNNDigi/p/dash/00000001/1bba52dc66e4c68e/manifest.mpd|user-agent=ipad&referer=https://sports24.club/tv/v?id=ctvnews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RAI NEWS[/COLOR][/B]</title>
+<link>https://rainews1-live.akamaized.net/hls/live/598326/rainews1/rainews1/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=rainews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NHK WORLD JAPAN[/COLOR][/B]</title>
+<link>https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/2003458/live.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=nhk</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RUSSIA 1[/COLOR][/B]</title>
+<link>https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=russia1</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RUSSIA 24[/COLOR][/B]</title>
+<link>https://live-vestinn.cdnvideo.ru/vestinn/vestinn/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=russia24</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TRT WORLD TURKEY[/COLOR][/B]</title>
+<link>https://tv-trtworld.live.trt.com.tr/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=trtw</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ABC USA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/236dcea6fe0c46ccbb5ed07ea26930dd.m3u8?cqs=8onbs7qi8qTMKf7qFLlbwZBHn_Pvp4NnaNWGvgvOjX87Yl_x9u999eUe6KR1hBi-IX5-63jVAmnIWPwkMy7bUy0TzMVKLaaCvtwjrSI1QNdvK-DWHAyWB4ZpsIYgxropg43fPkpmiClPn0Btfya1uOvV9ii1K776MUgjqFAIpnGmk2YtjRJD6y5TvOMG6JVplVidu9DXF3qf7qxqvh1BrD1n4Y1rfm-T9xER6QUhbDOhXKBqQRSUxP9_J6FbLpUo4aY7kxAy7oHkeWw3Nwn6pQCcyoQm03OVeUG0xiwgGy--yvZltLgs0ELw4_e8xOH1X49qNYCenjlpWssJLNBRr5LZawn04s7hVCUHCWRh5DfMjX76WxuBhxXa41Rkqhc6EVNMWdyTok_TY3iYvI88VTUYWsIjGrX5ZF2R14q5qlv-j72sNMVSy-e6rsMOG65VOEelfZSU28FaZKfaR-wStoM84p6QwdWxBljAsO5Zvu01p67qfdvZAfqFQ8hz0PHHoeLh54eoPpwiJ32ofATpRZcfBRF6kyK46lBM1VoiUSnBulWvj_3cCeT8pJo2u2-i44xzzEbrq3tNk7Gn1trsH5mYVjyY5e_a8fMgXUAZygD3qHdLjDXPoN0xu3RFVGx256SGjzNIgJooPQcADikWf3WhhTHwFyB3eOFTa4G-H9G4J5dmYn5ATh-EGErMTyJbwj__U2yyLwgklqKGpl_N2V2yI4hO6AJg3phPnf53y_CTYXUZnTRMSfGS9rW3m8m1eXs_xaK6JWAzidKen4g1Fe7tybNo0oHjYzOX0GQw0uuJ5b1PvFJ0Tlf-q7JSN9c-5hcVGS7Fxav8_EbL4o_cajUwh_xJ5OkJ7w0XhWcBtXkS32TkWTMvSnUL150-z97ggYmko3aHK9UUuQjBsysMKCQc7jIJ4oilvaleVr_PD1__1318tCWvEtKc3uTZ134Juq5GtY5fS7ohkhO3kWUIqmYKSLB7LGKLMDnhf9VUISfLE5-R5joOdVoGwHwroJP8TIuF24h-DnlZGimK7F1jo1Db3DgBI9MQ9zXJdH0IilPeyUZI6NTbTL1D8-r18xBqryjb-UliKu9mQmtYAzWoArjEl5SMd76sHRJIFuLERnZCKJ9ol90xzKs1ddBfskWbI2krc8K5SJKP2CYn3jaQ3Bh7R8GraNAwmQslZ3mYXwfG0DSZyA1bSNYWYcwCJNNplcW98Bf1LoR8bkitRePkzx_57Ix9MyRjFLlhGSD_V33ys6B8dEidMRjvg0Fx7KqeWRrX4OrwLeE-YlLz8UppWYggqmb4wOVjLR6sEPr76Rtn-SyI3D_MEOVSJRGGOLiQobbhyobwpY2xOueFFSBWm7knXsEbCB1KmSkXIpzsygjYzTx9c8NwhkigdqZ8-iL7yXmUDK7vQm93oNypJkbxww==&kid=c5ffa5db2af24c8f8a4925ff25dd1341|user-agent=ipad&referer=https://sports24.club/tv/v?id=abc</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CBS USA[/COLOR][/B]</title>
+<link>https://ottproxy.yuppcdn.net/live/ustvnow/60/hd/hls/live/2004009/whphdmsl1/whphdmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=cbs</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX USA[/COLOR][/B]</title>
+<link>https://ustvnowmsl.akamaized.net/hls/live/2004241/wpmtmsl1/wpmtmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=fox</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CW USA[/COLOR][/B]</title>
+<link>https://ottproxy.yuppcdn.net/live/ustvnow/53/hd/hls/live/2004244/wlyhmsl1/wlyhmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=cw</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ANIMAL PLANET[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/3e844fb7bd1a46e4b5512d288ad43377.m3u8?tc=1&exp=1596327302&rn=446809053&ct=c&cid=3e844fb7bd1a46e4b5512d288ad43377&ts=1596327002&endts=1596327362&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=8f930119f55dc9cfb3ebefe10cf42edeb9ddf7bdd3633daf8695c141dee8f059|user-agent=ipad&referer=https://sports24.club/tv/v?id=animalplanet</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DISCOVERY CHANNEL[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/19334c6a5c614c46b2f198f15c179163.m3u8?tc=1&exp=1596327303&rn=1853482487&ct=c&cid=19334c6a5c614c46b2f198f15c179163&ts=1596327003&endts=1596327363&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Abd0367067f5a11eaacfe0e7a3adfd3ad%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=b45818c188eb5605a8f050f16617733805da44bb11963618e91a1069d86f93c6|user-agent=ipad&referer=https://sports24.club/tv/v?id=discovery</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DISCOVERY SCIENCE[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/a757889d020549f98b0bc0671cd95751.m3u8?tc=1&exp=1596327305&rn=340507929&ct=c&cid=a757889d020549f98b0bc0671cd95751&ts=1596327005&endts=1596327365&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=9ce48e5fa75c0b9e83f440320693ba294b442040f70b70789627d229460c19cf|user-agent=ipad&referer=https://sports24.club/tv/v?id=science</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DISCOVERY LIFE[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/60156627a4224b22a3626cc2b61cb206.m3u8?tc=1&exp=1596327307&rn=1548860578&ct=c&cid=60156627a4224b22a3626cc2b61cb206&ts=1596327007&endts=1596327367&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=b6030144b6fb8f553ae5267f41b49a3e691dbfbde8ad5529f6db9c7069b46c3c|user-agent=ipad&referer=https://sports24.club/tv/v?id=discoverylife</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DISCOVERY ID[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/a6fe2dd55b3149a6a59154a93e348012.m3u8?tc=1&exp=1596327306&rn=919051944&ct=c&cid=a6fe2dd55b3149a6a59154a93e348012&ts=1596327006&endts=1596327366&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=a42d4ffd904791e4ef24dc1ce6ca90ca247ddd035c8f2ad16e327ae1bb055a99|user-agent=ipad&referer=https://sports24.club/tv/v?id=discoveryid</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TRAVEL CHANNEL[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/d8f4b8fec5b7435ab54aed47e127fda3.m3u8?tc=1&exp=1596322390&rn=1829431211&ct=c&cid=d8f4b8fec5b7435ab54aed47e127fda3&ts=1596322090&endts=1596322450&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3A1a2951dd296e11e99d4c0a39f64aabce%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=aa0086c80ffbc5fa0e5e0bec80b9c3ce350a1f1491e0705d842ff5c23d49eb36|user-agent=ipad&referer=https://sports24.club/tv/v?id=travel</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOOD NETWORK[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/9181e4aeaf864e45aafe0dd2373ee4cd.m3u8?tc=1&exp=1596327309&rn=914955633&ct=c&cid=9181e4aeaf864e45aafe0dd2373ee4cd&ts=1596327009&endts=1596327369&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3A1a2951dd296e11e99d4c0a39f64aabce%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=16918168794664ca6254cd2aece61ae263e5ede8005ccf0ae2597a4c68a3b87e|user-agent=ipad&referer=https://sports24.club/tv/v?id=foodnetwork</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]COOKING CHANNEL[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/af52b35bb6a0445ba47c79bdf45f9854.m3u8?tc=1&exp=1596327317&rn=2052650301&ct=c&cid=af52b35bb6a0445ba47c79bdf45f9854&ts=1596327017&endts=1596327377&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=b0412312d3137c556a492ac9001b76c832ac2128d692e5483811d16c6a7dad49|user-agent=ipad&referer=https://sports24.club/tv/v?id=cooking</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DOCURAMA[/COLOR][/B]</title>
+<link>https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo1234A-docuramaA/CDN/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=docurama</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HGTV[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/e047db886d7b42499309a9d3f9e12a7e.m3u8?tc=1&exp=1596327315&rn=163791&ct=c&cid=e047db886d7b42499309a9d3f9e12a7e&ts=1596327015&endts=1596327375&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=f792431aebfccf8a4063d403e7c4f516c543266baca4c6eb2c163e7f157aab1f|user-agent=ipad&referer=https://sports24.club/tv/v?id=hgtv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]UNIVISION[/COLOR][/B]</title>
+<link>/hls/univision.m3u8?id=pa2-p-dKTaCqDOi0eFyHXw|user-agent=ipad&referer=https://sports24.club/tv/v?id=univision</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TUDN[/COLOR][/B]</title>
+<link>https://tkx.apis.anvato.net/rest/v2/mcp/video/univision-tudn?anvack=NVQrq6a3oZfdBzkefWT1rvdRCoj9XOyx&token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOVlFycTZhM29aZmRCemtlZldUMXJ2ZFJDb2o5WE95eCIsImV4cCI6MTU5NjMyNjg0MCwiYWRfcGFycyI6eyJkZnAiOnsiaXVfdmFsdWVfZnJvbV9wYWdlIjoiLzY4ODEvcmQudW5pdmlzaW9uX21hdGNoY2VudGVyX2RlcG9ydGVzL2Z1dGJvbC9idW5kZXNsaWdhL2RhaSIsInVybCI6Imh0dHBzOi8vd3d3LnR1ZG4uY29tL2Z1dGJvbC9idW5kZXNsaWdhL2ZjLWJheWVybi1tdW5jaGVuLXZzLWZvcnR1bmEtZHVzc2VsZG9yZi1idW5kZXNsaWdhLTIwMjAtMDUtMzAiLCJwbGF5ZXJfd2lkdGgiOiI4MzciLCJwbGF5ZXJfaGVpZ2h0IjoiNDcxIiwicHAiOiJEZXNrdG9wQml0UmF0ZXMiLCJtdnBkIjoiNTNkYTE3YTMwYmQwZDNjOTQ2YTQxYzg2Y2I1ODczZjEifX0sInZpZCI6InVuaXZpc2lvbi10dWRuIn0.bis7UZUvDjGg7MbeZPCLOV-gap9uYudk6hveex6QT6Q|user-agent=ipad&referer=https://sports24.club/tv/v?id=tudn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FúTBOL RETRO[/COLOR][/B]</title>
+<link>/hls/univision.m3u8?id=3WfvFwf9RWKeJ4pRTQa5Vw|user-agent=ipad&referer=https://sports24.club/tv/v?id=futbolretro</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]KTLA 5 USA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/6cbf2d32a5384dc1b787539b1102433c.m3u8?ad=newktla&rays=gdbcef&ad.description_url=https://www.ktla.com&ad.tfcd=0&ad.npa=1&ad.pp=livestream-verizon|user-agent=ipad&referer=https://sports24.club/tv/v?id=ktla</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]PIX11 USA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/98828f7707b84dc496472d5789143df2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=pix11</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FXM[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/278ca4807b6340c3b00d5d25f8f3f63c.m3u8?cqs=__YMOATyuzEs_xpKnvFE4I1OdNuGbIwSwjObX6JQP56aXfQI5mVAdOM2MLZMxbpLnQ_38sOC7trELy1nW7cDzAzcA5roZCBvj_2ZTKaRsyS45U0lY8gtZvK62_L_4MDKPPzl2GTctapY6CYCBKkjyTYUi6SKP3TL5X0rKI07BQV9JgRHxA3mOmrr4oUe83MlByn7tZ8_orRThNBgVjN6NpHCdyRKdswimEYn6xKFrdJG7L3sk-NZeeGREt8cFVQ1I5jPP3kNPva8tFrIfTz0bgxJVqSMcgEv0pecyTSwICButWwf802YV1nRbOC-8e0pOM3czdylw1W4GkzuIGx0ikxSHLCZuXOt6rkcM-ftJL_320NJISYKOHNPePxNtIqPzypuZHDP1RbHNCSOJetZe3S9sm6S1uCBFWNvHL9NGnTwQXNeNhQIBkm3HrNV5cmkDsXRTO8YEaygNPm8pZPE81pk8kbYp9P0i9yrArwgYoc8kmy7uJM-DypgbbThQHaotnPlN19R-OmJ_Z1RJ299qHaB6_ASxxnWNe4HFfwJqLMncyDji9v-f8tmz1gztGgzw683JfWHEvIWOK0z1Jy2Ix3nKgzfAYXCY_dGnhMb89IAr8-yGb6_T-ZO0mtaX8Rm8XzGrdqM515n_0pGWy3EA_uqMX106VMGl43ogNw5kTh2JVaOGqbhHWfKpf0FBOb3wFTQ4ywVIkvV8cTRmugloRmpD9f9pDwHZzeqWRl4SvhD-aFAxYcoDJy4yZIKiGObOqnL8cweSY4GEaaLBlAuHW1AwLywTZb0y-3yZisY-60iwxGXXzZiRxMrZspoLqyXSD7-9FhhoECoQGrfCcycfoAQ5KBeFY9G1sP_f8u5vvB0om3oYrDqftUQzUfrFNX2o_89GFD24SXXyE55t7a37cl_oTLJe1xRGvSCIxCXFwEOH6mB7u9SfPDyORUWhj3GGeJf8o8ccL9a4ch1UBaj-EmROGdRFuyHZaNcLuup4v3ks1hTw9ngHL4TUo2BF_cCqj_BOye-FK5DohqusoWR-WbpM3_2w4QrGe910HGS9e7ck-SwhHHguaj3UthwRSbkRT6Wz1N34s57Ivg5hycpK0XhGHbY7TjeoDR8gbouQa1cGy3EnWlTz8VanJMu-1jMJ6UaCU3_-zviSu8zKxYXfTER9gr3vU2-ByzYCuxz-dDab1kL2L4ufgqoviIgQAxNM8SIz4a9ftMepAOswFsqSvPysHmkFdLfgb5cKh9p0mFdtRi-jt8d0tQ2xQFSdq3hPIM3EYyccam6gnSD1PRk5l8q8Uy_dr8u-jdguVML6lJ48CqViQ6S3l2HpxuvjTq5amf7TxXm6P4VKq-993g0h4gBcwKtJzxGaeFFVITml9i-8J9nrAmSotkVqRobfM8OVMvRk7o6ympDO-gkLV7wgg==&kid=20c340c0afcb40d8974759757dd9cb44|user-agent=ipad&referer=https://sports24.club/tv/v?id=fxm</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TNT USA[/COLOR][/B]</title>
+<link>/hls/tnt2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tnt</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TBS USA[/COLOR][/B]</title>
+<link>/hls/tbs2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tbs</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TRUTV USA[/COLOR][/B]</title>
+<link>/hls/tru2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=trutv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]USA NETWORK[/COLOR][/B]</title>
+<link>https://ustvnowmsl.akamaized.net/hls/live/2007549/usahdmsl1/usahdmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=usa</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]PBS[/COLOR][/B]</title>
+<link>https://ottproxy.yuppcdn.net/live/ustvnow/50/hd/hls/live/2007549/pbswnedmsl1/pbswnedmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=pbs</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]PARAMOUNT[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/50f0db1b35d947b3b4ef2f2e7e5d8f54.m3u8?ct=c&ad.cust_params=_fw_ae%3D53da17a30bd0d3c946a41c86cb5873f1%26_vmn_ar%3Dtrue&expand=simulcast_standard&ad.kv=_fw_ae,53da17a30bd0d3c946a41c86cb5873f1,_vmn_lat,true,_vmn_ar,true&exp=1596328202&rn=-185360018&cid=50f0db1b35d947b3b4ef2f2e7e5d8f54&tc=1&sig=312c2caeaa2467d1653433769e2cbc42195e6d6a6a798ea5a236581b938e2ad0|user-agent=ipad&referer=https://sports24.club/tv/v?id=paramount</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BET[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/cf001a552748454ab105719b355286d2.m3u8?ct=c&ad.locationDesc=bet_channel&ad.cust_params=_fw_ae%3D53da17a30bd0d3c946a41c86cb5873f1%26_vmn_ar%3Dtrue&expand=simulcast_standard&ad.kv=_fw_ae,53da17a30bd0d3c946a41c86cb5873f1,_vmn_lat,false,_vmn_ar,true&euid=92d9fb0c-915f-4dde-973d-aa563a07fc8b&exp=1596328909&rn=-1776244639&ad.euid=92d9fb0c-915f-4dde-973d-aa563a07fc8b&cid=cf001a552748454ab105719b355286d2&tc=1&sig=f458ab625b88baafbdb6e4b6992401729689ce8677b0e2d0f5dc0579dfa4057e|user-agent=ipad&referer=https://sports24.club/tv/v?id=bet</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AHC[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/7ba600dabdd44f5a92ffaf9842f1e9e8.m3u8?tc=1&exp=1596327314&rn=1456234688&ct=c&cid=7ba600dabdd44f5a92ffaf9842f1e9e8&ts=1596327014&endts=1596327374&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=e686d03bdcc526fe92d3b19717bd5ccc86c7ee887511fcc4677483bb7de6837e|user-agent=ipad&referer=https://sports24.club/tv/v?id=ahc</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TLC[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/8038a32710894d2488bb5eed1ed90297.m3u8?tc=1&exp=1596327312&rn=1426656590&ct=c&cid=8038a32710894d2488bb5eed1ed90297&ts=1596327012&endts=1596327372&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3A1a2951dd296e11e99d4c0a39f64aabce%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=e3d655b712d9d63905e3c16ed9320cd139115869a8ac616e0db9fea23a2399de|user-agent=ipad&referer=https://sports24.club/tv/v?id=tlc</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]COMEDY CENTRAL[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/ceb8d6e35fca432f9f32f4f1f4a822b8.m3u8?ct=c&ad.locationDesc=comedy_central_videos&ad.cust_params=_fw_ae%3D53da17a30bd0d3c946a41c86cb5873f1%26_vmn_ar%3Dtrue&expand=simulcast_standard&ad.kv=_fw_ae,53da17a30bd0d3c946a41c86cb5873f1,_vmn_lat,false,_vmn_ar,true,_fw_vcid2,82125:comedycentral_05ea0d62bec34de2bbef6f114a866f12&euid=05ea0d62-bec3-4de2-bbef-6f114a866f12&exp=1596328204&rn=-305067555&ad.euid=05ea0d62-bec3-4de2-bbef-6f114a866f12&cid=ceb8d6e35fca432f9f32f4f1f4a822b8&tc=1&sig=f1b39b3d5bcc914c92c6d4da34d6bac29c6ac2a6371515c7073851eb9c779ca3|user-agent=ipad&referer=https://sports24.club/tv/v?id=comedy</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CHARGE![/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/37eb732888614810b512fdd82604244e.m3u8?tc=1&exp=1614631202&rn=528705889&ct=c&cid=37eb732888614810b512fdd82604244e&ad=charge&repl=aboi&ad.adUnit=%2FCHARGE%2FLivestream_midroll&ad.ad_rule=1&ad.pmad=12&ad.output=xml_vmap1&sig=596abbe61f64d7aee834b410de6f14788c26ccd05d2fc7962d0b51f1bd507828|user-agent=ipad&referer=https://sports24.club/tv/v?id=charge</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]UNIMáS[/COLOR][/B]</title>
+<link>/hls/univision.m3u8?id=D8RY01WsRv6SMK6X3AoWAg|user-agent=ipad&referer=https://sports24.club/tv/v?id=unimas</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BBC TWO[/COLOR][/B]</title>
+<link>https://vs-dash-uk.live.cf.md.bbci.co.uk/pool_902/live/uk/bbc_two_hd/bbc_two_hd.isml/pc_hd_abr_v2_dash.mpd|user-agent=ipad&referer=https://sports24.club/tv/v?id=bbctwo</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BBC FOUR[/COLOR][/B]</title>
+<link>https://vs-dash-uk.live.cf.md.bbci.co.uk/pool_902/live/uk/bbc_four_hd/bbc_four_hd.isml/pc_hd_abr_v2_dash.mpd|user-agent=ipad&referer=https://sports24.club/tv/v?id=bbcfour</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ITV UK[/COLOR][/B]</title>
+<link>https://sportportal1.akamaized.net/hls/live/702646/itvlive/ITV1PORTAL2/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=itv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN2[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn2</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS 1[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/fs1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=fs1</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS 2[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/fs2.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=fs2</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BIG TEN[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/btn.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=btn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NESN[/COLOR][/B]</title>
+<link>https://nesngo1.akamaized.net/hls/live/712381/live1029090121/master.m3u8?hdnts=st=1596327123~exp=1596327243~acl=/hls/live/*~hmac=e62211bf2d8f9f1c0332aff6760cda24025ff202516f917ab159e1cf159bb57f|user-agent=ipad&referer=https://sports24.club/tv/v?id=nesn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NESN PLUS[/COLOR][/B]</title>
+<link>https://nesngo2.akamaized.net/hls/live/712384/live0826142714/master.m3u8?hdnts=st=1596327123~exp=1596327243~acl=/hls/live/*~hmac=e62211bf2d8f9f1c0332aff6760cda24025ff202516f917ab159e1cf159bb57f|user-agent=ipad&referer=https://sports24.club/tv/v?id=nesnplus</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]STADIUM SPORTS[/COLOR][/B]</title>
+<link>https://stadiumlivein-i.akamaihd.net/hls/live/522512/mux_4/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=stadium</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CBS SPORTS HQ[/COLOR][/B]</title>
+<link>https://sportshq-mediapackage-cedexis.cbsaavideo.com/out/v1/be87d7783e5c4270a5830ea5d1164850/desktop.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cbsshq</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS NEWS AUSTRALIA[/COLOR][/B]</title>
+<link>https://austchannel-live.akamaized.net/hls/live/2002736/austchannel-sport/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=fsnews</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]REAL MADRID TV[/COLOR][/B]</title>
+<link>https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=realmadrid</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BAYERN MUNICH TV[/COLOR][/B]</title>
+<link>https://fcblive-a.akamaized.net/dc-1/live/hls/p/2090621/e/1_ts6d5c4t/sd/6000/t/wPWuj7PJbQj6MbHjb-7PzA/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=fcbayern</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NBC SPORTS NORTH WEST[/COLOR][/B]</title>
+<link>/hls/csnnw.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=csnnw</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MARQUEE SPORTS NETWORK[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/534db8bc23534e0a813be1f72b2cdbc5.m3u8?tc=1&exp=1738789342&rn=3811258199&ct=c&cid=534db8bc23534e0a813be1f72b2cdbc5&rays=gfedcba&sig=52848847284a15cb5e2951f673ae4745d161cf4c7a5b4e03f8a0242ad103acc5|user-agent=ipad&referer=https://sports24.club/tv/v?id=marquee</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NFL NETWORK[/COLOR][/B]</title>
+<link>https://dcs-live.apis.anvato.net/server/play/m10rvaXGcos8a0gx/manifest.m3u8?encp=psEgDLKosxJls5Z5ctY2jw:GbqEEJZYa5k07P6KU5N9A_mc8tRqaljX7GXv3tInGj0O_dtKk3-TJiFcL1mq6efuq8Y69hvXrxLEAubYg2sU_N_X2SfqcIkvYWjAMQa03S7WrmlVRkYgZboXv1WmUlP2j0dZLl5psL0qF6-lAFMrwz4_-MXjlDFrjkE-3NbhUMpc9GVJELfm9VALViqjEbvejOIdvx0ScaO-UR7XZ9GMXJZvh9UlQ1K8hLoUoUHIWPVICEuy8ViCAvOoX5hWmJhjL3QJ69_JuaAR3wkTHqnGwMbPPgHDfkCyveRhaECkyhgz9_cH1xnZzxt8eUA7EA966khQX_PadEX4RbPzJKx5VEvQTViwcJQAFFGOrTju-QRK7_iY5DaTv39btsa9x9Voa5G6kVbx07b2wY39nrXS4RFk6XBiQCFUYGbgJKB-zoZn-I7goMnFaHdXV75pIfCX3j9Df_tXw6pFiqFLWRnv0oCNh0pXoe_ynyeujFJGKNF6Ma0f88om1u3mwJ31m5cOaMY9VSr7FJcrcc7GTp1jv3X5b9wQF5QAaWjV-jNAAC741uoR9oeXfJvkkqyBL9uW4fxJ06j5D6_p-W8XuTDMaJcgo45MwdlzC7O4qNrmZSSC81T4owaq29PytgQWMghWhdKpNCfm29zdjMQmSfKqqRWfpC70hrmDXIx82iqtmybIDNEEAWhV3H0Dhs3xCvhDINYa2RoZgshTCcDtI25QXZHbZgszoRsdAmC1y_-69TR8Y85Q2S3qp2soMzMlrcP6baIchbeG9lR6iw0u53r8BBmy1p5Hcd1VpIMO1XJ3ilTO7d-bgqZT6wVv0rloPylEBsTkjkaT-hLRL1xwA5aT2torRESKu9uL3tGr7WYvdRWYlycn5y3F2mNSQxPYKW8Zz1l1kL8P2ev7DxPaFnkcHGlgRVWMXd4jVDQppMFo9VSpkMI1F-34m5bD_Um5epEnPUCkiZrY-Br3vUu_DRWGChzadWofat6OSK02r9SUPvXnuQZOLYkqWlG7Ms86UcfVRbC2mg2ohFPVz8CBKXvcOvqUYEt9tU1-2ZTzn9dXDTIbrUd3cx7J1TsD_NvZdMy9jrMNoRKy40E2fIGs4tQfwYUak_AGvjMbgOJWc93TOfQVE5giFqHw-Iz3SKxdHpQIrHeWcXAjiSEekn92bDse5tRIjlbWaZT2MJcRj-ymDkw&anvtrid=66bd4f4788f5123e7ea885709d7fd73b&anvauth=tb=0~te=1596327231~sgn=ef248cebe9fd36e60612bb533056b014ca0aed031c19e4be2ec03175e8eba6d6&t=1596327141|user-agent=ipad&referer=https://sports24.club/tv/v?id=nfl_network</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MLB NETWORK[/COLOR][/B]</title>
+<link>https://hlslive-akc-med1.media.mlb.com/ls01/mlbnetwork/NETWORK_LINEAR_1/master_wired.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=mlbn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TENNIS CHANNEL[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/hj7NDZ5ZSE2m2MWQPiKp3Q/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tennis</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MAV TV USA[/COLOR][/B]</title>
+<link>https://ustvnowmsl.akamaized.net/hls/live/2004302/mavtvmsl1/mavtvmsl1/playlist.m3u8?hdnts=st=1596326441~exp=1596348041~acl=!*/*!/payload/yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1/*~data=yupptvott_5_2325782_48a4510a-4a26-985c-cecc-de2fd4d0b64d_US_18.218.24.5_ustvnow_3_channel_60_-1~hmac=f5e78caecbd1ec476a2de76af753b064029e919d0e4050ae603c5634dd14115d|user-agent=ipad&referer=https://sports24.club/tv/v?id=mavtv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]PAC-12 PLUS[/COLOR][/B]</title>
+<link>https://p12x-lh.akamaihd.net/i/pac12plus_delivery@198236/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=pac12plus</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS USA[/COLOR][/B]</title>
+<link>/hls/bein1.mpd|user-agent=ipad&referer=https://sports24.club/tv/v?id=beinusa</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS XTRA[/COLOR][/B]</title>
+<link>https://bein-xtra-roku.amagi.tv/ingest/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=beinextra</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]RED BULL TV[/COLOR][/B]</title>
+<link>https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=redbull</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]LACROSSE SPORT NETWORK[/COLOR][/B]</title>
+<link>https://snagfilms-lh.akamaihd.net/i/Laxsportsnetwork_1@322790/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=lsn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]COMBAT GO[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/gaDje967RoSDD5llid2OBA/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=combatgo</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MOTOR TREND[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/15156cf37c204082b8b24a3e38c47c6f.m3u8?tc=1&exp=1596327438&rn=2007230599&ct=c&cid=15156cf37c204082b8b24a3e38c47c6f&ts=1596327138&endts=1596327498&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=f054aed18dc9483292f6318125dc3b609273df6b7a13f57f3eb579159402c01a|user-agent=ipad&referer=https://sports24.club/tv/v?id=motortrend</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ELEVEN SPORTS USA[/COLOR][/B]</title>
+<link>https://plutotvliv.vo.llnwd.net/c/elevensports/1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=eleven</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TVG (GALICIA)[/COLOR][/B]</title>
+<link>https://europa-crtvg.flumotion.com/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tvg</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BUZZR[/COLOR][/B]</title>
+<link>https://buzzr.global.ssl.fastly.net/out/u/buzzr_hls.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=buzzr</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS HABER TURKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/beinhaber/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=beinhaber</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS 2 TURKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/bein22222/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=bein2tr</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS 3 TURKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/bein3333/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=bein3tr</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BEIN SPORTS 4 TURKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/bein4444/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=bein4tr</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]S SPORT TYRKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/ssport/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=ssport</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]S SPORT 2 TYRKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/ssport2/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=ssport2</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SMART SPOR TYRKEY[/COLOR][/B]</title>
+<link>https://tr3.sports24.win/selcuksportsfutbol/smartspor/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=smartspor</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]GOL TV SPANISH[/COLOR][/B]</title>
+<link>https://trinity-lh.akamaihd.net/i/GolTVModel4A_d@422865/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=goltv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS ASIA[/COLOR][/B]</title>
+<link>/hls/fs1asia.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=fs1asia</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS 2 ASIA[/COLOR][/B]</title>
+<link>/hls/fs2asia.php|user-agent=ipad&referer=https://sports24.club/tv/v?id=fs2asia</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOX SPORTS 3 ASIA[/COLOR][/B]</title>
+<link>/hls/fs3asia.php|user-agent=ipad&referer=https://sports24.club/tv/v?id=fs3asia</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN SUR[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espnsur.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espnsur</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN2 SUR[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn2sur.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn2sur</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN3 SUR[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn3sur.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn3sur</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN BRASIL[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espnbr.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espnbr</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN NORTE[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espnmx.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espnmx</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN2 NORTE[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn2mx.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn2mx</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN3 NORTE[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn3mx.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn3mx</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ERT SPORTS[/COLOR][/B]</title>
+<link>https://ert-live.siliconweb.com/media/ert_sports/ert_sportshigh.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=ertsp</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HARD KNOCKS FIGHTING[/COLOR][/B]</title>
+<link>https://sniffercat002.akamaized.net/scheduler/scheduleMaster/109.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=hnf</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TELEMUNDO[/COLOR][/B]</title>
+<link>https://wmaqlive-f.akamaihd.net/i/wmaqb1_1@24420/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=telemundo</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]WGN 9 CHICAGO[/COLOR][/B]</title>
+<link>https://wgntribune-lh.akamaihd.net/i/WGNPrimary_1@304622/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=wgn</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ABC AUSTRALIA[/COLOR][/B]</title>
+<link>https://i.mjh.nz/au/Brisbane/tv.101002410241.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=abcau</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ABC NEWS AUSTRALIA[/COLOR][/B]</title>
+<link>https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=abcnau</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AUSTRALIA CHANNEL[/COLOR][/B]</title>
+<link>https://austchannel-live.akamaized.net/hls/live/2002729/austchannel-news/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=auch</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CPAC CANADA[/COLOR][/B]</title>
+<link>https://bcsecurelivehls-i.akamaihd.net/hls/live/680602/1242843915001_1/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cpac</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TIMES NOW INDIA[/COLOR][/B]</title>
+<link>https://timesnow-lh.akamaihd.net/i/TNHD_1@129288/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=timesnow</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CHANNEL NEWS ASIA[/COLOR][/B]</title>
+<link>https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=cna</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SPORT ITALIA[/COLOR][/B]</title>
+<link>https://www.mytivu.it/Application/Channels/SI.php|user-agent=ipad&referer=https://sports24.club/tv/v?id=sportitalia</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SPORT ITALIA CALCIO[/COLOR][/B]</title>
+<link>https://www.mytivu.it/Application/Channels/SISoloCalcio.php|user-agent=ipad&referer=https://sports24.club/tv/v?id=sportitaliac</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SPORT ITALIA MOTORI[/COLOR][/B]</title>
+<link>https://www.mytivu.it/Application/Channels/SIMotori.php|user-agent=ipad&referer=https://sports24.club/tv/v?id=sportitaliam</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MOTOR TREND ITALIA[/COLOR][/B]</title>
+<link>https://sbshdlu5-lh.akamaihd.net/i/sbshdl_1@810993/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=motortrendit</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DMAX ITALIA[/COLOR][/B]</title>
+<link>https://sbshdlu5-lh.akamaihd.net/i/sbshdl_5@825063/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=dmaxit</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FOOD NETWORK ITALIA[/COLOR][/B]</title>
+<link>https://sbshdlu5-lh.akamaihd.net/i/sbshdl_6@1000854/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=foodit</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]SPIKE ITALIA[/COLOR][/B]</title>
+<link>https://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@829515/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=spikeit</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TF1 FRANCE[/COLOR][/B]</title>
+<link>https://tf1-hls-live-ssl.tf1.fr/tf1/1/hls/master_4000000.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tf1</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TMC FRANCE[/COLOR][/B]</title>
+<link>https://tmc-hls-live-ssl.tf1.fr/tmc/1/hls/master_4000000.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tmc</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]LCI FRANCE[/COLOR][/B]</title>
+<link>https://lci-hls-live-ssl.tf1.fr/lci/1/hls/master_4000000.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=lci</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]BFM FRANCE[/COLOR][/B]</title>
+<link>https://bfmparishdslive-lh.akamaihd.net/i/DVMR_PARIS@429747/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=bfm</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TV5 FRANCE[/COLOR][/B]</title>
+<link>https://tv5pacifiqueen-i.akamaihd.net/hls/live/630175-b/tv5pacifiqueen/tv5pacifique_eng_1200.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=tv5p</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DISNEY CHANNEL[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/d75941e582c04e68bb32d3190283d3ae.m3u8?cqs=_wiXG4CG_1jwOteTqGRXGaDEy32BoFl4W55arp-6ZviolW9mzqutA35fB3dvjcR74pYC-J10Uyit8iNo4xLOV9PS0ED802dNK6Vp9CZsZ_DN0cXvuaHC0sbRxZKkWez-X9xwayLFXEmOoLh6OkxfDSxgrpkIfEjigAb6SUu8HVyO97FzyFiTHAROxdkybfNRQY5E0go3EAMdACnnQStLZ6BhMKP06ROwkm9NRsci2o0Q4dfLg1dvac8OcGCI0AbFdKGPwKSE5KK1cah1MddIO4CJsFuj40ou9P79WFDO7sJh47CP7D9Yuf0t-z_0Da-1kz79QavNPFsZ0M70e1s1UWMOwwZd1rQk-TR3ZjezD1A2A8ph9bYhPO92O4L9VKGKP8wYr6rf7rNg2HQAITwGIf2bMTFWaOcMuqCkjhyFR6j4RAR64UlXToji4k4Os5MT&kid=69879f9c7d484ca39027d2d461e45356|user-agent=ipad&referer=https://sports24.club/tv/v?id=disney</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]COMET TV USA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/3e45c6b5354a40f787e0b2aadb0f5d6a.m3u8?tc=1&exp=1614631202&rn=2057716804&ct=c&cid=3e45c6b5354a40f787e0b2aadb0f5d6a&ad=comet&repl=aboi&ad.adUnit=%2FCOMET%2FLivestream_midroll&ad._debug=comet_vmap&ad.ad_rule=1&ad.pmad=12&ad.output=xml_vmap1&sig=b2edfb477155d2588a66e0aecdbebff5a23c90a96e55c831def9a1434a51913b|user-agent=ipad&referer=https://sports24.club/tv/v?id=comet</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DOVE CHANNEL USA[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/dfbBGQhPQQqypdEAjpUGlA/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=dove</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HALLMARK CHANNEL[/COLOR][/B]</title>
+<link>https://crownmediaingest.akamaized.net/hls/live/567739/cm/master.m3u8?hdnts=exp=3085179895~acl=/*~hmac=0eb6c6e77a672ed1f4816b69d2c74a057302f23f7b74ec74070b94f6919cb935|user-agent=ipad&referer=https://sports24.club/tv/v?id=hallmark</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]HALLMARK MOVIES AND MYSTERIES[/COLOR][/B]</title>
+<link>https://crownmediaingesttest.akamaized.net/hls/live/567739/mm/master.m3u8?hdnts=exp=3085179895~acl=/*~hmac=0eb6c6e77a672ed1f4816b69d2c74a057302f23f7b74ec74070b94f6919cb935|user-agent=ipad&referer=https://sports24.club/tv/v?id=hallmarkmm</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]NASA TV[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/ddd76fdc1c0a456ba537e4f48e827d3e.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=nasa</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]DESTINATION AMERICA[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/db762a708aa64082a610346d36654186.m3u8?tc=1&exp=1596327439&rn=1946857135&ct=c&cid=db762a708aa64082a610346d36654186&ts=1596327139&endts=1596327499&ad.pingf=5&pp2ip=0&ad.cping=1&ad=fw&rays=cdefghiba&ad.customer_id=&ad.nw=&ad.prof=&ad.csid=&ad.vip=18.218.24.5&ad.kv=_fw_vcid2%2C%3Ad808d1275db911e8949a121ca4d54ab6%2C_fw_enable_lat_fc%2C1&ap.use=0&sig=f5d7078bf5ad7b9a50446afde14388d3f9a27506811a1642051e3b960d63ae5d|user-agent=ipad&referer=https://sports24.club/tv/v?id=destination</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]FAIL ARMY[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/7tuuoX1wSsCTaki1HqJFYw/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=failarmy</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]MGM SCI-FI[/COLOR][/B]</title>
+<link>https://mgmtheworks-roku-us.amagi.tv/roku-theworks/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=mgmscifi</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]LAW & CRIME NETWORK[/COLOR][/B]</title>
+<link>https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=lawcrime</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CONTV[/COLOR][/B]</title>
+<link>https://cinedigm.vo.llnwd.net/conssui/amagi_hls_data_xumo123-contv/CDN/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=contv</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]TBD[/COLOR][/B]</title>
+<link>https://content.uplynk.com/channel/1831163f97674328ad9f4b4814ed39c5.m3u8?tc=1&exp=1614631202&rn=614441536&ct=c&cid=1831163f97674328ad9f4b4814ed39c5&ad=comet&ad.adUnit=%2FTBD%2FLivestream_midroll&ad._debug=TBDNET_ssai_livestream_midroll&ad.ad_rule=1&ad.pmad=12&ad.output=xml_vmap1&sig=5d194a4e4c5a4d59023d6a39a2ba5ba82dcd817b615e9f82115c41d9b26ffd0a|user-agent=ipad&referer=https://sports24.club/tv/v?id=tbd</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]Z LIVING[/COLOR][/B]</title>
+<link>https://y5w8j4a9.ssl.hwcdn.net/zlivingusa_r_prod/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=zliving</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ZEE CAFé[/COLOR][/B]</title>
+<link>https://z5amshls.akamaized.net/zeecafehd/tracks-v1a1/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=zeecafe</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]INDIA TODAY[/COLOR][/B]</title>
+<link>https://z5live2media.zee5.com/v1/master/5c95b915ce5f89df583d7097ff7e9fdb77a6461e/LinearStream-SSAI-II/out/v1/e564b2ed1f34453ab1ace6de8e15b03d/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=indiatoday</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]EDGE SPORT USA[/COLOR][/B]</title>
+<link>https://imgedge.akamaized.net/amagi_hls_data_imgAAA2AA-edgesports/CDN/playlist.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=edgesp</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]AZTECA 7 MEXICO[/COLOR][/B]</title>
+<link>https://dai.google.com/linear/hls/event/YHoOj51dSKCvBQOBG2OvLQ/master.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=azteca7</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ITALIA 1[/COLOR][/B]</title>
+<link>https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(I1)/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=italia1</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ITALIA 2[/COLOR][/B]</title>
+<link>https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(I2)/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=italia2</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]CANALE 5 ITALIA[/COLOR][/B]</title>
+<link>https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(C5)/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=canale5</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]20 MEDIASET ITALIA[/COLOR][/B]</title>
+<link>https://live3-radio-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(lb)/index.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=20med</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN NO BRASIL[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn1br.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn1br</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]ESPN2 BRASIL[/COLOR][/B]</title>
+<link>https://cdn2.sports24.win/espn2br.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=espn2br</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL[/COLOR][/B]</title>
+<link>/hls/olc1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc1</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL 2[/COLOR][/B]</title>
+<link>https://ott-live.olympicchannel.com/out/u/OC2_1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc2</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL 3[/COLOR][/B]</title>
+<link>https://ott-live.olympicchannel.com/out/u/OC3_1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc3</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL 4[/COLOR][/B]</title>
+<link>https://ott-live.olympicchannel.com/out/u/OC4_1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc4</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL 5[/COLOR][/B]</title>
+<link>https://ott-live.olympicchannel.com/out/u/OC5_1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc5</link>
+<thumbnail></thumbnail>
+</item>
+
+<item>
+<title>[B][COLOR yellow]OLYMPIC CHANNEL 6[/COLOR][/B]</title>
+<link>https://ott-live.olympicchannel.com/out/u/OC1_1.m3u8|user-agent=ipad&referer=https://sports24.club/tv/v?id=olc6</link>
+<thumbnail></thumbnail>
+</item>
+
