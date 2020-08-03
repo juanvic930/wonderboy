@@ -24,11 +24,33 @@ item>
 </dir>
 
 <plugin>
-<title>[B][COLOR  yellow]tvto.ga[/COLOR][/B]</title>
+<title>[B][COLOR  yellow]tvto.ga3[/COLOR][/B]</title>
 <link>http://dl3.tvto.ga/Series/</link>
 <thumbnail></thumbnail>
 <fanart></fanart>
 </plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]tvto.ga2[/COLOR][/B]</title>
+<link>http://dl2.tvto.ga/Series/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]tvto.ga4[/COLOR][/B]</title>
+<link>http://dl4.tvto.ga/Series/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
+<plugin>
+<title>[B][COLOR  yellow]tvto.ga5[/COLOR][/B]</title>
+<link>http://dl5.tvto.ga/Series/</link>
+<thumbnail></thumbnail>
+<fanart></fanart>
+</plugin>
+
 
 <plugin>
 <title>[B][COLOR  yellow]uploadzone.ir[/COLOR][/B]</title>
