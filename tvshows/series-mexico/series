@@ -1,7 +1,11 @@
-#EXTM3U
+<dir>
+<name>[COLOR yellow][B]CABLE GRATIS[/B][/COLOR]</name>
+<link>http://dl3.tvto.ga/Series/</link>
+<fanart></fanart>
+</dir>
 
-#EXTINF:0,Narcos Mexico
-https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/series-mexico/narcos-mexico
-
-#EXTINF:0,El Chapo
-https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/tvshows/series-mexico/El-Chapo
+<plugin>
+<title>[B][COLOR yellow]TVE 1 [/COLOR][/B]</title>
+<link>http://dl3.tvto.ga/Series/</link>
+<thumbnail>https://adictosalatele.com/canales-de-espana/logos/la1.png</thumbnail>
+</plugin>
