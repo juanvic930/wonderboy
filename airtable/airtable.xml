@@ -1,25 +1,4 @@
     <dir>
-    <title>Tv Channels</title>
-    <Airtable>tv_channels</Airtable>
-    </dir>
-
-    
-
-    <dir>
-    <title>Tv Channels2</title>
-    <Airtable>channels2</Airtable>
-    </dir>
-
-   
-
-    <dir>
-    <title>Sports Channels</title>
-    <Airtable>sports_channels</Airtable>
-    </dir>
-
-
-    
-    <dir>
-    <title>24-7 Channels</title>
-    <Airtable>247</Airtable>
+    <title>JetMag Sports Silent</title>
+    <magnetic_tv>all</magnetic_tv>
     </dir>
