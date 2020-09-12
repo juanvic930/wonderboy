@@ -1,4 +1,11 @@
 <dir>
+<name>[COLOR yellow][B]VER LA TELE[/B][/COLOR]</name>
+<link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/verlatele.xml</link>
+<fanart></fanart>
+</dir>
+
+
+<dir>
 <name>[COLOR yellow][B]CABLE GRATIS[/B][/COLOR]</name>
 <link>https://raw.githubusercontent.com/juanvic930/wonderboy/wonderboy/livetv/cablegratis.xml</link>
 <fanart></fanart>
